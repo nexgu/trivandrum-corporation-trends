@@ -143,99 +143,112 @@
                         class="p-6 border-r border-gray-100 flex flex-col gap-4 min-h-0 overflow-y-auto"
                         style="flex: 0 0 40%"
                     >
-                        <!-- Party filters (hidden on Trend view) -->
+                        <!-- General filters styled like the Trend filter box (visible only for 2015/2020 views) -->
                         <div
                             x-show="activeMenu !== 'trend'"
                             x-cloak
-                            class="flex flex-wrap gap-2"
+                            class="p-3 border-b bg-gray-50"
                         >
-                            <button
-                                @click="setActiveWinningWardsFilter('All')"
-                                :class="activeWinningWardsFilter === 'All' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
-                                class="rounded px-3 py-1 text-sm font-medium"
-                            >
-                                All
-                                <span
-                                    class="ml-2 text-xs text-gray-600"
-                                    x-text="filterCounts.All"
-                                ></span>
-                            </button>
-                            <button
-                                @click="setActiveWinningWardsFilter('LDF')"
-                                :class="activeWinningWardsFilter === 'LDF' ? 'bg-red-600 text-white' : 'bg-gray-100 text-gray-800'"
-                                class="rounded px-3 py-1 text-sm font-medium"
-                            >
-                                LDF
-                                <span
-                                    class="ml-2 text-xs text-gray-600"
-                                    x-text="filterCounts.LDF"
-                                ></span>
-                            </button>
-                            <button
-                                @click="setActiveWinningWardsFilter('UDF')"
-                                :class="activeWinningWardsFilter === 'UDF' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
-                                class="rounded px-3 py-1 text-sm font-medium"
-                            >
-                                UDF
-                                <span
-                                    class="ml-2 text-xs text-gray-600"
-                                    x-text="filterCounts.UDF"
-                                ></span>
-                            </button>
-                            <button
-                                @click="setActiveWinningWardsFilter('NDA')"
-                                :class="activeWinningWardsFilter === 'NDA' ? 'bg-orange-600 text-white' : 'bg-gray-100 text-gray-800'"
-                                class="rounded px-3 py-1 text-sm font-medium"
-                            >
-                                NDA
-                                <span
-                                    class="ml-2 text-xs text-gray-600"
-                                    x-text="filterCounts.NDA"
-                                ></span>
-                            </button>
-                            <button
-                                @click="setActiveWinningWardsFilter('OTH')"
-                                :class="activeWinningWardsFilter === 'OTH' ? 'bg-gray-700 text-white' : 'bg-gray-100 text-gray-800'"
-                                class="rounded px-3 py-1 text-sm font-medium"
-                            >
-                                OTH
-                                <span
-                                    class="ml-2 text-xs text-gray-600"
-                                    x-text="filterCounts.OTH"
-                                ></span>
-                            </button>
-                        </div>
+                            <div class="flex flex-col gap-3">
+                                <div class="flex items-center gap-3">
+                                    <div class="text-sm font-semibold">
+                                        Group
+                                    </div>
+                                    <div class="flex gap-1">
+                                        <button
+                                            type="button"
+                                            @click="setActiveWinningWardsFilter('All')"
+                                            :class="activeWinningWardsFilter === 'All' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                            class="rounded px-3 py-1 text-xs"
+                                        >
+                                            All
+                                            <span
+                                                class="ml-2 text-xs text-gray-600"
+                                                x-text="filterCounts.All"
+                                            ></span>
+                                        </button>
+                                        <button
+                                            type="button"
+                                            @click="setActiveWinningWardsFilter('LDF')"
+                                            :class="activeWinningWardsFilter === 'LDF' ? 'bg-red-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                            class="rounded px-3 py-1 text-xs"
+                                        >
+                                            LDF
+                                            <span
+                                                class="ml-2 text-xs text-gray-600"
+                                                x-text="filterCounts.LDF"
+                                            ></span>
+                                        </button>
+                                        <button
+                                            type="button"
+                                            @click="setActiveWinningWardsFilter('UDF')"
+                                            :class="activeWinningWardsFilter === 'UDF' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                            class="rounded px-3 py-1 text-xs"
+                                        >
+                                            UDF
+                                            <span
+                                                class="ml-2 text-xs text-gray-600"
+                                                x-text="filterCounts.UDF"
+                                            ></span>
+                                        </button>
+                                        <button
+                                            type="button"
+                                            @click="setActiveWinningWardsFilter('NDA')"
+                                            :class="activeWinningWardsFilter === 'NDA' ? 'bg-orange-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                            class="rounded px-3 py-1 text-xs"
+                                        >
+                                            NDA
+                                            <span
+                                                class="ml-2 text-xs text-gray-600"
+                                                x-text="filterCounts.NDA"
+                                            ></span>
+                                        </button>
+                                        <button
+                                            type="button"
+                                            @click="setActiveWinningWardsFilter('OTH')"
+                                            :class="activeWinningWardsFilter === 'OTH' ? 'bg-gray-700 text-white' : 'bg-gray-100 text-gray-800'"
+                                            class="rounded px-3 py-1 text-xs"
+                                        >
+                                            OTH
+                                            <span
+                                                class="ml-2 text-xs text-gray-600"
+                                                x-text="filterCounts.OTH"
+                                            ></span>
+                                        </button>
+                                    </div>
+                                </div>
 
-                        <!-- Lead range multi-select (hidden on Trend view) -->
-                        <div
-                            x-show="activeMenu !== 'trend'"
-                            x-cloak
-                            class="mt-2"
-                        >
-                            <div class="text-sm font-semibold mb-2">
-                                Lead ranges
-                            </div>
-                            <div class="flex flex-wrap gap-2">
-                                <template x-for="r in leadRanges" :key="r.key">
-                                    <button
-                                        type="button"
-                                        @click="toggleLeadRange(r.key)"
-                                        :class="activeLeadRanges.includes(r.key) ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
-                                        class="rounded px-3 py-1 text-sm"
-                                        x-text="r.label"
-                                    ></button>
-                                </template>
-                                <button
-                                    type="button"
-                                    @click="clearLeadRanges()"
-                                    class="rounded px-3 py-1 text-sm bg-gray-50 text-gray-600"
-                                >
-                                    Clear
-                                </button>
-                            </div>
-                            <div class="text-xs text-gray-500 mt-1">
-                                Multi-select ranges. Leave none selected to show
-                                all leads.
+                                <div class="flex items-center gap-3">
+                                    <div class="text-sm font-semibold">
+                                        Lead ranges
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <template
+                                            x-for="r in leadRanges"
+                                            :key="r.key"
+                                        >
+                                            <button
+                                                type="button"
+                                                @click="toggleLeadRange(r.key)"
+                                                :class="activeLeadRanges.includes(r.key) ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                                class="rounded px-3 py-1 text-xs"
+                                                x-text="r.label"
+                                            ></button>
+                                        </template>
+                                        <button
+                                            type="button"
+                                            @click="clearLeadRanges()"
+                                            class="rounded px-3 py-1 text-xs bg-gray-50 text-gray-600"
+                                        >
+                                            Clear
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="text-xs text-gray-500">
+                                    Multi-select ranges. Leave none selected to
+                                    show all leads.
+                                </div>
                             </div>
                         </div>
 
