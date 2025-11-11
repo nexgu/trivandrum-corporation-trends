@@ -143,8 +143,12 @@
                         class="p-6 border-r border-gray-100 flex flex-col gap-4 min-h-0 overflow-y-auto"
                         style="flex: 0 0 40%"
                     >
-                        <!-- Party filters -->
-                        <div class="flex flex-wrap gap-2">
+                        <!-- Party filters (hidden on Trend view) -->
+                        <div
+                            x-show="activeMenu !== 'trend'"
+                            x-cloak
+                            class="flex flex-wrap gap-2"
+                        >
                             <button
                                 @click="setActiveWinningWardsFilter('All')"
                                 :class="activeWinningWardsFilter === 'All' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
@@ -202,8 +206,12 @@
                             </button>
                         </div>
 
-                        <!-- Lead range multi-select placed immediately after group filters -->
-                        <div class="mt-2">
+                        <!-- Lead range multi-select (hidden on Trend view) -->
+                        <div
+                            x-show="activeMenu !== 'trend'"
+                            x-cloak
+                            class="mt-2"
+                        >
                             <div class="text-sm font-semibold mb-2">
                                 Lead ranges
                             </div>
@@ -263,6 +271,165 @@
                             </div>
 
                             <div class="border border-gray-100 rounded-md">
+                                <!-- Trend-only filters -->
+                                <div
+                                    x-show="activeMenu === 'trend'"
+                                    x-cloak
+                                    class="p-3 border-b bg-gray-50"
+                                >
+                                    <div class="flex flex-col gap-2">
+                                        <div class="flex items-center gap-3">
+                                            <div class="text-sm font-semibold">
+                                                2020 Group
+                                            </div>
+                                            <div class="flex gap-1">
+                                                <button
+                                                    type="button"
+                                                    @click="setTrendGroup('2020','All')"
+                                                    :class="trend2020GroupFilter === 'All' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                                    class="rounded px-2 py-0.5 text-xs"
+                                                >
+                                                    All
+                                                </button>
+                                                <button
+                                                    type="button"
+                                                    @click="setTrendGroup('2020','LDF')"
+                                                    :class="trend2020GroupFilter === 'LDF' ? 'bg-red-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                                    class="rounded px-2 py-0.5 text-xs"
+                                                >
+                                                    LDF
+                                                </button>
+                                                <button
+                                                    type="button"
+                                                    @click="setTrendGroup('2020','UDF')"
+                                                    :class="trend2020GroupFilter === 'UDF' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                                    class="rounded px-2 py-0.5 text-xs"
+                                                >
+                                                    UDF
+                                                </button>
+                                                <button
+                                                    type="button"
+                                                    @click="setTrendGroup('2020','NDA')"
+                                                    :class="trend2020GroupFilter === 'NDA' ? 'bg-orange-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                                    class="rounded px-2 py-0.5 text-xs"
+                                                >
+                                                    NDA
+                                                </button>
+                                                <button
+                                                    type="button"
+                                                    @click="setTrendGroup('2020','OTH')"
+                                                    :class="trend2020GroupFilter === 'OTH' ? 'bg-gray-700 text-white' : 'bg-gray-100 text-gray-800'"
+                                                    class="rounded px-2 py-0.5 text-xs"
+                                                >
+                                                    OTH
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="flex items-center gap-3">
+                                            <div class="text-sm font-semibold">
+                                                2020 Lead ranges
+                                            </div>
+                                            <div class="flex gap-2">
+                                                <template
+                                                    x-for="r in leadRanges"
+                                                    :key="r.key"
+                                                >
+                                                    <button
+                                                        type="button"
+                                                        @click="toggleTrendLeadRange('2020', r.key)"
+                                                        :class="activeTrendLeadRanges2020.includes(r.key) ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                                        class="rounded px-3 py-1 text-xs"
+                                                        x-text="r.label"
+                                                    ></button>
+                                                </template>
+                                                <button
+                                                    type="button"
+                                                    @click="clearTrendLeadRanges('2020')"
+                                                    class="rounded px-3 py-1 text-xs bg-gray-50 text-gray-600"
+                                                >
+                                                    Clear
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="flex items-center gap-3">
+                                            <div class="text-sm font-semibold">
+                                                2015 Group
+                                            </div>
+                                            <div class="flex gap-1">
+                                                <button
+                                                    type="button"
+                                                    @click="setTrendGroup('2015','All')"
+                                                    :class="trend2015GroupFilter === 'All' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                                    class="rounded px-2 py-0.5 text-xs"
+                                                >
+                                                    All
+                                                </button>
+                                                <button
+                                                    type="button"
+                                                    @click="setTrendGroup('2015','LDF')"
+                                                    :class="trend2015GroupFilter === 'LDF' ? 'bg-red-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                                    class="rounded px-2 py-0.5 text-xs"
+                                                >
+                                                    LDF
+                                                </button>
+                                                <button
+                                                    type="button"
+                                                    @click="setTrendGroup('2015','UDF')"
+                                                    :class="trend2015GroupFilter === 'UDF' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                                    class="rounded px-2 py-0.5 text-xs"
+                                                >
+                                                    UDF
+                                                </button>
+                                                <button
+                                                    type="button"
+                                                    @click="setTrendGroup('2015','NDA')"
+                                                    :class="trend2015GroupFilter === 'NDA' ? 'bg-orange-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                                    class="rounded px-2 py-0.5 text-xs"
+                                                >
+                                                    NDA
+                                                </button>
+                                                <button
+                                                    type="button"
+                                                    @click="setTrendGroup('2015','OTH')"
+                                                    :class="trend2015GroupFilter === 'OTH' ? 'bg-gray-700 text-white' : 'bg-gray-100 text-gray-800'"
+                                                    class="rounded px-2 py-0.5 text-xs"
+                                                >
+                                                    OTH
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="flex items-center gap-3">
+                                            <div class="text-sm font-semibold">
+                                                2015 Lead ranges
+                                            </div>
+                                            <div class="flex gap-2">
+                                                <template
+                                                    x-for="r in leadRanges"
+                                                    :key="r.key"
+                                                >
+                                                    <button
+                                                        type="button"
+                                                        @click="toggleTrendLeadRange('2015', r.key)"
+                                                        :class="activeTrendLeadRanges2015.includes(r.key) ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                                        class="rounded px-3 py-1 text-xs"
+                                                        x-text="r.label"
+                                                    ></button>
+                                                </template>
+                                                <button
+                                                    type="button"
+                                                    @click="clearTrendLeadRanges('2015')"
+                                                    class="rounded px-3 py-1 text-xs bg-gray-50 text-gray-600"
+                                                >
+                                                    Clear
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <!-- Trend table: shows 2020 then 2015 Group, votes and lead side-by-side -->
                                 <template x-if="activeMenu === 'trend'">
                                     <table class="min-w-full text-sm">
@@ -319,7 +486,7 @@
                                             </template>
 
                                             <template
-                                                x-for="row in trendData"
+                                                x-for="row in filteredTrendData"
                                                 :key="row.Ward"
                                             >
                                                 <tr
@@ -651,6 +818,11 @@
                     error: "",
                     keralaData: [],
                     trendData: [],
+                    // Trend-specific filters (do not affect per-year views)
+                    trend2020GroupFilter: "All",
+                    trend2015GroupFilter: "All",
+                    activeTrendLeadRanges2020: [],
+                    activeTrendLeadRanges2015: [],
                     alertTimeout: null,
 
                     // filters
@@ -715,6 +887,44 @@
                         this.searchedTerm = "";
                         this.filteredWards = [];
                         this.clearAlert();
+                    },
+
+                    // Trend-specific filter helpers (only for Trend view)
+                    setTrendGroup(year, group) {
+                        if (year === "2020") this.trend2020GroupFilter = group;
+                        else if (year === "2015")
+                            this.trend2015GroupFilter = group;
+                        // no need to reload base keralaData: this filters trendData only
+                    },
+
+                    toggleTrendLeadRange(year, key) {
+                        const arrName =
+                            year === "2020"
+                                ? "activeTrendLeadRanges2020"
+                                : "activeTrendLeadRanges2015";
+                        const arr = this[arrName];
+                        const i = arr.indexOf(key);
+                        if (i === -1) arr.push(key);
+                        else arr.splice(i, 1);
+                    },
+
+                    clearTrendLeadRanges(year) {
+                        if (year === "2020")
+                            this.activeTrendLeadRanges2020 = [];
+                        else this.activeTrendLeadRanges2015 = [];
+                    },
+
+                    _trendLeadMatches(lead, ranges) {
+                        if (!ranges || ranges.length === 0) return true;
+                        if (lead === null || lead === undefined) return false;
+                        for (const key of ranges) {
+                            const r = this.leadRanges.find(
+                                (x) => x.key === key,
+                            );
+                            if (!r) continue;
+                            if (lead >= r.min && lead <= r.max) return true;
+                        }
+                        return false;
                     },
 
                     leadRangesLabel() {
@@ -819,6 +1029,66 @@
                                 const lead = this.leadForWard(w);
                                 return this.leadMatchesSelectedRanges(lead);
                             });
+                        }
+
+                        return list;
+                    },
+
+                    // filtered trend data (applies Trend-only filters)
+                    get filteredTrendData() {
+                        if (!this.trendData) return [];
+                        let list = this.trendData.slice();
+
+                        // filter by 2020 group
+                        if (
+                            this.trend2020GroupFilter &&
+                            this.trend2020GroupFilter !== "All"
+                        ) {
+                            list = list.filter((r) =>
+                                r.top2020 && r.top2020.party
+                                    ? r.top2020.party ===
+                                      this.trend2020GroupFilter
+                                    : false,
+                            );
+                        }
+
+                        // filter by 2015 group
+                        if (
+                            this.trend2015GroupFilter &&
+                            this.trend2015GroupFilter !== "All"
+                        ) {
+                            list = list.filter((r) =>
+                                r.top2015 && r.top2015.party
+                                    ? r.top2015.party ===
+                                      this.trend2015GroupFilter
+                                    : false,
+                            );
+                        }
+
+                        // filter by 2020 lead ranges
+                        if (
+                            this.activeTrendLeadRanges2020 &&
+                            this.activeTrendLeadRanges2020.length > 0
+                        ) {
+                            list = list.filter((r) =>
+                                this._trendLeadMatches(
+                                    r.lead2020,
+                                    this.activeTrendLeadRanges2020,
+                                ),
+                            );
+                        }
+
+                        // filter by 2015 lead ranges
+                        if (
+                            this.activeTrendLeadRanges2015 &&
+                            this.activeTrendLeadRanges2015.length > 0
+                        ) {
+                            list = list.filter((r) =>
+                                this._trendLeadMatches(
+                                    r.lead2015,
+                                    this.activeTrendLeadRanges2015,
+                                ),
+                            );
                         }
 
                         return list;
