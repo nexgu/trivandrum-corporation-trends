@@ -1,0 +1,5232 @@
+[
+  {
+    "Ward": "AAKKULAM",
+    "CanCode": "3",
+    "Name": "V R SINI",
+    "Party": "CMPCC(CPJ)",
+    "PartyGroup": "UDF",
+    "Vote": "1850",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "KRISHNAVENI R",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1697"
+      },
+      {
+        "CanCode": "2",
+        "Name": "K P BINDHU",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1051"
+      },
+      {
+        "CanCode": "3",
+        "Name": "V R SINI",
+        "Party": "CMPCC(CPJ)",
+        "PartyGroup": "UDF",
+        "Vote": "1850"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SUDHA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "20"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "AATTIPRA",
+    "CanCode": "3",
+    "Name": "SUNI CHANDRAN",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "1914",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "JAYAPRAKASH",
+        "Party": "RSP",
+        "PartyGroup": "UDF",
+        "Vote": "364"
+      },
+      {
+        "CanCode": "2",
+        "Name": "DEEPU N RAJ",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1804"
+      },
+      {
+        "CanCode": "3",
+        "Name": "SUNI CHANDRAN",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1914"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "2"
+      }
+    ]
+  },
+  {
+    "Ward": "AMBALATHARA",
+    "CanCode": "1",
+    "Name": "S GEETHAKUMARI",
+    "Party": "CPI",
+    "PartyGroup": "LDF",
+    "Vote": "2265",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "S GEETHAKUMARI",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "2265"
+      },
+      {
+        "CanCode": "2",
+        "Name": "NAJEEMA ANSAR",
+        "Party": "JD(U)",
+        "PartyGroup": "UDF",
+        "Vote": "754"
+      },
+      {
+        "CanCode": "3",
+        "Name": "NAZEEMA",
+        "Party": "WPI",
+        "PartyGroup": "OTH",
+        "Vote": "251"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SHEEFA M R",
+        "Party": "SDPI",
+        "PartyGroup": "OTH",
+        "Vote": "440"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SANGEETHA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "36"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SANGEETHA SATHEESH",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1413"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "1"
+      }
+    ]
+  },
+  {
+    "Ward": "ANAMUGHAM",
+    "CanCode": "1",
+    "Name": "KARISHMA M A",
+    "Party": "CPI",
+    "PartyGroup": "LDF",
+    "Vote": "2231",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "KARISHMA M A",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "2231"
+      },
+      {
+        "CanCode": "2",
+        "Name": "K KALA",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "876"
+      },
+      {
+        "CanCode": "3",
+        "Name": "NEETHU MOHAN",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1177"
+      },
+      {
+        "CanCode": "4",
+        "Name": "MINI BHADRAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "77"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SINDHU",
+        "Party": "BSP",
+        "PartyGroup": "OTH",
+        "Vote": "194"
+      },
+      {
+        "CanCode": "6",
+        "Name": "HANI B",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "8"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "ARANNOOR",
+    "CanCode": "1",
+    "Name": "S UNNIKRISHNAN",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "2384",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "S UNNIKRISHNAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2384"
+      },
+      {
+        "CanCode": "2",
+        "Name": "K B NANDHA KUMAR",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "828"
+      },
+      {
+        "CanCode": "3",
+        "Name": "S SUNIL KUMAR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1909"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "5"
+      }
+    ]
+  },
+  {
+    "Ward": "ATTUKAL",
+    "CanCode": "2",
+    "Name": "BEENA R C",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2416",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "AMBIKA AMMA",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "812"
+      },
+      {
+        "CanCode": "2",
+        "Name": "BEENA R C",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2416"
+      },
+      {
+        "CanCode": "3",
+        "Name": "RAJESWARI S (MOLI)",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2066"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SARIKA A R",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "30"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "BEEMA PALLI",
+    "CanCode": "4",
+    "Name": "BEEMAPALLY RASHEED",
+    "Party": "IUML",
+    "PartyGroup": "UDF",
+    "Vote": "2730",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "AUGUSTY PUTHRAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "971"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ABUSHAHMAN",
+        "Party": "CMPKSC(A)",
+        "PartyGroup": "LDF",
+        "Vote": "806"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ABDUL HASSAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "582"
+      },
+      {
+        "CanCode": "4",
+        "Name": "BEEMAPALLY RASHEED",
+        "Party": "IUML",
+        "PartyGroup": "UDF",
+        "Vote": "2730"
+      },
+      {
+        "CanCode": "5",
+        "Name": "JOY EDWARD",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "79"
+      },
+      {
+        "CanCode": "6",
+        "Name": "PREMKUMAR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "37"
+      },
+      {
+        "CanCode": "7",
+        "Name": "FIRDOOSKHAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "129"
+      },
+      {
+        "CanCode": "8",
+        "Name": "BEEMAPALLY RAHIM",
+        "Party": "PDP",
+        "PartyGroup": "OTH",
+        "Vote": "374"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "BEEMA PALLI EAST",
+    "CanCode": "5",
+    "Name": "SAJEENA TEACHER",
+    "Party": "IUML",
+    "PartyGroup": "UDF",
+    "Vote": "1389",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "IVY",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "67"
+      },
+      {
+        "CanCode": "2",
+        "Name": "KAMARNISA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "291"
+      },
+      {
+        "CanCode": "3",
+        "Name": "BEEMAKANNU",
+        "Party": "PDP",
+        "PartyGroup": "OTH",
+        "Vote": "178"
+      },
+      {
+        "CanCode": "4",
+        "Name": "A K SHAMEERA BEEVI",
+        "Party": "SDPI",
+        "PartyGroup": "OTH",
+        "Vote": "465"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SAJEENA TEACHER",
+        "Party": "IUML",
+        "PartyGroup": "UDF",
+        "Vote": "1389"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SULFATH",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1015"
+      },
+      {
+        "CanCode": "7",
+        "Name": "RAMLA BEEVI",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "28"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "CHAKKA",
+    "CanCode": "1",
+    "Name": "K SREEKUMAR",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "2143",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "K SREEKUMAR",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2143"
+      },
+      {
+        "CanCode": "2",
+        "Name": "KARIKKAKOM SURESH",
+        "Party": "RSP",
+        "PartyGroup": "UDF",
+        "Vote": "1068"
+      },
+      {
+        "CanCode": "3",
+        "Name": "K SURESH KUMAR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "789"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SURESH KUMAR PANAYIL VEEDU",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "20"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "CHALAI",
+    "CanCode": "5",
+    "Name": "S K P REMESH",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2796",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ARYASALA MANOJ",
+        "Party": "SS",
+        "PartyGroup": "OTH",
+        "Vote": "37"
+      },
+      {
+        "CanCode": "2",
+        "Name": "CHALA MOHANAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1515"
+      },
+      {
+        "CanCode": "3",
+        "Name": "N MOHANAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "13"
+      },
+      {
+        "CanCode": "4",
+        "Name": "S MOHANAN PILLAI",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "283"
+      },
+      {
+        "CanCode": "5",
+        "Name": "S K P REMESH",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2796"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "CHANTHAVILA",
+    "CanCode": "2",
+    "Name": "BINDU S",
+    "Party": "INC",
+    "PartyGroup": "UDF",
+    "Vote": "2126",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "JALAJAKUMARI",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1402"
+      },
+      {
+        "CanCode": "2",
+        "Name": "BINDU S",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "2126"
+      },
+      {
+        "CanCode": "3",
+        "Name": "MINI",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "193"
+      },
+      {
+        "CanCode": "4",
+        "Name": "RESHMI J S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "19"
+      },
+      {
+        "CanCode": "5",
+        "Name": "S LATHAKUMARI",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "1949"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "CHELLAMANGALAM",
+    "CanCode": "4",
+    "Name": "C SUDARSANAN",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "2778",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ANIL S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "32"
+      },
+      {
+        "CanCode": "2",
+        "Name": "CHEMPAZHANTHI UDHAYAN",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2625"
+      },
+      {
+        "CanCode": "3",
+        "Name": "BIJU NAGENDRA",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1341"
+      },
+      {
+        "CanCode": "4",
+        "Name": "C SUDARSANAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2778"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "CHEMPAZHANTHY",
+    "CanCode": "3",
+    "Name": "K S SHEELA",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "2112",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "BINDHU S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "36"
+      },
+      {
+        "CanCode": "2",
+        "Name": "BINDHU V S",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "2082"
+      },
+      {
+        "CanCode": "3",
+        "Name": "K S SHEELA",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2112"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SIMI K",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1147"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SWAPNA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "73"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "CHERUVAKKAL",
+    "CanCode": "1",
+    "Name": "ALATHARA ANILKUMAR",
+    "Party": "INC",
+    "PartyGroup": "UDF",
+    "Vote": "2780",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ALATHARA ANILKUMAR",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "2780"
+      },
+      {
+        "CanCode": "2",
+        "Name": "CHERUVAYKKAL JAYAN",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1862"
+      },
+      {
+        "CanCode": "3",
+        "Name": "V S PADMAKUMAR",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1637"
+      },
+      {
+        "CanCode": "4",
+        "Name": "PRASAD S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "30"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SREEKARYAM MOHANAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "88"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SAMIN S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "29"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "CHETTIVILAKAM",
+    "CanCode": "2",
+    "Name": "R DINESH KUMAR",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "1910",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "CHITHROD KUMAR M L",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "687"
+      },
+      {
+        "CanCode": "2",
+        "Name": "R DINESH KUMAR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1910"
+      },
+      {
+        "CanCode": "3",
+        "Name": "K NARAYANAN",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1107"
+      },
+      {
+        "CanCode": "4",
+        "Name": "G RAJEEV",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "1655"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "EDAVACODE",
+    "CanCode": "5",
+    "Name": "V SHALINI",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "1853",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "AMBILI GIREESH",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "13"
+      },
+      {
+        "CanCode": "2",
+        "Name": "MEENA HARI",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1076"
+      },
+      {
+        "CanCode": "3",
+        "Name": "REMADEVI",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1805"
+      },
+      {
+        "CanCode": "4",
+        "Name": "RADHAMMA K",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "11"
+      },
+      {
+        "CanCode": "5",
+        "Name": "V SHALINI",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1853"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SAJITHRA S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "112"
+      },
+      {
+        "CanCode": "7",
+        "Name": "SUJATHA S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "178"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "ESTATE",
+    "CanCode": "3",
+    "Name": "A VIJAYAN",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "1870",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "R ABHILASH",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1869"
+      },
+      {
+        "CanCode": "2",
+        "Name": "O BEENA",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1286"
+      },
+      {
+        "CanCode": "3",
+        "Name": "A VIJAYAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1870"
+      },
+      {
+        "CanCode": "4",
+        "Name": "B VIJAYAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "32"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "2"
+      }
+    ]
+  },
+  {
+    "Ward": "FORT",
+    "CanCode": "4",
+    "Name": "R SURESH",
+    "Party": "IND",
+    "PartyGroup": "OTH",
+    "Vote": "1475",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "KRISHNAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "36"
+      },
+      {
+        "CanCode": "2",
+        "Name": "S KRISHNAN POTTY",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "851"
+      },
+      {
+        "CanCode": "3",
+        "Name": "R S VIJAY MOHAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "1032"
+      },
+      {
+        "CanCode": "4",
+        "Name": "R SURESH",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "1475"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "HARBOUR",
+    "CanCode": "1",
+    "Name": "NISABEEVI",
+    "Party": "INC",
+    "PartyGroup": "UDF",
+    "Vote": "1741",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "NISABEEVI",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1741"
+      },
+      {
+        "CanCode": "2",
+        "Name": "BEEVIKANNU",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "140"
+      },
+      {
+        "CanCode": "3",
+        "Name": "SHERINA N S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "30"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SAJEENA A",
+        "Party": "JD(S)",
+        "PartyGroup": "LDF",
+        "Vote": "1722"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "JAGATHY",
+    "CanCode": "4",
+    "Name": "SHEEJA MADHU",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "1803",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "U INDUSEKHARAN THAMPI",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "846"
+      },
+      {
+        "CanCode": "2",
+        "Name": "JAGADEESH J P",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "11"
+      },
+      {
+        "CanCode": "3",
+        "Name": "MADHUSOODANAN NAIR",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "20"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SHEEJA MADHU",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1803"
+      },
+      {
+        "CanCode": "5",
+        "Name": "HARIKUMAR S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "72"
+      },
+      {
+        "CanCode": "6",
+        "Name": "HARIKUMAR P",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "1541"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "1"
+      }
+    ]
+  },
+  {
+    "Ward": "KACHANI",
+    "CanCode": "3",
+    "Name": "T BALAN",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "1672",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "CHRISTAFER S",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1391"
+      },
+      {
+        "CanCode": "2",
+        "Name": "E B BABU",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "48"
+      },
+      {
+        "CanCode": "3",
+        "Name": "T BALAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1672"
+      },
+      {
+        "CanCode": "4",
+        "Name": "G MURALIDAS",
+        "Party": "RLSP",
+        "PartyGroup": "OTH",
+        "Vote": "44"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SHAJEER S",
+        "Party": "SDPI",
+        "PartyGroup": "OTH",
+        "Vote": "149"
+      },
+      {
+        "CanCode": "6",
+        "Name": "C R SUDARSANAN",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1210"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "2"
+      }
+    ]
+  },
+  {
+    "Ward": "KADAKAMPALLY",
+    "CanCode": "1",
+    "Name": "SOBHA RANI",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "2050",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "SOBHA RANI",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2050"
+      },
+      {
+        "CanCode": "2",
+        "Name": "JAYA RAJEEV",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1597"
+      },
+      {
+        "CanCode": "3",
+        "Name": "LAILA",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1348"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SHEELAKUMARI S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "24"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "KALADI",
+    "CanCode": "3",
+    "Name": "MANJU G S",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "3008",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "DEEPIKA R P",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "21"
+      },
+      {
+        "CanCode": "2",
+        "Name": "BINDHU BALAKRISHNAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "48"
+      },
+      {
+        "CanCode": "3",
+        "Name": "MANJU G S",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "3008"
+      },
+      {
+        "CanCode": "4",
+        "Name": "S SHEELAKUMARI",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1484"
+      },
+      {
+        "CanCode": "5",
+        "Name": "S SUNITHAKUMARI",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "49"
+      },
+      {
+        "CanCode": "6",
+        "Name": "J SOUMYA",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "643"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "1"
+      }
+    ]
+  },
+  {
+    "Ward": "KALIPPANKULAM",
+    "CanCode": "5",
+    "Name": "RAZIYA BEEGUM",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "1662",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ATHIRA J R",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1381"
+      },
+      {
+        "CanCode": "2",
+        "Name": "JAYALALI",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "8"
+      },
+      {
+        "CanCode": "3",
+        "Name": "THASLEEMA RAZAKH",
+        "Party": "SDPI",
+        "PartyGroup": "OTH",
+        "Vote": "350"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SHOBHITHA",
+        "Party": "RSP",
+        "PartyGroup": "UDF",
+        "Vote": "439"
+      },
+      {
+        "CanCode": "5",
+        "Name": "RAZIYA BEEGUM",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1662"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "KAMALESWARAM",
+    "CanCode": "1",
+    "Name": "V GIRI",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "1974",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "V GIRI",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1974"
+      },
+      {
+        "CanCode": "2",
+        "Name": "A MUJEEB REHMAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1757"
+      },
+      {
+        "CanCode": "3",
+        "Name": "M B RESMI",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1066"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SHARAFUDEEN KAMALESWARAM",
+        "Party": "WPI",
+        "PartyGroup": "OTH",
+        "Vote": "119"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "1"
+      }
+    ]
+  },
+  {
+    "Ward": "KANJIRAMPARA",
+    "CanCode": "3",
+    "Name": "KANJHIRAMPARA RAVI",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "1684",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "K KRISHNAN NAIR",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "108"
+      },
+      {
+        "CanCode": "2",
+        "Name": "THOZHUVANCODE BINU",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "149"
+      },
+      {
+        "CanCode": "3",
+        "Name": "KANJHIRAMPARA RAVI",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1684"
+      },
+      {
+        "CanCode": "4",
+        "Name": "KANJHIRAMPARA VIJAYAN",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1166"
+      },
+      {
+        "CanCode": "5",
+        "Name": "N VISHNU DEVAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "380"
+      },
+      {
+        "CanCode": "6",
+        "Name": "P SUNIL KUMAR AMBADI",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1595"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "1"
+      }
+    ]
+  },
+  {
+    "Ward": "KANNAMMOOLA",
+    "CanCode": "3",
+    "Name": "R SATHEESH KUMAR",
+    "Party": "IND",
+    "PartyGroup": "OTH",
+    "Vote": "2085",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "KUMARI PADMANABHAN",
+        "Party": "CMPCC(CPJ)",
+        "PartyGroup": "UDF",
+        "Vote": "1423"
+      },
+      {
+        "CanCode": "2",
+        "Name": "SATHEESH",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "90"
+      },
+      {
+        "CanCode": "3",
+        "Name": "R SATHEESH KUMAR",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "2085"
+      },
+      {
+        "CanCode": "4",
+        "Name": "V SANDEEP KUMAR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "630"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "KARAMANA",
+    "CanCode": "1",
+    "Name": "KARAMANA AJITH",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2514",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "KARAMANA AJITH",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2514"
+      },
+      {
+        "CanCode": "2",
+        "Name": "KARAMANA MAHEEN",
+        "Party": "IUML",
+        "PartyGroup": "UDF",
+        "Vote": "675"
+      },
+      {
+        "CanCode": "3",
+        "Name": "MUHAMMED HARIS",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "14"
+      },
+      {
+        "CanCode": "4",
+        "Name": "P RAJASEKHARAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "10"
+      },
+      {
+        "CanCode": "5",
+        "Name": "V G LATHA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "237"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SREEJA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "11"
+      },
+      {
+        "CanCode": "7",
+        "Name": "KARAMANA HARI",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1316"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "4"
+      }
+    ]
+  },
+  {
+    "Ward": "KARIKKAKAM",
+    "CanCode": "4",
+    "Name": "HIMA SIJI",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2756",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "BEENA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "32"
+      },
+      {
+        "CanCode": "2",
+        "Name": "BEENA V K",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2110"
+      },
+      {
+        "CanCode": "3",
+        "Name": "R SANDHYA",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "432"
+      },
+      {
+        "CanCode": "4",
+        "Name": "HIMA SIJI",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2756"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "KATTAYIKONAM",
+    "CanCode": "6",
+    "Name": "SINDHU SASI",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "2612",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "JYOTHI L",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "2316"
+      },
+      {
+        "CanCode": "2",
+        "Name": "MAHESWARI",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "49"
+      },
+      {
+        "CanCode": "3",
+        "Name": "SHEEJA ANILKUMAR",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "634"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SINDHU",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "43"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SINDHU BABURAJ",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "24"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SINDHU SASI",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2612"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "KAZHAKKUTTOM",
+    "CanCode": "2",
+    "Name": "V K PRASANTH",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "4364",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "KIRAN B",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "26"
+      },
+      {
+        "CanCode": "2",
+        "Name": "V K PRASANTH",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "4364"
+      },
+      {
+        "CanCode": "3",
+        "Name": "BINUDAS M",
+        "Party": "SS",
+        "PartyGroup": "OTH",
+        "Vote": "79"
+      },
+      {
+        "CanCode": "4",
+        "Name": "KAZHAKUTTOM V MOHANKUMAR",
+        "Party": "JD(U)",
+        "PartyGroup": "UDF",
+        "Vote": "497"
+      },
+      {
+        "CanCode": "5",
+        "Name": "MOHANAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "14"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SHEEJU EMMANUVEL M",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "455"
+      },
+      {
+        "CanCode": "7",
+        "Name": "A P S NAIR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1092"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "KESAVADASAPURAM",
+    "CanCode": "3",
+    "Name": "STEPHI J GEORGE",
+    "Party": "INC",
+    "PartyGroup": "UDF",
+    "Vote": "1752",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ANJANA M P",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1171"
+      },
+      {
+        "CanCode": "2",
+        "Name": "DAYA NANDAKISHORE",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1705"
+      },
+      {
+        "CanCode": "3",
+        "Name": "STEPHI J GEORGE",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1752"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "KINAVOOR",
+    "CanCode": "4",
+    "Name": "K C VIMALKUMAR",
+    "Party": "INC",
+    "PartyGroup": "UDF",
+    "Vote": "1294",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "N JAYARAJAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "40"
+      },
+      {
+        "CanCode": "2",
+        "Name": "THANKAPPAN",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "868"
+      },
+      {
+        "CanCode": "3",
+        "Name": "R DINESH KUMAR",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1116"
+      },
+      {
+        "CanCode": "4",
+        "Name": "K C VIMALKUMAR",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1294"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SHEELAS K",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "1168"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "KODUNGANOOR",
+    "CanCode": "8",
+    "Name": "KODUNGANOOR HARI",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2082",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "A V AMAL",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1805"
+      },
+      {
+        "CanCode": "2",
+        "Name": "KODUNGANOOR KRISHNAKUMAR",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "45"
+      },
+      {
+        "CanCode": "3",
+        "Name": "JOY DASAN",
+        "Party": "BSP",
+        "PartyGroup": "OTH",
+        "Vote": "31"
+      },
+      {
+        "CanCode": "4",
+        "Name": "MURALEEDARAN NAIR J",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "877"
+      },
+      {
+        "CanCode": "5",
+        "Name": "RAJESH KUMAR",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "80"
+      },
+      {
+        "CanCode": "6",
+        "Name": "RENJITH C NAIR",
+        "Party": "AAP",
+        "PartyGroup": "OTH",
+        "Vote": "81"
+      },
+      {
+        "CanCode": "7",
+        "Name": "K VIKRAMAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "764"
+      },
+      {
+        "CanCode": "8",
+        "Name": "KODUNGANOOR HARI",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2082"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "5"
+      }
+    ]
+  },
+  {
+    "Ward": "KOTTAPURAM",
+    "CanCode": "3",
+    "Name": "SHYNI W",
+    "Party": "CPI",
+    "PartyGroup": "LDF",
+    "Vote": "2733",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "GLADIS ALEX",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "2553"
+      },
+      {
+        "CanCode": "2",
+        "Name": "MARY ANGEL",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "25"
+      },
+      {
+        "CanCode": "3",
+        "Name": "SHYNI W",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "2733"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SUJA LOPEZ",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "46"
+      },
+      {
+        "CanCode": "5",
+        "Name": "TELMA XAVIER",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "582"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "KOWDIAR",
+    "CanCode": "1",
+    "Name": "MURALEEDHARAN K",
+    "Party": "INC",
+    "PartyGroup": "UDF",
+    "Vote": "1177",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "MURALEEDHARAN K",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1177"
+      },
+      {
+        "CanCode": "2",
+        "Name": "B RETHEESH KUMAR",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1128"
+      },
+      {
+        "CanCode": "3",
+        "Name": "P P VAVA",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "858"
+      },
+      {
+        "CanCode": "4",
+        "Name": "K VIJAYAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "8"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SAJIPRASAD S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "12"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "KUDAPPANAKUNNU",
+    "CanCode": "1",
+    "Name": "S ANITHA",
+    "Party": "INC",
+    "PartyGroup": "UDF",
+    "Vote": "1936",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "S ANITHA",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1936"
+      },
+      {
+        "CanCode": "2",
+        "Name": "P SHAJIMOL",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "52"
+      },
+      {
+        "CanCode": "3",
+        "Name": "SHEEJA J",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1425"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SUJATHA",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1512"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "KULATHOOR",
+    "CanCode": "4",
+    "Name": "SIVADATH S",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "1935",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "BABU",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "165"
+      },
+      {
+        "CanCode": "2",
+        "Name": "A R VINIL KUMAR",
+        "Party": "SS",
+        "PartyGroup": "OTH",
+        "Vote": "33"
+      },
+      {
+        "CanCode": "3",
+        "Name": "M S SANKARANKUTTY",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "628"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SIVADATH S",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1935"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SADANANDAN",
+        "Party": "KCM",
+        "PartyGroup": "UDF",
+        "Vote": "183"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "KUNNUKUZHY",
+    "CanCode": "1",
+    "Name": "BINU I P",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "1147",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "BINU I P",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1147"
+      },
+      {
+        "CanCode": "2",
+        "Name": "KUNNUKUZHY MAHESH",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "265"
+      },
+      {
+        "CanCode": "3",
+        "Name": "VINOD YESUDAS M",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "829"
+      },
+      {
+        "CanCode": "4",
+        "Name": "BARTONHILL SASIDHARAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "30"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SHAJI",
+        "Party": "BSP",
+        "PartyGroup": "OTH",
+        "Vote": "191"
+      },
+      {
+        "CanCode": "6",
+        "Name": "KUNNUKUZHY SURESH",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "1014"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "KURAVANKONAM",
+    "CanCode": "2",
+    "Name": "MAYA R S",
+    "Party": "RSP",
+    "PartyGroup": "UDF",
+    "Vote": "1416",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "POORNIMA S NAIR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "682"
+      },
+      {
+        "CanCode": "2",
+        "Name": "MAYA R S",
+        "Party": "RSP",
+        "PartyGroup": "UDF",
+        "Vote": "1416"
+      },
+      {
+        "CanCode": "3",
+        "Name": "SUMAKUMARI V S",
+        "Party": "JSS",
+        "PartyGroup": "OTH",
+        "Vote": "1134"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "KURYATHI",
+    "CanCode": "1",
+    "Name": "BEENA MURUKAN",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2567",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "BEENA MURUKAN",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2567"
+      },
+      {
+        "CanCode": "2",
+        "Name": "R LATHIKA",
+        "Party": "JD(S)",
+        "PartyGroup": "LDF",
+        "Vote": "896"
+      },
+      {
+        "CanCode": "3",
+        "Name": "SHANIMOL",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "914"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "MANACAUD",
+    "CanCode": "4",
+    "Name": "SIMI JYOTHISH",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2068",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "JAMEELA BEEVI",
+        "Party": "PNP",
+        "PartyGroup": "OTH",
+        "Vote": "233"
+      },
+      {
+        "CanCode": "2",
+        "Name": "O PUSHPALATHA",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1077"
+      },
+      {
+        "CanCode": "3",
+        "Name": "PRIYA PRABHAKARAN",
+        "Party": "NCP",
+        "PartyGroup": "LDF",
+        "Vote": "1287"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SIMI JYOTHISH",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2068"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "MANIKYA VILAKAM",
+    "CanCode": "3",
+    "Name": "PRIYA BIJU",
+    "Party": "INL",
+    "PartyGroup": "LDF",
+    "Vote": "1439",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ANJU A S",
+        "Party": "PDP",
+        "PartyGroup": "OTH",
+        "Vote": "395"
+      },
+      {
+        "CanCode": "2",
+        "Name": "PRAMEELA S",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "980"
+      },
+      {
+        "CanCode": "3",
+        "Name": "PRIYA BIJU",
+        "Party": "INL",
+        "PartyGroup": "LDF",
+        "Vote": "1439"
+      },
+      {
+        "CanCode": "4",
+        "Name": "MANJU T S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "9"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SINDHU TEACHER",
+        "Party": "SDPI",
+        "PartyGroup": "OTH",
+        "Vote": "654"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SUDHAKUMARI V T",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "556"
+      },
+      {
+        "CanCode": "7",
+        "Name": "HAREESHA B",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "917"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "1"
+      }
+    ]
+  },
+  {
+    "Ward": "MANNANTHALA",
+    "CanCode": "1",
+    "Name": "N ANILKUMAR",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "1533",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "N ANILKUMAR",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1533"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ANILKUMAR K",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "43"
+      },
+      {
+        "CanCode": "3",
+        "Name": "VANAJA RAJENDRA BABU",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1533"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SHYAM CHANDRAN",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1381"
+      },
+      {
+        "CanCode": "5",
+        "Name": "N SURENDRAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "20"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "MEDICAL COLLEGE",
+    "CanCode": "6",
+    "Name": "S S SINDHU",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "2212",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "INDIRA S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "96"
+      },
+      {
+        "CanCode": "2",
+        "Name": "JAYAKUMARI P",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "9"
+      },
+      {
+        "CanCode": "3",
+        "Name": "DIVYA S",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1367"
+      },
+      {
+        "CanCode": "4",
+        "Name": "REKHA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "26"
+      },
+      {
+        "CanCode": "5",
+        "Name": "T R REKHA",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1287"
+      },
+      {
+        "CanCode": "6",
+        "Name": "S S SINDHU",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2212"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "MELAMCODE",
+    "CanCode": "3",
+    "Name": "R SANILKUMAR (PAPPANAMCODE SAJI)",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "4315",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "R PRADEEP KUMAR",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2005"
+      },
+      {
+        "CanCode": "2",
+        "Name": "G S PRADEEPKUMAR",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "49"
+      },
+      {
+        "CanCode": "3",
+        "Name": "R SANILKUMAR (PAPPANAMCODE SAJI)",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "4315"
+      },
+      {
+        "CanCode": "4",
+        "Name": "KARUMAM SUNDARESAN",
+        "Party": "KC(J)",
+        "PartyGroup": "UDF",
+        "Vote": "663"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "MUDAVANMUGHAL",
+    "CanCode": "1",
+    "Name": "GOPAKUMAR V",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "3414",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "GOPAKUMAR V",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "3414"
+      },
+      {
+        "CanCode": "2",
+        "Name": "MIDHUN KUMAR",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "16"
+      },
+      {
+        "CanCode": "3",
+        "Name": "K MAHESWARAN NAIR",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "2274"
+      },
+      {
+        "CanCode": "4",
+        "Name": "A SATHEESH",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "18"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SATHEESH KUMAR G",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "526"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SUSRUTHAN K",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "18"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "4"
+      }
+    ]
+  },
+  {
+    "Ward": "MULLOOR",
+    "CanCode": "1",
+    "Name": "C OMANA",
+    "Party": "INC",
+    "PartyGroup": "UDF",
+    "Vote": "2196",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "C OMANA",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "2196"
+      },
+      {
+        "CanCode": "2",
+        "Name": "MUKKOLA G PRABHAKARAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2172"
+      },
+      {
+        "CanCode": "3",
+        "Name": "MULLOOR P MOHANAN",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1102"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "MUTTADA",
+    "CanCode": "2",
+    "Name": "R GEETHA GOPAL",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "1227",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "GEETHAKUMARI D",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "660"
+      },
+      {
+        "CanCode": "2",
+        "Name": "R GEETHA GOPAL",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1227"
+      },
+      {
+        "CanCode": "3",
+        "Name": "LALITHAMBIKA V S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "217"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SWATHI SREEVALSAM M",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "962"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "MUTTATHARA",
+    "CanCode": "1",
+    "Name": "ANJU S R",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "2613",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ANJU S R",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2613"
+      },
+      {
+        "CanCode": "2",
+        "Name": "DEENA MOL B K",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "111"
+      },
+      {
+        "CanCode": "3",
+        "Name": "NIRMALA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "48"
+      },
+      {
+        "CanCode": "4",
+        "Name": "MINI A",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1258"
+      },
+      {
+        "CanCode": "5",
+        "Name": "RAJI G",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1270"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SANDHYA D S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "294"
+      },
+      {
+        "CanCode": "7",
+        "Name": "SUMA DEVI R",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "22"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "NALANCHIRA",
+    "CanCode": "2",
+    "Name": "THRESIAMMA THOMAS",
+    "Party": "INC",
+    "PartyGroup": "UDF",
+    "Vote": "1756",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "JAYAKUMARI J",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "1087"
+      },
+      {
+        "CanCode": "2",
+        "Name": "THRESIAMMA THOMAS",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1756"
+      },
+      {
+        "CanCode": "3",
+        "Name": "BEENA S",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "809"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SHEELA S S",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "1303"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "NANTHANCODE",
+    "CanCode": "4",
+    "Name": "PALAYAM RAJAN",
+    "Party": "Con(S)",
+    "PartyGroup": "LDF",
+    "Vote": "2226",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "NANTHANCODE JAYACHANDRAN",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "366"
+      },
+      {
+        "CanCode": "2",
+        "Name": "GEORGE MANKIDIYAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "24"
+      },
+      {
+        "CanCode": "3",
+        "Name": "BASHEER IBRAHIM KUTTY",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "8"
+      },
+      {
+        "CanCode": "4",
+        "Name": "PALAYAM RAJAN",
+        "Party": "Con(S)",
+        "PartyGroup": "LDF",
+        "Vote": "2226"
+      },
+      {
+        "CanCode": "5",
+        "Name": "LEELAMMA TEACHER",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1251"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SHEIKH MUHIYADHEEN S N",
+        "Party": "LJP",
+        "PartyGroup": "BJP+",
+        "Vote": "21"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "NEDUNKADU",
+    "CanCode": "1",
+    "Name": "S PUSHPALATHA",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "3157",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "S PUSHPALATHA",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "3157"
+      },
+      {
+        "CanCode": "2",
+        "Name": "MANJULA R",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1169"
+      },
+      {
+        "CanCode": "3",
+        "Name": "SOUMYA P M",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2414"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "3"
+      }
+    ]
+  },
+  {
+    "Ward": "NEMOM",
+    "CanCode": "3",
+    "Name": "M R GOPAN",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2078",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "S AJAYAKUMAR",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "1353"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ANILKUMAR S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "47"
+      },
+      {
+        "CanCode": "3",
+        "Name": "M R GOPAN",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2078"
+      },
+      {
+        "CanCode": "4",
+        "Name": "A NOUSHAD",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "25"
+      },
+      {
+        "CanCode": "5",
+        "Name": "KAIMANAM PRABHAKARAN",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1824"
+      },
+      {
+        "CanCode": "6",
+        "Name": "KARUMAM PRABHAKARAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "15"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "1"
+      }
+    ]
+  },
+  {
+    "Ward": "NETTAYAM",
+    "CanCode": "5",
+    "Name": "RAJI MOL P",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "2351",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "DEEPTHI R S",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1341"
+      },
+      {
+        "CanCode": "2",
+        "Name": "DEEPTHI S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "45"
+      },
+      {
+        "CanCode": "3",
+        "Name": "RAJI N",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "20"
+      },
+      {
+        "CanCode": "4",
+        "Name": "RAJI S B",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "166"
+      },
+      {
+        "CanCode": "5",
+        "Name": "RAJI MOL P",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2351"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SINDHU RAJEEV",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1684"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "NJANDDORKONAM",
+    "CanCode": "2",
+    "Name": "A PRADEEP KUMAR (KARNAN)",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2197",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "P R PRADEEP",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1667"
+      },
+      {
+        "CanCode": "2",
+        "Name": "A PRADEEP KUMAR (KARNAN)",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2197"
+      },
+      {
+        "CanCode": "3",
+        "Name": "S VIMALAKUMARI",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "1866"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "P T P NAGAR",
+    "CanCode": "1",
+    "Name": "KOMALAKUMARI(KOMALAM TEACHER)",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "1589",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "KOMALAKUMARI(KOMALAM TEACHER)",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1589"
+      },
+      {
+        "CanCode": "2",
+        "Name": "CHANDRIKA DEVI M",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "32"
+      },
+      {
+        "CanCode": "3",
+        "Name": "V JAYASREE",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1132"
+      },
+      {
+        "CanCode": "4",
+        "Name": "VASANTHAKUMARI TEACHER",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "1451"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "2"
+      }
+    ]
+  },
+  {
+    "Ward": "PALAYAM",
+    "CanCode": "1",
+    "Name": "ISHA BECKER",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "1226",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ISHA BECKER",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1226"
+      },
+      {
+        "CanCode": "2",
+        "Name": "JOSY CATHERINE",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "251"
+      },
+      {
+        "CanCode": "3",
+        "Name": "SHERLY S",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1177"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SAROJAM C",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "13"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "1"
+      }
+    ]
+  },
+  {
+    "Ward": "PALKULANGARA",
+    "CanCode": "3",
+    "Name": "S VIJAYAKUMARI",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "1955",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ASWATHI V J",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "709"
+      },
+      {
+        "CanCode": "2",
+        "Name": "NIMMI S S",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1268"
+      },
+      {
+        "CanCode": "3",
+        "Name": "S VIJAYAKUMARI",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1955"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "PALLITHURA",
+    "CanCode": "2",
+    "Name": "PRATHIBHA JAYAKUMAR",
+    "Party": "INC",
+    "PartyGroup": "UDF",
+    "Vote": "2370",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "THANKACHI",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "525"
+      },
+      {
+        "CanCode": "2",
+        "Name": "PRATHIBHA JAYAKUMAR",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "2370"
+      },
+      {
+        "CanCode": "3",
+        "Name": "RADHA DHARMARAJAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2253"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "PANGODU",
+    "CanCode": "4",
+    "Name": "S MADHUSOODANAN NAIR",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "1335",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "C JAYAN BABU",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1287"
+      },
+      {
+        "CanCode": "2",
+        "Name": "R NARAYANAN THAMPI",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "703"
+      },
+      {
+        "CanCode": "3",
+        "Name": "MADHU",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "19"
+      },
+      {
+        "CanCode": "4",
+        "Name": "S MADHUSOODANAN NAIR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1335"
+      },
+      {
+        "CanCode": "5",
+        "Name": "RENJITH KUMAR",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "1"
+      },
+      {
+        "CanCode": "6",
+        "Name": "VETTAMUKKU SREEKUMAR",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "152"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "1"
+      }
+    ]
+  },
+  {
+    "Ward": "PAPPANAMCODE",
+    "CanCode": "2",
+    "Name": "K CHANDRAN",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2519",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "R UNNIKRISHNAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2014"
+      },
+      {
+        "CanCode": "2",
+        "Name": "K CHANDRAN",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2519"
+      },
+      {
+        "CanCode": "3",
+        "Name": "RAVEENDRAN",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "866"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "PATHIRAPALLI",
+    "CanCode": "1",
+    "Name": "V KRISHNANKUTTY NAIR",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2175",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "V KRISHNANKUTTY NAIR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2175"
+      },
+      {
+        "CanCode": "2",
+        "Name": "S MOHANAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "47"
+      },
+      {
+        "CanCode": "3",
+        "Name": "REMESH REVEENDRANATHAN NAIR",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1682"
+      },
+      {
+        "CanCode": "4",
+        "Name": "M HARILAL",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2137"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "PATTOM",
+    "CanCode": "1",
+    "Name": "REMYA REMESH S R",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "1585",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "REMYA REMESH S R",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1585"
+      },
+      {
+        "CanCode": "2",
+        "Name": "RAJALEKSHMI L",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1503"
+      },
+      {
+        "CanCode": "3",
+        "Name": "SAVITHRI GANGADHARAN",
+        "Party": "KCM",
+        "PartyGroup": "UDF",
+        "Vote": "87"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SOUMYA S S",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "1562"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "PEROORKADA",
+    "CanCode": "1",
+    "Name": "P S ANILKUMAR",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "1805",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "P S ANILKUMAR",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1805"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ANILKUMAR T S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "21"
+      },
+      {
+        "CanCode": "3",
+        "Name": "CHANDRAMOHAN S(MANNAMMOOLA SUKU)",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1341"
+      },
+      {
+        "CanCode": "4",
+        "Name": "JAYANTHI J",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "26"
+      },
+      {
+        "CanCode": "5",
+        "Name": "MANNAMMOOLA RAJAN",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "821"
+      },
+      {
+        "CanCode": "6",
+        "Name": "RAJESH KUMAR",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "13"
+      },
+      {
+        "CanCode": "7",
+        "Name": "RAJESH MANNAMMOOLA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "741"
+      },
+      {
+        "CanCode": "8",
+        "Name": "K K RAVEENDRANATH",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "13"
+      },
+      {
+        "CanCode": "9",
+        "Name": "PEROORKADA D SUKU",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "110"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "4"
+      }
+    ]
+  },
+  {
+    "Ward": "PERUNTHANNI",
+    "CanCode": "1",
+    "Name": "CHINCHU TEACHER",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2064",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "CHINCHU TEACHER",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2064"
+      },
+      {
+        "CanCode": "2",
+        "Name": "G S RAMADEVI",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1532"
+      },
+      {
+        "CanCode": "3",
+        "Name": "SATHI KRISHNAN",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1167"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "PETTAH",
+    "CanCode": "2",
+    "Name": "D ANILKUMAR",
+    "Party": "INC",
+    "PartyGroup": "UDF",
+    "Vote": "2466",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "KOCHANI(AJITHAN .T.P)",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "48"
+      },
+      {
+        "CanCode": "2",
+        "Name": "D ANILKUMAR",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "2466"
+      },
+      {
+        "CanCode": "3",
+        "Name": "S JAYAKUMAR",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1224"
+      },
+      {
+        "CanCode": "4",
+        "Name": "PRASOOD C S",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "600"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "PONNUMANGALAM",
+    "CanCode": "2",
+    "Name": "SHAFEERA BEEGUM",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "2591",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "CHANDRA LEKHA L",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "742"
+      },
+      {
+        "CanCode": "2",
+        "Name": "SHAFEERA BEEGUM",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2591"
+      },
+      {
+        "CanCode": "3",
+        "Name": "SINDHU GOPAN",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1747"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "1"
+      }
+    ]
+  },
+  {
+    "Ward": "POOJAPURA",
+    "CanCode": "4",
+    "Name": "B VIJAYALEKSHMI",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2368",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "AMBIKAKUMARI AMMA S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "208"
+      },
+      {
+        "CanCode": "2",
+        "Name": "O S CHANDRALEKHA",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1265"
+      },
+      {
+        "CanCode": "3",
+        "Name": "R REMADEVI",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "1803"
+      },
+      {
+        "CanCode": "4",
+        "Name": "B VIJAYALEKSHMI",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2368"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "2"
+      }
+    ]
+  },
+  {
+    "Ward": "POUNDKADAVU",
+    "CanCode": "2",
+    "Name": "MEDAYIL VIKRAMAN",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "2228",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "VELI VARGHESE",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "2093"
+      },
+      {
+        "CanCode": "2",
+        "Name": "MEDAYIL VIKRAMAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2228"
+      },
+      {
+        "CanCode": "3",
+        "Name": "SANTHOSH KUMAR",
+        "Party": "BSP",
+        "PartyGroup": "OTH",
+        "Vote": "33"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SUSEELA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "830"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SUSEELAN",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "713"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "1"
+      }
+    ]
+  },
+  {
+    "Ward": "POWDIKONAM",
+    "CanCode": "5",
+    "Name": "NARAYANAMANGALAM RAJENDRAN",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "1793",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "GOPAKUMAR",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "906"
+      },
+      {
+        "CanCode": "2",
+        "Name": "GOPAKUMAR S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "31"
+      },
+      {
+        "CanCode": "3",
+        "Name": "S JAYAKUMAR",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1741"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ARAPPURA MOHANAN NAIR",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1268"
+      },
+      {
+        "CanCode": "5",
+        "Name": "NARAYANAMANGALAM RAJENDRAN",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1793"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "PUNCHAKARI",
+    "CanCode": "2",
+    "Name": "KRISHNAVENI",
+    "Party": "RSP",
+    "PartyGroup": "UDF",
+    "Vote": "2372",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ANEESA BEEVI M K (ANU AYYAPPAN)",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1116"
+      },
+      {
+        "CanCode": "2",
+        "Name": "KRISHNAVENI",
+        "Party": "RSP",
+        "PartyGroup": "UDF",
+        "Vote": "2372"
+      },
+      {
+        "CanCode": "3",
+        "Name": "P BEENA",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1744"
+      },
+      {
+        "CanCode": "4",
+        "Name": "P LALITHA",
+        "Party": "RSP(M)",
+        "PartyGroup": "OTH",
+        "Vote": "132"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SUBHA SATHEESAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "106"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "PUNKULAM",
+    "CanCode": "6",
+    "Name": "C SATHYAN",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "2761",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "GOPAKUMAR G",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "129"
+      },
+      {
+        "CanCode": "2",
+        "Name": "MUHAMMED SALI RAFI AHAMMED",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "19"
+      },
+      {
+        "CanCode": "3",
+        "Name": "J SISUPALAN",
+        "Party": "IUML",
+        "PartyGroup": "UDF",
+        "Vote": "1390"
+      },
+      {
+        "CanCode": "4",
+        "Name": "THIRUVALLAM SREEKANDAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "13"
+      },
+      {
+        "CanCode": "5",
+        "Name": "P SATHEESH KUMAR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "958"
+      },
+      {
+        "CanCode": "6",
+        "Name": "C SATHYAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2761"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "1"
+      }
+    ]
+  },
+  {
+    "Ward": "PUNNAKKA MUGHAL",
+    "CanCode": "4",
+    "Name": "R P SIVAJI",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "2984",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "J KRISHNAKUMAR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1214"
+      },
+      {
+        "CanCode": "2",
+        "Name": "C K CHANDRASEKHARAN NAIR",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1435"
+      },
+      {
+        "CanCode": "3",
+        "Name": "VINU K",
+        "Party": "AAP",
+        "PartyGroup": "OTH",
+        "Vote": "325"
+      },
+      {
+        "CanCode": "4",
+        "Name": "R P SIVAJI",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2984"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "1"
+      }
+    ]
+  },
+  {
+    "Ward": "PUNTHURA",
+    "CanCode": "2",
+    "Name": "PETER SOLOMON",
+    "Party": "KCM",
+    "PartyGroup": "UDF",
+    "Vote": "2074",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "JOHN BENCHILAS",
+        "Party": "AAP",
+        "PartyGroup": "OTH",
+        "Vote": "247"
+      },
+      {
+        "CanCode": "2",
+        "Name": "PETER SOLOMON",
+        "Party": "KCM",
+        "PartyGroup": "UDF",
+        "Vote": "2074"
+      },
+      {
+        "CanCode": "3",
+        "Name": "BIJU T",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "14"
+      },
+      {
+        "CanCode": "4",
+        "Name": "BEBIYANS",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "18"
+      },
+      {
+        "CanCode": "5",
+        "Name": "BEYILIN DAS",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1672"
+      },
+      {
+        "CanCode": "6",
+        "Name": "RAJESH ANACLATE",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "7"
+      },
+      {
+        "CanCode": "7",
+        "Name": "SATHEESH M",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "32"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "PUTHENPALLI",
+    "CanCode": "3",
+    "Name": "S NOORJAHAN",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "1940",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "NAZEEMA TEACHER",
+        "Party": "SDPI",
+        "PartyGroup": "OTH",
+        "Vote": "1159"
+      },
+      {
+        "CanCode": "2",
+        "Name": "NAZILA S N",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "109"
+      },
+      {
+        "CanCode": "3",
+        "Name": "S NOORJAHAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1940"
+      },
+      {
+        "CanCode": "4",
+        "Name": "NOORJAHAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "16"
+      },
+      {
+        "CanCode": "5",
+        "Name": "FATHUMMA BEEVI",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "5"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SHEEJA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "3"
+      },
+      {
+        "CanCode": "7",
+        "Name": "SHYNI S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "11"
+      },
+      {
+        "CanCode": "8",
+        "Name": "SUHAINA JOWHARA S",
+        "Party": "PDP",
+        "PartyGroup": "OTH",
+        "Vote": "277"
+      },
+      {
+        "CanCode": "9",
+        "Name": "REGEENA MAHEEN",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "936"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "SANGHUMUGHAM",
+    "CanCode": "6",
+    "Name": "SOLAMON VETTUKADU",
+    "Party": "CPI",
+    "PartyGroup": "LDF",
+    "Vote": "2131",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "UDAYA KUMAR L",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "20"
+      },
+      {
+        "CanCode": "2",
+        "Name": "GILBERT PETER",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1515"
+      },
+      {
+        "CanCode": "3",
+        "Name": "JOSHI J",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "239"
+      },
+      {
+        "CanCode": "4",
+        "Name": "RAMESH",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "128"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SANTHOSH KUMAR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "76"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SOLAMON VETTUKADU",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "2131"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "SASTHAMANGALAM",
+    "CanCode": "2",
+    "Name": "BINDHU SREEKUMAR",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "1477",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "PARVATHY SANKAR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1104"
+      },
+      {
+        "CanCode": "2",
+        "Name": "BINDHU SREEKUMAR",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1477"
+      },
+      {
+        "CanCode": "3",
+        "Name": "VEENA S NAIR",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1352"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "SREEKANTESWARAM",
+    "CanCode": "3",
+    "Name": "MAYA RAJENDRAN (KOMALAVALLY)",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2075",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "C AMBIKA",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "927"
+      },
+      {
+        "CanCode": "2",
+        "Name": "UDAYALAKSHMI S",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "439"
+      },
+      {
+        "CanCode": "3",
+        "Name": "MAYA RAJENDRAN (KOMALAVALLY)",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2075"
+      },
+      {
+        "CanCode": "4",
+        "Name": "R SULEKHA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "95"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "SREEKARIYAM",
+    "CanCode": "6",
+    "Name": "LATHAKUMARI N S",
+    "Party": "IND",
+    "PartyGroup": "OTH",
+    "Vote": "1774",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "JAYAKUMARI V",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1051"
+      },
+      {
+        "CanCode": "2",
+        "Name": "R JALAJA KUMARI",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1643"
+      },
+      {
+        "CanCode": "3",
+        "Name": "DONA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "9"
+      },
+      {
+        "CanCode": "4",
+        "Name": "M PUSHPAKUMARI",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "6"
+      },
+      {
+        "CanCode": "5",
+        "Name": "YAMUNA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "16"
+      },
+      {
+        "CanCode": "6",
+        "Name": "LATHAKUMARI N S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "1774"
+      },
+      {
+        "CanCode": "7",
+        "Name": "J VASANTHAKUMARI",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "944"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "SREEVARAHAM",
+    "CanCode": "3",
+    "Name": "MINI R",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "1630",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "JAYALAKSHMI S S",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "341"
+      },
+      {
+        "CanCode": "2",
+        "Name": "MINI",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "34"
+      },
+      {
+        "CanCode": "3",
+        "Name": "MINI R",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1630"
+      },
+      {
+        "CanCode": "4",
+        "Name": "P S RENJINI",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "1236"
+      },
+      {
+        "CanCode": "5",
+        "Name": "B RAJESWARI",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "49"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "THAMPANOOR",
+    "CanCode": "3",
+    "Name": "JAYALAKSHMI",
+    "Party": "CPI",
+    "PartyGroup": "LDF",
+    "Vote": "2086",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "AJITHA KUMARI J",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "49"
+      },
+      {
+        "CanCode": "2",
+        "Name": "AMRITHA MAHESH",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "741"
+      },
+      {
+        "CanCode": "3",
+        "Name": "JAYALAKSHMI",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "2086"
+      },
+      {
+        "CanCode": "4",
+        "Name": "NISHA S A",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "22"
+      },
+      {
+        "CanCode": "5",
+        "Name": "BIJU HARI KUMAR",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1781"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "THIRUMALA",
+    "CanCode": "2",
+    "Name": "MANJU P V",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2079",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "MANJU S K",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "26"
+      },
+      {
+        "CanCode": "2",
+        "Name": "MANJU P V",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2079"
+      },
+      {
+        "CanCode": "3",
+        "Name": "S BINDHU",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1081"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ROHINI G",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "13"
+      },
+      {
+        "CanCode": "5",
+        "Name": "K SHEEJAKUMARI",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1611"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SHAMSHAD (THASNI)",
+        "Party": "LJP",
+        "PartyGroup": "BJP+",
+        "Vote": "28"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "1"
+      }
+    ]
+  },
+  {
+    "Ward": "THRIKANNAPURAM",
+    "CanCode": "2",
+    "Name": "K ANIL KUMAR",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2162",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "AJIN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "1854"
+      },
+      {
+        "CanCode": "2",
+        "Name": "K ANIL KUMAR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2162"
+      },
+      {
+        "CanCode": "3",
+        "Name": "K J THANKAPPAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "38"
+      },
+      {
+        "CanCode": "4",
+        "Name": "BIJUKUMAR S S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "133"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SANAL KUMAR B S",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1271"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "2"
+      }
+    ]
+  },
+  {
+    "Ward": "THRUVALLAM",
+    "CanCode": "3",
+    "Name": "NEDUMAM V MOHANAN",
+    "Party": "INC",
+    "PartyGroup": "UDF",
+    "Vote": "2093",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "THIRUVALLAM UDHAYAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1975"
+      },
+      {
+        "CanCode": "2",
+        "Name": "B MADHUSOODANAN NAIR",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "91"
+      },
+      {
+        "CanCode": "3",
+        "Name": "NEDUMAM V MOHANAN",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "2093"
+      },
+      {
+        "CanCode": "4",
+        "Name": "B SIVAPRASAD",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1570"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SREEKUMARAN NAIR V S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "74"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "THURUTHUMMOOLA",
+    "CanCode": "3",
+    "Name": "V VIJAYAKUMAR",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2141",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "A R ANAND",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1540"
+      },
+      {
+        "CanCode": "2",
+        "Name": "MANJU N",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "18"
+      },
+      {
+        "CanCode": "3",
+        "Name": "V VIJAYAKUMAR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2141"
+      },
+      {
+        "CanCode": "4",
+        "Name": "B SATHEESH KUMAR",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "52"
+      },
+      {
+        "CanCode": "5",
+        "Name": "R K SATHEESH KUMAR",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "934"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SUDARSANAN P B",
+        "Party": "BSP",
+        "PartyGroup": "OTH",
+        "Vote": "29"
+      },
+      {
+        "CanCode": "7",
+        "Name": "G SURENDRAN PEROORKADA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "24"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "1"
+      }
+    ]
+  },
+  {
+    "Ward": "THYCAUD",
+    "CanCode": "3",
+    "Name": "M A VIDHYA MOHAN",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "1186",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "BINDHU I",
+        "Party": "CMPCC(CPJ)",
+        "PartyGroup": "UDF",
+        "Vote": "653"
+      },
+      {
+        "CanCode": "2",
+        "Name": "MAYAKUMARI S",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "9"
+      },
+      {
+        "CanCode": "3",
+        "Name": "M A VIDHYA MOHAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1186"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SREEKALA S V",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "25"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SREELATHA T",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "770"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "3"
+      }
+    ]
+  },
+  {
+    "Ward": "ULLOOR",
+    "CanCode": "2",
+    "Name": "JOHNSON JOSEPH",
+    "Party": "INC",
+    "PartyGroup": "UDF",
+    "Vote": "1556",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "S ANIL KUMAR",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1491"
+      },
+      {
+        "CanCode": "2",
+        "Name": "JOHNSON JOSEPH",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1556"
+      },
+      {
+        "CanCode": "3",
+        "Name": "R MAHENDRABABU",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1112"
+      },
+      {
+        "CanCode": "4",
+        "Name": "G SURENDRANADHAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "125"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "VALIYASALA",
+    "CanCode": "2",
+    "Name": "LEKSHMI M",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "1655",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "KALAKUMARI",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "20"
+      },
+      {
+        "CanCode": "2",
+        "Name": "LEKSHMI M",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1655"
+      },
+      {
+        "CanCode": "3",
+        "Name": "S LATHAKUMARI",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1493"
+      },
+      {
+        "CanCode": "4",
+        "Name": "M SOUMYA",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "961"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "VALIYATHURA",
+    "CanCode": "6",
+    "Name": "SHEEBA PATRIC",
+    "Party": "INC",
+    "PartyGroup": "UDF",
+    "Vote": "2257",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "AMALA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "228"
+      },
+      {
+        "CanCode": "2",
+        "Name": "IRIN DASAN",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "1933"
+      },
+      {
+        "CanCode": "3",
+        "Name": "GEETHA BIJU(JUDY ALOSYIOUS)",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "474"
+      },
+      {
+        "CanCode": "4",
+        "Name": "THRESYIAMMA",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "142"
+      },
+      {
+        "CanCode": "5",
+        "Name": "RENJU ANTONY",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "13"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SHEEBA PATRIC",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "2257"
+      },
+      {
+        "CanCode": "7",
+        "Name": "SHEELA ANTO",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "192"
+      },
+      {
+        "CanCode": "8",
+        "Name": "RAJEENA",
+        "Party": "LJP",
+        "PartyGroup": "BJP+",
+        "Vote": "55"
+      },
+      {
+        "CanCode": "9",
+        "Name": "RASIYA IRSHAD",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "313"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "VALIYAVILA",
+    "CanCode": "1",
+    "Name": "GIRIKUMAR",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2356",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "GIRIKUMAR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2356"
+      },
+      {
+        "CanCode": "2",
+        "Name": "MAHESH KUMAR M",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "20"
+      },
+      {
+        "CanCode": "3",
+        "Name": "B S SUJATHA",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1432"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SUJATHA",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "36"
+      },
+      {
+        "CanCode": "5",
+        "Name": "S SOMASEKHARAN NAIR",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "396"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "2"
+      }
+    ]
+  },
+  {
+    "Ward": "VALLAKKADAVU",
+    "CanCode": "2",
+    "Name": "SHAJIDA NAZER",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "2632",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "MEENA",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "42"
+      },
+      {
+        "CanCode": "2",
+        "Name": "SHAJIDA NAZER",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2632"
+      },
+      {
+        "CanCode": "3",
+        "Name": "SALEENA NIZAM",
+        "Party": "IUML",
+        "PartyGroup": "UDF",
+        "Vote": "1130"
+      },
+      {
+        "CanCode": "4",
+        "Name": "SAIBA SAINUDHEEN",
+        "Party": "SDPI",
+        "PartyGroup": "OTH",
+        "Vote": "123"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "VANCHIYOOR",
+    "CanCode": "4",
+    "Name": "VANCHIYOOR P BABU(P SANKARANKUTTY NAIR)",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "1699",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "P ASOK KUMAR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1696"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ASOKAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "41"
+      },
+      {
+        "CanCode": "3",
+        "Name": "JYOTHEENDRANATH",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "50"
+      },
+      {
+        "CanCode": "4",
+        "Name": "VANCHIYOOR P BABU(P SANKARANKUTTY NAIR)",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1699"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SURENDRAN A",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "112"
+      },
+      {
+        "CanCode": "6",
+        "Name": "VANCHIYOOR SURENDRAN",
+        "Party": "JD(U)",
+        "PartyGroup": "UDF",
+        "Vote": "1198"
+      },
+      {
+        "CanCode": "7",
+        "Name": "HARIKRISHNA J",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "15"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "VATTIYOORKAVU",
+    "CanCode": "6",
+    "Name": "S HARISANKAR",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "2189",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "N GANESAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "54"
+      },
+      {
+        "CanCode": "2",
+        "Name": "V K GIRIDHARAGOPAN",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "854"
+      },
+      {
+        "CanCode": "3",
+        "Name": "VISHNU",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "17"
+      },
+      {
+        "CanCode": "4",
+        "Name": "K C VIKRAMAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1665"
+      },
+      {
+        "CanCode": "5",
+        "Name": "SIRAJUDEEN A",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "40"
+      },
+      {
+        "CanCode": "6",
+        "Name": "S HARISANKAR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "2189"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "3"
+      }
+    ]
+  },
+  {
+    "Ward": "VAZHOTTUKONAM",
+    "CanCode": "4",
+    "Name": "MUNNAMMOODU VIKRAMAN",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "2398",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "N JAYAKUMAR",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "40"
+      },
+      {
+        "CanCode": "2",
+        "Name": "KUZHIVILA MOHAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "14"
+      },
+      {
+        "CanCode": "3",
+        "Name": "M R RAJEEV",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1643"
+      },
+      {
+        "CanCode": "4",
+        "Name": "MUNNAMMOODU VIKRAMAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2398"
+      },
+      {
+        "CanCode": "5",
+        "Name": "R K SATHEESH CHANDRAN",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1529"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "3"
+      }
+    ]
+  },
+  {
+    "Ward": "VAZHUTHACAUD",
+    "CanCode": "3",
+    "Name": "RAKHI RAVIKUMAR",
+    "Party": "CPI",
+    "PartyGroup": "LDF",
+    "Vote": "1316",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "AKHILA V NAIR",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1289"
+      },
+      {
+        "CanCode": "2",
+        "Name": "MINIMOL",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "17"
+      },
+      {
+        "CanCode": "3",
+        "Name": "RAKHI RAVIKUMAR",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "1316"
+      },
+      {
+        "CanCode": "4",
+        "Name": "LATHA S",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1050"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "2"
+      }
+    ]
+  },
+  {
+    "Ward": "VELLAR",
+    "CanCode": "1",
+    "Name": "JYOTHI SATHEESAN",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "1749",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "JYOTHI SATHEESAN",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1749"
+      },
+      {
+        "CanCode": "2",
+        "Name": "S REJI SANTHOSH",
+        "Party": "CPI",
+        "PartyGroup": "LDF",
+        "Vote": "1422"
+      },
+      {
+        "CanCode": "3",
+        "Name": "L LATHIKA KUMAR",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "697"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "VENGANOOR",
+    "CanCode": "5",
+    "Name": "P SANTHOSHKUMAR",
+    "Party": "BJP",
+    "PartyGroup": "BJP+",
+    "Vote": "1996",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "K ANILKUMAR (ASOKAN)",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "1595"
+      },
+      {
+        "CanCode": "2",
+        "Name": "KUMARI BINDHU V L",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "57"
+      },
+      {
+        "CanCode": "3",
+        "Name": "C UPENDRAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "338"
+      },
+      {
+        "CanCode": "4",
+        "Name": "VENGANOOR MOHANAN",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1397"
+      },
+      {
+        "CanCode": "5",
+        "Name": "P SANTHOSHKUMAR",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "1996"
+      },
+      {
+        "CanCode": "6",
+        "Name": "SAMBATH VIJAYAN",
+        "Party": "RPI(A)",
+        "PartyGroup": "OTH",
+        "Vote": "11"
+      },
+      {
+        "CanCode": "7",
+        "Name": "SURESHKUMAR K S (AJAYAN)",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "28"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "2"
+      }
+    ]
+  },
+  {
+    "Ward": "VETTUKADU",
+    "CanCode": "4",
+    "Name": "MARY LILLY RAJAS",
+    "Party": "INC",
+    "PartyGroup": "UDF",
+    "Vote": "2357",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "KUMARI",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "40"
+      },
+      {
+        "CanCode": "2",
+        "Name": "GEETHA KUMARI",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "915"
+      },
+      {
+        "CanCode": "3",
+        "Name": "JACQULIN JOSEPH",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "12"
+      },
+      {
+        "CanCode": "4",
+        "Name": "MARY LILLY RAJAS",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "2357"
+      },
+      {
+        "CanCode": "5",
+        "Name": "VIMALA LAZAR",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "2280"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "VIZHINJAM",
+    "CanCode": "1",
+    "Name": "ABDUL RASHEED(N A RASHEED)",
+    "Party": "CPI(M)",
+    "PartyGroup": "LDF",
+    "Vote": "1297",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ABDUL RASHEED(N A RASHEED)",
+        "Party": "CPI(M)",
+        "PartyGroup": "LDF",
+        "Vote": "1297"
+      },
+      {
+        "CanCode": "2",
+        "Name": "KABEER",
+        "Party": "PDP",
+        "PartyGroup": "OTH",
+        "Vote": "86"
+      },
+      {
+        "CanCode": "3",
+        "Name": "O KUNJU MUHAMMED",
+        "Party": "AAP",
+        "PartyGroup": "OTH",
+        "Vote": "30"
+      },
+      {
+        "CanCode": "4",
+        "Name": "P JALASTIN",
+        "Party": "BJP",
+        "PartyGroup": "BJP+",
+        "Vote": "340"
+      },
+      {
+        "CanCode": "5",
+        "Name": "N S NUSOOR",
+        "Party": "INC",
+        "PartyGroup": "UDF",
+        "Vote": "862"
+      },
+      {
+        "CanCode": "6",
+        "Name": "MAHEEN S",
+        "Party": "SDPI",
+        "PartyGroup": "OTH",
+        "Vote": "65"
+      },
+      {
+        "CanCode": "7",
+        "Name": "SIDDIQUE",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "27"
+      },
+      {
+        "CanCode": "8",
+        "Name": "K H SUDHEERKHAN",
+        "Party": "IND",
+        "PartyGroup": "OTH",
+        "Vote": "1240"
+      },
+      {
+        "CanCode": "99",
+        "Name": "Invalid Votes",
+        "Party": "",
+        "PartyGroup": "Inva",
+        "Vote": "0"
+      }
+    ]
+  },
+  {
+    "Ward": "UDF - 21",
+    "CanCode": "LDF - 42",
+    "Name": "BJP+ - 34",
+    "Party": "OTH - 3",
+    "PartyGroup": "",
+    "Vote": "",
+    "popup_table": []
+  }
+]

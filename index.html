@@ -42,11 +42,19 @@
                             <div class="flex items-center gap-2">
                                 <button
                                     type="button"
-                                    @click="setActiveMenu('2025')"
-                                    :class="activeMenu === '2025' ? 'bg-blue-600 text-white' : 'text-gray-700 hover:bg-gray-100'"
+                                    @click="setActiveMenu('2020')"
+                                    :class="activeMenu === '2020' ? 'bg-blue-600 text-white' : 'text-gray-700 hover:bg-gray-100'"
                                     class="px-3 py-2 rounded text-sm font-medium"
                                 >
-                                    2025
+                                    2020
+                                </button>
+                                <button
+                                    type="button"
+                                    @click="setActiveMenu('2015')"
+                                    :class="activeMenu === '2015' ? 'bg-blue-600 text-white' : 'text-gray-700 hover:bg-gray-100'"
+                                    class="px-3 py-2 rounded text-sm font-medium"
+                                >
+                                    2015
                                 </button>
                                 <button
                                     type="button"
@@ -492,7 +500,7 @@
             function wardSearch() {
                 return {
                     // menu state
-                    activeMenu: "2025",
+                    activeMenu: "2020",
 
                     // search / results
                     searchTerm: "",
@@ -541,6 +549,12 @@
                     setActiveMenu(menu) {
                         this.activeMenu = menu;
                         this.clearSearch();
+                        // load the JSON for the selected year/view
+                        if (menu === "trend") {
+                            this.fetchTrendData();
+                        } else {
+                            this.fetchKeralaData();
+                        }
                     },
 
                     toggleLeadRange(key) {
@@ -712,9 +726,36 @@
 
                     async fetchKeralaData() {
                         try {
-                            const res = await fetch("kerala_results.json");
+                            // choose filename based on activeMenu (year)
+                            let filename = "kerala_results.json";
+                            if (this.activeMenu === "2020")
+                                filename = "2020.json";
+                            else if (this.activeMenu === "2015")
+                                filename = "2015.json";
+                            const res = await fetch(filename);
                             if (!res.ok) throw new Error("HTTP " + res.status);
                             this.keralaData = await res.json();
+
+                            // Normalize PartyGroup values for 2015 data:
+                            // treat 'BJP+' as 'NDA' so it shows consistently in filters and UI
+                            if (
+                                this.activeMenu === "2015" &&
+                                Array.isArray(this.keralaData)
+                            ) {
+                                this.keralaData.forEach((ward) => {
+                                    if (!ward) return;
+                                    if (ward.PartyGroup === "BJP+") {
+                                        ward.PartyGroup = "NDA";
+                                    }
+                                    if (Array.isArray(ward.popup_table)) {
+                                        ward.popup_table.forEach((c) => {
+                                            if (c && c.PartyGroup === "BJP+") {
+                                                c.PartyGroup = "NDA";
+                                            }
+                                        });
+                                    }
+                                });
+                            }
                         } catch (e) {
                             this.displayTemporaryAlert(
                                 "error",
@@ -722,6 +763,145 @@
                                 5000,
                             );
                             console.error("fetch error", e);
+                        }
+                    },
+
+                    // Load both years and compute per-ward trend data for the Trend view
+                    async fetchTrendData() {
+                        try {
+                            const [res2015, res2020] = await Promise.all([
+                                fetch("2015.json"),
+                                fetch("2020.json"),
+                            ]);
+                            if (!res2015.ok || !res2020.ok)
+                                throw new Error(
+                                    "Failed to fetch 2015 or 2020 data",
+                                );
+
+                            const raw2015 = await res2015.json();
+                            const raw2020 = await res2020.json();
+
+                            // Normalize 2015 (map 'BJP+' to 'NDA')
+                            if (Array.isArray(raw2015)) {
+                                raw2015.forEach((ward) => {
+                                    if (!ward) return;
+                                    if (ward.PartyGroup === "BJP+")
+                                        ward.PartyGroup = "NDA";
+                                    if (Array.isArray(ward.popup_table)) {
+                                        ward.popup_table.forEach((c) => {
+                                            if (c && c.PartyGroup === "BJP+")
+                                                c.PartyGroup = "NDA";
+                                        });
+                                    }
+                                });
+                            }
+
+                            // Helper: map wards by lowercased ward name for alignment
+                            const map2015 = new Map();
+                            if (Array.isArray(raw2015)) {
+                                raw2015.forEach((w) => {
+                                    if (w && w.Ward)
+                                        map2015.set(w.Ward.toLowerCase(), w);
+                                });
+                            }
+                            const map2020 = new Map();
+                            if (Array.isArray(raw2020)) {
+                                raw2020.forEach((w) => {
+                                    if (w && w.Ward)
+                                        map2020.set(w.Ward.toLowerCase(), w);
+                                });
+                            }
+
+                            // Union of ward keys
+                            const allKeys = new Set([
+                                ...map2015.keys(),
+                                ...map2020.keys(),
+                            ]);
+
+                            const rows = [];
+
+                            // Helper to extract top candidate info
+                            const topCandidateInfo = (ward) => {
+                                if (
+                                    !ward ||
+                                    !Array.isArray(ward.popup_table) ||
+                                    ward.popup_table.length === 0
+                                ) {
+                                    return {
+                                        name: null,
+                                        party: null,
+                                        votes: 0,
+                                        share: null,
+                                    };
+                                }
+                                const candidates = ward.popup_table.map(
+                                    (c) => ({
+                                        ...c,
+                                        Vote: parseInt(c.Vote || 0) || 0,
+                                    }),
+                                );
+                                const total = candidates.reduce(
+                                    (s, c) => s + c.Vote,
+                                    0,
+                                );
+                                candidates.sort((a, b) => b.Vote - a.Vote);
+                                const top = candidates[0] || null;
+                                return {
+                                    name: top ? top.Name : null,
+                                    party: top ? top.PartyGroup : null,
+                                    votes: top ? top.Vote : 0,
+                                    share: top
+                                        ? total > 0
+                                            ? top.Vote / total
+                                            : 0
+                                        : null,
+                                };
+                            };
+
+                            // Build rows
+                            let globalMax = 0;
+                            for (const key of allKeys) {
+                                const w2015 = map2015.get(key) || null;
+                                const w2020 = map2020.get(key) || null;
+                                const top2015 = topCandidateInfo(w2015);
+                                const top2020 = topCandidateInfo(w2020);
+                                const votes2015 = top2015.votes || 0;
+                                const votes2020 = top2020.votes || 0;
+                                const delta = votes2020 - votes2015;
+                                const wardName =
+                                    (w2020 && w2020.Ward) ||
+                                    (w2015 && w2015.Ward) ||
+                                    key;
+                                globalMax = Math.max(
+                                    globalMax,
+                                    votes2015,
+                                    votes2020,
+                                );
+                                rows.push({
+                                    Ward: wardName,
+                                    votes2015,
+                                    votes2020,
+                                    delta,
+                                    top2015,
+                                    top2020,
+                                });
+                            }
+
+                            // Attach maxVotes for UI scaling and sort by ward name
+                            rows.forEach((r) => (r.maxVotes = globalMax || 1));
+                            rows.sort((a, b) =>
+                                String(a.Ward).localeCompare(String(b.Ward)),
+                            );
+
+                            this.trendData = rows;
+                        } catch (e) {
+                            this.displayTemporaryAlert(
+                                "error",
+                                "Failed to load trend data: " +
+                                    (e.message || e),
+                                5000,
+                            );
+                            console.error("fetchTrendData error", e);
                         }
                     },
 
