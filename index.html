@@ -58,6 +58,14 @@
                                 </button>
                                 <button
                                     type="button"
+                                    @click="setActiveMenu('trend')"
+                                    :class="activeMenu === 'trend' ? 'bg-blue-600 text-white' : 'text-gray-700 hover:bg-gray-100'"
+                                    class="px-3 py-2 rounded text-sm font-medium"
+                                >
+                                    Trend
+                                </button>
+                                <button
+                                    type="button"
                                     @click="setActiveMenu('overview')"
                                     :class="activeMenu === 'overview' ? 'bg-blue-600 text-white' : 'text-gray-700 hover:bg-gray-100'"
                                     class="px-3 py-2 rounded text-sm font-medium"
@@ -255,70 +263,202 @@
                             </div>
 
                             <div class="border border-gray-100 rounded-md">
-                                <table class="min-w-full text-sm">
-                                    <thead class="bg-gray-50">
-                                        <tr>
-                                            <th class="text-left px-3 py-2">
-                                                Ward
-                                            </th>
-                                            <th class="text-left px-3 py-2">
-                                                Winner
-                                            </th>
-                                            <th class="text-center px-3 py-2">
-                                                Group
-                                            </th>
-                                            <th class="text-right px-3 py-2">
-                                                Votes
-                                            </th>
-                                            <th class="text-right px-3 py-2">
-                                                Lead
-                                            </th>
-                                        </tr>
-                                    </thead>
-
-                                    <tbody>
-                                        <template
-                                            x-for="ward in winningWards"
-                                            :key="ward.Ward"
-                                        >
-                                            <tr
-                                                class="border-t hover:bg-gray-50 cursor-pointer"
-                                                @click="selectWard(ward.Ward)"
-                                            >
-                                                <td
-                                                    class="px-3 py-1"
-                                                    x-text="ward.Ward"
-                                                ></td>
-                                                <td
-                                                    class="px-3 py-1"
-                                                    x-text="ward.Name"
-                                                ></td>
-                                                <td
-                                                    class="px-3 py-1 text-center"
+                                <!-- Trend table: shows 2020 then 2015 Group, votes and lead side-by-side -->
+                                <template x-if="activeMenu === 'trend'">
+                                    <table class="min-w-full text-sm">
+                                        <thead class="bg-gray-50">
+                                            <tr>
+                                                <th class="text-left px-3 py-2">
+                                                    Ward
+                                                </th>
+                                                <th
+                                                    class="text-center px-3 py-2"
                                                 >
-                                                    <span
-                                                        class="px-2 py-0.5 rounded-full text-xs"
-                                                        :class="{
+                                                    2020 Group
+                                                </th>
+                                                <th
+                                                    class="text-right px-3 py-2"
+                                                >
+                                                    2020 Votes
+                                                </th>
+                                                <th
+                                                    class="text-right px-3 py-2"
+                                                >
+                                                    2020 Lead
+                                                </th>
+                                                <th
+                                                    class="text-center px-3 py-2"
+                                                >
+                                                    2015 Group
+                                                </th>
+                                                <th
+                                                    class="text-right px-3 py-2"
+                                                >
+                                                    2015 Votes
+                                                </th>
+                                                <th
+                                                    class="text-right px-3 py-2"
+                                                >
+                                                    2015 Lead
+                                                </th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <template
+                                                x-if="!trendData || trendData.length === 0"
+                                            >
+                                                <tr>
+                                                    <td
+                                                        class="px-3 py-2 text-sm text-gray-500"
+                                                        colspan="7"
+                                                    >
+                                                        No trend data loaded.
+                                                    </td>
+                                                </tr>
+                                            </template>
+
+                                            <template
+                                                x-for="row in trendData"
+                                                :key="row.Ward"
+                                            >
+                                                <tr
+                                                    class="border-t hover:bg-gray-50 cursor-pointer"
+                                                    @click="selectWard(row.Ward)"
+                                                >
+                                                    <td
+                                                        class="px-3 py-1"
+                                                        x-text="row.Ward"
+                                                    ></td>
+
+                                                    <td
+                                                        class="px-3 py-1 text-center"
+                                                    >
+                                                        <span
+                                                            class="px-2 py-0.5 rounded-full text-xs"
+                                                            :class="{
+                                                                'bg-red-200 text-red-800': row.top2020 && row.top2020.party === 'LDF',
+                                                                'bg-blue-200 text-blue-800': row.top2020 && row.top2020.party === 'UDF',
+                                                                'bg-orange-200 text-orange-800': row.top2020 && row.top2020.party === 'NDA',
+                                                                'bg-gray-200 text-gray-800': !(row.top2020 && (row.top2020.party === 'LDF' || row.top2020.party === 'UDF' || row.top2020.party === 'NDA'))
+                                                            }"
+                                                            x-text="(row.top2020 && row.top2020.party) ? row.top2020.party : '—'"
+                                                        ></span>
+                                                    </td>
+
+                                                    <td
+                                                        class="px-3 py-1 text-right font-semibold"
+                                                        x-text="row.votes2020"
+                                                    ></td>
+
+                                                    <td
+                                                        class="px-3 py-1 text-right text-xs text-gray-600"
+                                                        x-text="formatLead(row.lead2020)"
+                                                    ></td>
+
+                                                    <td
+                                                        class="px-3 py-1 text-center"
+                                                    >
+                                                        <span
+                                                            class="px-2 py-0.5 rounded-full text-xs"
+                                                            :class="{
+                                                                'bg-red-200 text-red-800': row.top2015 && row.top2015.party === 'LDF',
+                                                                'bg-blue-200 text-blue-800': row.top2015 && row.top2015.party === 'UDF',
+                                                                'bg-orange-200 text-orange-800': row.top2015 && row.top2015.party === 'NDA',
+                                                                'bg-gray-200 text-gray-800': !(row.top2015 && (row.top2015.party === 'LDF' || row.top2015.party === 'UDF' || row.top2015.party === 'NDA'))
+                                                            }"
+                                                            x-text="(row.top2015 && row.top2015.party) ? row.top2015.party : '—'"
+                                                        ></span>
+                                                    </td>
+
+                                                    <td
+                                                        class="px-3 py-1 text-right font-semibold"
+                                                        x-text="row.votes2015"
+                                                    ></td>
+
+                                                    <td
+                                                        class="px-3 py-1 text-right text-xs text-gray-600"
+                                                        x-text="formatLead(row.lead2015)"
+                                                    ></td>
+                                                </tr>
+                                            </template>
+                                        </tbody>
+                                    </table>
+                                </template>
+
+                                <!-- Default (per-year) winning wards table -->
+                                <template x-if="activeMenu !== 'trend'">
+                                    <table class="min-w-full text-sm">
+                                        <thead class="bg-gray-50">
+                                            <tr>
+                                                <th class="text-left px-3 py-2">
+                                                    Ward
+                                                </th>
+                                                <th class="text-left px-3 py-2">
+                                                    Winner
+                                                </th>
+                                                <th
+                                                    class="text-center px-3 py-2"
+                                                >
+                                                    Group
+                                                </th>
+                                                <th
+                                                    class="text-right px-3 py-2"
+                                                >
+                                                    Votes
+                                                </th>
+                                                <th
+                                                    class="text-right px-3 py-2"
+                                                >
+                                                    Lead
+                                                </th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <template
+                                                x-for="ward in winningWards"
+                                                :key="ward.Ward"
+                                            >
+                                                <tr
+                                                    class="border-t hover:bg-gray-50 cursor-pointer"
+                                                    @click="selectWard(ward.Ward)"
+                                                >
+                                                    <td
+                                                        class="px-3 py-1"
+                                                        x-text="ward.Ward"
+                                                    ></td>
+                                                    <td
+                                                        class="px-3 py-1"
+                                                        x-text="ward.Name"
+                                                    ></td>
+                                                    <td
+                                                        class="px-3 py-1 text-center"
+                                                    >
+                                                        <span
+                                                            class="px-2 py-0.5 rounded-full text-xs"
+                                                            :class="{
                                 'bg-red-200 text-red-800': ward.PartyGroup === 'LDF',
                                 'bg-blue-200 text-blue-800': ward.PartyGroup === 'UDF',
                                 'bg-orange-200 text-orange-800': ward.PartyGroup === 'NDA',
                                 'bg-gray-200 text-gray-800': ward.PartyGroup === 'OTH'
                               }"
-                                                        x-text="ward.PartyGroup"
-                                                    ></span>
-                                                </td>
-                                                <td
-                                                    class="px-3 py-1 text-right font-semibold"
-                                                    x-text="ward.Vote"
-                                                ></td>
-                                                <td
-                                                    class="px-3 py-1 text-right text-xs text-gray-600"
-                                                    x-text="formatLead(leadForWard(ward))"
-                                                ></td>
-                                            </tr>
-                                        </template>
-                                    </tbody>
-                                </table>
+                                                            x-text="ward.PartyGroup"
+                                                        ></span>
+                                                    </td>
+                                                    <td
+                                                        class="px-3 py-1 text-right font-semibold"
+                                                        x-text="ward.Vote"
+                                                    ></td>
+                                                    <td
+                                                        class="px-3 py-1 text-right text-xs text-gray-600"
+                                                        x-text="formatLead(leadForWard(ward))"
+                                                    ></td>
+                                                </tr>
+                                            </template>
+                                        </tbody>
+                                    </table>
+                                </template>
                             </div>
                         </div>
                     </aside>
@@ -510,6 +650,7 @@
                     message: "",
                     error: "",
                     keralaData: [],
+                    trendData: [],
                     alertTimeout: null,
 
                     // filters
@@ -820,7 +961,7 @@
 
                             const rows = [];
 
-                            // Helper to extract top candidate info
+                            // Helper to extract top candidate info (also returns second highest and lead)
                             const topCandidateInfo = (ward) => {
                                 if (
                                     !ward ||
@@ -831,6 +972,8 @@
                                         name: null,
                                         party: null,
                                         votes: 0,
+                                        secondVotes: 0,
+                                        lead: null,
                                         share: null,
                                     };
                                 }
@@ -846,10 +989,15 @@
                                 );
                                 candidates.sort((a, b) => b.Vote - a.Vote);
                                 const top = candidates[0] || null;
+                                const second = candidates[1] || null;
+                                const topVotes = top ? top.Vote : 0;
+                                const secondVotes = second ? second.Vote : 0;
                                 return {
                                     name: top ? top.Name : null,
                                     party: top ? top.PartyGroup : null,
-                                    votes: top ? top.Vote : 0,
+                                    votes: topVotes,
+                                    secondVotes: secondVotes,
+                                    lead: top ? topVotes - secondVotes : null,
                                     share: top
                                         ? total > 0
                                             ? top.Vote / total
@@ -884,6 +1032,9 @@
                                     delta,
                                     top2015,
                                     top2020,
+                                    // add per-year lead values for UI
+                                    lead2015: top2015 ? top2015.lead : null,
+                                    lead2020: top2020 ? top2020.lead : null,
                                 });
                             }
 
