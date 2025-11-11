@@ -1,0 +1,4903 @@
+[
+  {
+    "Ward": "AAKKULAM",
+    "CanCode": "5",
+    "Name": "സുരേഷ്​​കുമാര്‍ എസ്സ്",
+    "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+    "PartyGroup": "UDF",
+    "Vote": "1891",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ജയകുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "39"
+      },
+      {
+        "CanCode": "2",
+        "Name": "വിഎം ജയകുമാർ",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1856"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ഷാജു",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1352"
+      },
+      {
+        "CanCode": "4",
+        "Name": "സുരേഷ്​​കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "82"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സുരേഷ്​​കുമാര്‍ എസ്സ്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1891"
+      }
+    ]
+  },
+  {
+    "Ward": "AATTIPRA",
+    "CanCode": "4",
+    "Name": "ശ്രീദേവി. എ",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2051",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "നവ്യ റ്റി",
+        "Party": "റവല്യൂഷനറി സോഷ്യലിസ്റ്റ് പാര്‍ട്ടി",
+        "PartyGroup": "UDF",
+        "Vote": "492"
+      },
+      {
+        "CanCode": "2",
+        "Name": "രാജലക്ഷ്മി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "49"
+      },
+      {
+        "CanCode": "3",
+        "Name": "രാജലക്ഷ്മി വി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1853"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ശ്രീദേവി. എ",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2051"
+      }
+    ]
+  },
+  {
+    "Ward": "AMBALATHARA",
+    "CanCode": "7",
+    "Name": "വി.എസ്. സുലോചനന്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+    "PartyGroup": "LDF",
+    "Vote": "2084",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ജഗദീഷ് എസ്",
+        "Party": "റവല്യൂഷനറി സോഷ്യലിസ്റ്റ് പാര്‍ട്ടി",
+        "PartyGroup": "UDF",
+        "Vote": "642"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ബീന. ആര്‍. സി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1900"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ബീന",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "21"
+      },
+      {
+        "CanCode": "4",
+        "Name": "മുസ്തഫ. എ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "5"
+      },
+      {
+        "CanCode": "5",
+        "Name": "എ.സിദ്ദിഖ്",
+        "Party": "സോഷ്യല്‍ ഡെമോക്രാറ്റിക് പാർട്ടി ഓഫ് ഇന്ത്യ (എസ്. ഡി. പി. ഐ.)",
+        "PartyGroup": "OTH",
+        "Vote": "933"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സുഭാഷ്ചന്ദ്രന്‍ എസ്. ജി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "14"
+      },
+      {
+        "CanCode": "7",
+        "Name": "വി.എസ്. സുലോചനന്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "2084"
+      }
+    ]
+  },
+  {
+    "Ward": "ANAMUGHAM",
+    "CanCode": "1",
+    "Name": "അജിത്കുമാര്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+    "PartyGroup": "LDF",
+    "Vote": "2390",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അജിത്കുമാര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "2390"
+      },
+      {
+        "CanCode": "2",
+        "Name": "അജിത്ത്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "18"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ബാലു",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1119"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ഷാജി വി",
+        "Party": "ബഹുജന്‍ സമാജ് പാർട്ടി",
+        "PartyGroup": "OTH",
+        "Vote": "57"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ഷിബു",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1037"
+      },
+      {
+        "CanCode": "6",
+        "Name": "ഷിബു കെ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "18"
+      }
+    ]
+  },
+  {
+    "Ward": "ARANNOOR",
+    "CanCode": "1",
+    "Name": "ബിന്ദു മേനോന്‍ എല്‍ ആര്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2060",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ബിന്ദു മേനോന്‍ എല്‍ ആര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2060"
+      },
+      {
+        "CanCode": "2",
+        "Name": "കെ രാധ",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "947"
+      },
+      {
+        "CanCode": "3",
+        "Name": "കുമാരി ശോഭ വി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1505"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ഷീജ എ",
+        "Party": "സോഷ്യല്‍ ഡെമോക്രാറ്റിക് പാർട്ടി ഓഫ് ഇന്ത്യ (എസ്. ഡി. പി. ഐ.)",
+        "PartyGroup": "OTH",
+        "Vote": "30"
+      }
+    ]
+  },
+  {
+    "Ward": "ATTUKAL",
+    "CanCode": "1",
+    "Name": "ആര്‍. ഉണ്ണികൃഷ്ണൻ നായര്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2560",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ആര്‍. ഉണ്ണികൃഷ്ണൻ നായര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2560"
+      },
+      {
+        "CanCode": "2",
+        "Name": "പി. കാര്‍ത്തികേയന്‍ തമ്പി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "11"
+      },
+      {
+        "CanCode": "3",
+        "Name": "പ്രശാന്തന്‍ തമ്പി. പി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "27"
+      },
+      {
+        "CanCode": "4",
+        "Name": "മണികണ്ഠന്‍ സി എ",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "868"
+      },
+      {
+        "CanCode": "5",
+        "Name": "മണികണ്ഠന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "24"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സുനില്‍ കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "50"
+      },
+      {
+        "CanCode": "7",
+        "Name": "സുനില്‍ കുമാര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2155"
+      }
+    ]
+  },
+  {
+    "Ward": "BEEMA PALLI",
+    "CanCode": "3",
+    "Name": "മിലാനി",
+    "Party": "ഇന്ത്യന്‍ യൂണിയൻ മുസ്ലീംലീഗ്",
+    "PartyGroup": "UDF",
+    "Vote": "1710",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ഫാത്തിമ റിസാന",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "9"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ഫാസിലാബീവി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "12"
+      },
+      {
+        "CanCode": "3",
+        "Name": "മിലാനി",
+        "Party": "ഇന്ത്യന്‍ യൂണിയൻ മുസ്ലീംലീഗ്",
+        "PartyGroup": "UDF",
+        "Vote": "1710"
+      },
+      {
+        "CanCode": "4",
+        "Name": "മേമ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "65"
+      },
+      {
+        "CanCode": "5",
+        "Name": "രഞ്ചു അൻസലൻ",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1441"
+      },
+      {
+        "CanCode": "6",
+        "Name": "ശോഭ",
+        "Party": "കേരളാ കോൺഗ്രസ്സ്",
+        "PartyGroup": "UDF",
+        "Vote": "60"
+      },
+      {
+        "CanCode": "7",
+        "Name": "ഷമീറാ ബീവി എ കെ",
+        "Party": "പീപ്പിള്‍സ് ഡെമോക്രാറ്റിക് പാർട്ടി (പി.ഡി.പി.)",
+        "PartyGroup": "OTH",
+        "Vote": "1579"
+      },
+      {
+        "CanCode": "8",
+        "Name": "ഷൈനി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "45"
+      },
+      {
+        "CanCode": "9",
+        "Name": "ഷൈനി രാജന്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "113"
+      }
+    ]
+  },
+  {
+    "Ward": "BEEMA PALLI EAST",
+    "CanCode": "11",
+    "Name": "സുധീര്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1305",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ഇസ്ഹാഖ് ഇ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "17"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ഐവി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "23"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ജോസ് പ്രകാശ് പി",
+        "Party": "കേരളാ കോൺഗ്രസ്സ്",
+        "PartyGroup": "UDF",
+        "Vote": "26"
+      },
+      {
+        "CanCode": "4",
+        "Name": "നിസാം എ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "5"
+      },
+      {
+        "CanCode": "5",
+        "Name": "മാഹീന്‍കണ്ണ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "17"
+      },
+      {
+        "CanCode": "6",
+        "Name": "മുത്തലിഫ് എ",
+        "Party": "സോഷ്യല്‍ ഡെമോക്രാറ്റിക് പാർട്ടി ഓഫ് ഇന്ത്യ (എസ്. ഡി. പി. ഐ.)",
+        "PartyGroup": "OTH",
+        "Vote": "586"
+      },
+      {
+        "CanCode": "7",
+        "Name": "മുഹമ്മദ് മഷ്ഹൂദ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "1207"
+      },
+      {
+        "CanCode": "8",
+        "Name": "ഷീജ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "5"
+      },
+      {
+        "CanCode": "9",
+        "Name": "സജീന ബീവി ഇ",
+        "Party": "ഇന്ത്യന്‍ യൂണിയൻ മുസ്ലീംലീഗ്",
+        "PartyGroup": "UDF",
+        "Vote": "1133"
+      },
+      {
+        "CanCode": "10",
+        "Name": "സജീനാ ബീവി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "22"
+      },
+      {
+        "CanCode": "11",
+        "Name": "സുധീര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1305"
+      },
+      {
+        "CanCode": "12",
+        "Name": "സുധീര്‍ എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "30"
+      },
+      {
+        "CanCode": "13",
+        "Name": "റസീം ഖാന്‍ ആര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "23"
+      }
+    ]
+  },
+  {
+    "Ward": "CHAKKA",
+    "CanCode": "5",
+    "Name": "ശാന്ത എം",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1842",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "രാഖി എസ്",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1420"
+      },
+      {
+        "CanCode": "2",
+        "Name": "രാജി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "12"
+      },
+      {
+        "CanCode": "3",
+        "Name": "എൽ രേഷ്മ സുന്ദരേശൻ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "9"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ലത",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "469"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ശാന്ത എം",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1842"
+      }
+    ]
+  },
+  {
+    "Ward": "CHALAI",
+    "CanCode": "7",
+    "Name": "സിമി റാണി",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2117",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ഉഷാ സതീഷ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "110"
+      },
+      {
+        "CanCode": "2",
+        "Name": "രാജലക്ഷ്മി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "23"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ഇ.കെ. രാജലക്ഷ്മി",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1673"
+      },
+      {
+        "CanCode": "4",
+        "Name": "രാജേശ്വരി",
+        "Party": "ആള്‍ ഇന്ത്യ അണ്ണാ ഡി.എം.കെ.",
+        "PartyGroup": "OTH",
+        "Vote": "59"
+      },
+      {
+        "CanCode": "5",
+        "Name": "വിജി. കെ ആര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "5"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സിന്ധു പഴനി",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "347"
+      },
+      {
+        "CanCode": "7",
+        "Name": "സിമി റാണി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2117"
+      }
+    ]
+  },
+  {
+    "Ward": "CHANTHAVILA",
+    "CanCode": "2",
+    "Name": "എം.ബിനു",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+    "PartyGroup": "LDF",
+    "Vote": "2405",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ജയന്‍ കുറുവല്ല",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "69"
+      },
+      {
+        "CanCode": "2",
+        "Name": "എം.ബിനു",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "2405"
+      },
+      {
+        "CanCode": "3",
+        "Name": "തെറ്റിയാര്‍ രവീന്ദ്രന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "54"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ഷൈജുമോന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "10"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സനീഷ് ചന്തവിള",
+        "Party": "സോഷ്യല്‍ ഡെമോക്രാറ്റിക് പാർട്ടി ഓഫ് ഇന്ത്യ (എസ്. ഡി. പി. ഐ.)",
+        "PartyGroup": "OTH",
+        "Vote": "90"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സുനി ചന്ദ്രന്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1947"
+      },
+      {
+        "CanCode": "7",
+        "Name": "സെല്‍വരാജന്‍ (ഏ.സൊല്‍വരാജന്‍)",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1989"
+      }
+    ]
+  },
+  {
+    "Ward": "CHELLAMANGALAM",
+    "CanCode": "1",
+    "Name": "ഗായത്രിദേവി",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2981",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ഗായത്രിദേവി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2981"
+      },
+      {
+        "CanCode": "2",
+        "Name": "രജനി. വി വസന്ത",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "16"
+      },
+      {
+        "CanCode": "3",
+        "Name": "രേഖ വിജയന്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "965"
+      },
+      {
+        "CanCode": "4",
+        "Name": "വത്സല",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "18"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ഷീല",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2893"
+      },
+      {
+        "CanCode": "6",
+        "Name": "ഷീലാകുമാരി ആര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "40"
+      },
+      {
+        "CanCode": "7",
+        "Name": "റീന",
+        "Party": "ബഹുജന്‍ സമാജ് പാർട്ടി",
+        "PartyGroup": "OTH",
+        "Vote": "54"
+      }
+    ]
+  },
+  {
+    "Ward": "CHEMPAZHANTHY",
+    "CanCode": "1",
+    "Name": "ചെമ്പഴന്തി ഉദയന്‍",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2798",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ചെമ്പഴന്തി ഉദയന്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2798"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ഉദയകുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "15"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ഉദയകുമാര്‍ എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "11"
+      },
+      {
+        "CanCode": "4",
+        "Name": "അണിയൂര്‍ എം പ്രസന്ന കുമാര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "2305"
+      },
+      {
+        "CanCode": "5",
+        "Name": "പ്രസന്ന കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "45"
+      },
+      {
+        "CanCode": "6",
+        "Name": "പ്രസന്നകുമാര്‍. ഡി. ഒ.",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "19"
+      },
+      {
+        "CanCode": "7",
+        "Name": "മധുകുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "16"
+      },
+      {
+        "CanCode": "8",
+        "Name": "പി മഹാദേവ൯",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2054"
+      },
+      {
+        "CanCode": "9",
+        "Name": "സുഗുണന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "19"
+      }
+    ]
+  },
+  {
+    "Ward": "CHERUVAKKAL",
+    "CanCode": "1",
+    "Name": "ബിന്ദു എസ്.ആര്‍",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2194",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ബിന്ദു എസ്.ആര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2194"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ബിന്ദു",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "17"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ബിന്ദു ഡി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "18"
+      },
+      {
+        "CanCode": "4",
+        "Name": "വിജയകുമാരി കെ (വിജി)",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "105"
+      },
+      {
+        "CanCode": "5",
+        "Name": "വി.ആര്‍.സിനി",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് മാര്‍ക്‌സിസ്റ്റ് പാർട്ടി സെൻട്രൽ കൗൺസിൽ(സി. പി. ജോൺ ഘടകം)",
+        "PartyGroup": "OTH",
+        "Vote": "2011"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സൂര്യ ഹേമൻ",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1778"
+      }
+    ]
+  },
+  {
+    "Ward": "CHETTIVILAKAM",
+    "CanCode": "2",
+    "Name": "വി മീന ദിനേഷ്",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2100",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "മഞ്ജുഷ എസ്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1217"
+      },
+      {
+        "CanCode": "2",
+        "Name": "വി മീന ദിനേഷ്",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2100"
+      },
+      {
+        "CanCode": "3",
+        "Name": "വി കെ ലളിതകുമാരി",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "1708"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ലൈല",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "133"
+      }
+    ]
+  },
+  {
+    "Ward": "EDAVACODE",
+    "CanCode": "5",
+    "Name": "എല്‍ എസ് സാജു",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2235",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അശോകന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "55"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ഇടവക്കോട് അശോകന്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1285"
+      },
+      {
+        "CanCode": "3",
+        "Name": "വിക്രമന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "80"
+      },
+      {
+        "CanCode": "4",
+        "Name": "പോങ്ങുംമൂട് വിക്രമന്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1892"
+      },
+      {
+        "CanCode": "5",
+        "Name": "എല്‍ എസ് സാജു",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2235"
+      }
+    ]
+  },
+  {
+    "Ward": "ESTATE",
+    "CanCode": "3",
+    "Name": "സൗമ്യ. എല്‍",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2245",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "പത്മകുമാരി. ആര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1966"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ശ്രീന.എന്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1362"
+      },
+      {
+        "CanCode": "3",
+        "Name": "സൗമ്യ. എല്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2245"
+      }
+    ]
+  },
+  {
+    "Ward": "FORT",
+    "CanCode": "3",
+    "Name": "ജാനകി അമ്മാള്‍",
+    "Party": "സ്വതന്ത്രൻ",
+    "PartyGroup": "OTH",
+    "Vote": "1724",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ഉദയലക്ഷ്മി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "654"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ചിത്ര എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "652"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ജാനകി അമ്മാള്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "1724"
+      }
+    ]
+  },
+  {
+    "Ward": "HARBOUR",
+    "CanCode": "2",
+    "Name": "നിസ്സാമുദ്ദീന്‍. എം",
+    "Party": "സ്വതന്ത്രൻ",
+    "PartyGroup": "OTH",
+    "Vote": "2138",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "നിസ്സാമുദീന്‍ അബ്ദുള്‍ഖഫൂര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "21"
+      },
+      {
+        "CanCode": "2",
+        "Name": "നിസ്സാമുദ്ദീന്‍. എം",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "2138"
+      },
+      {
+        "CanCode": "3",
+        "Name": "നിസാമുദ്ദീന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "14"
+      },
+      {
+        "CanCode": "4",
+        "Name": "മുജീബ്റഹ്മാന്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "855"
+      },
+      {
+        "CanCode": "5",
+        "Name": "യുസഫ്ഖാന്‍. എം. എം.",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1110"
+      },
+      {
+        "CanCode": "6",
+        "Name": "ശ്രീകുമാരന്‍ നായര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "207"
+      }
+    ]
+  },
+  {
+    "Ward": "JAGATHY",
+    "CanCode": "4",
+    "Name": "ഷീജ മധുസൂദനന്‍ നായര്‍",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "1651",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "നിതു വിജയന്‍ ജി",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "999"
+      },
+      {
+        "CanCode": "2",
+        "Name": "വിദ്യാമോഹന്‍ എം എ",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1377"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ഷീജ ജെ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "39"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ഷീജ മധുസൂദനന്‍ നായര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1651"
+      }
+    ]
+  },
+  {
+    "Ward": "KACHANI",
+    "CanCode": "4",
+    "Name": "രമ",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2282",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ആതിര",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1356"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ആന്‍ലറ്റ് എ പി",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "857"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ജയലക്ഷ്മി എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "26"
+      },
+      {
+        "CanCode": "4",
+        "Name": "രമ",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2282"
+      },
+      {
+        "CanCode": "5",
+        "Name": "രമാദേവി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "21"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സുറുമി എസ്",
+        "Party": "സോഷ്യല്‍ ഡെമോക്രാറ്റിക് പാർട്ടി ഓഫ് ഇന്ത്യ (എസ്. ഡി. പി. ഐ.)",
+        "PartyGroup": "OTH",
+        "Vote": "27"
+      }
+    ]
+  },
+  {
+    "Ward": "KADAKAMPALLY",
+    "CanCode": "4",
+    "Name": "ഗോപകുമാര്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2244",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അനി ആര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "54"
+      },
+      {
+        "CanCode": "2",
+        "Name": "അനില്‍കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "42"
+      },
+      {
+        "CanCode": "3",
+        "Name": "അനില്‍ കുമാര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1599"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ഗോപകുമാര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2244"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ജയ രാജിവ്",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1623"
+      },
+      {
+        "CanCode": "6",
+        "Name": "ജയറാണി സി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "21"
+      },
+      {
+        "CanCode": "7",
+        "Name": "സന്തോഷ് കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "11"
+      }
+    ]
+  },
+  {
+    "Ward": "KALADI",
+    "CanCode": "6",
+    "Name": "വി. ശിവകുമാര്‍",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "1623",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "എം. രാജപ്പന്‍ നായര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "1600"
+      },
+      {
+        "CanCode": "2",
+        "Name": "രാജപ്പന്‍ നായര്‍. ജി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "9"
+      },
+      {
+        "CanCode": "3",
+        "Name": "രാജപ്പൻ. നായർ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "11"
+      },
+      {
+        "CanCode": "4",
+        "Name": "രാജപ്പന്‍ നായര്‍ എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "21"
+      },
+      {
+        "CanCode": "5",
+        "Name": "പി. വിജയകുമാരന്‍",
+        "Party": "ജനതാദള്‍ (യുണൈറ്റഡ്)",
+        "PartyGroup": "OTH",
+        "Vote": "38"
+      },
+      {
+        "CanCode": "6",
+        "Name": "വി. ശിവകുമാര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1623"
+      },
+      {
+        "CanCode": "7",
+        "Name": "സതീഷ് കുമാര്‍",
+        "Party": "കേരള കോൺഗ്രസ് (എം)",
+        "PartyGroup": "LDF",
+        "Vote": "186"
+      },
+      {
+        "CanCode": "8",
+        "Name": "സുരേഷ്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1262"
+      }
+    ]
+  },
+  {
+    "Ward": "KALIPPANKULAM",
+    "CanCode": "5",
+    "Name": "സജുലാല്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1749",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ആതിര. ജെ. ആര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1126"
+      },
+      {
+        "CanCode": "2",
+        "Name": "മുഹമ്മദ് സലിം",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "7"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ഹുസൈന്‍ സേട്ട്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "596"
+      },
+      {
+        "CanCode": "4",
+        "Name": "മുഹമ്മദ് യൂസുഫ്",
+        "Party": "സോഷ്യല്‍ ഡെമോക്രാറ്റിക് പാർട്ടി ഓഫ് ഇന്ത്യ (എസ്. ഡി. പി. ഐ.)",
+        "PartyGroup": "OTH",
+        "Vote": "206"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സജുലാല്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1749"
+      }
+    ]
+  },
+  {
+    "Ward": "KAMALESWARAM",
+    "CanCode": "2",
+    "Name": "വിജയകുമാരി. വി",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1912",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അനീഷ. എന്‍",
+        "Party": "വെല്‍ഫെയർ പാർട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "OTH",
+        "Vote": "189"
+      },
+      {
+        "CanCode": "2",
+        "Name": "വിജയകുമാരി. വി",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1912"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ശാന്തിദാസ്.വി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1764"
+      },
+      {
+        "CanCode": "4",
+        "Name": "സിന്ധു ആര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "719"
+      }
+    ]
+  },
+  {
+    "Ward": "KANJIRAMPARA",
+    "CanCode": "3",
+    "Name": "സുമി എസ് എസ്",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "1831",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ഗായത്രി",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1267"
+      },
+      {
+        "CanCode": "2",
+        "Name": "വസന്തകുമാരി",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1666"
+      },
+      {
+        "CanCode": "3",
+        "Name": "സുമി എസ് എസ്",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1831"
+      }
+    ]
+  },
+  {
+    "Ward": "KANNAMMOOLA",
+    "CanCode": "5",
+    "Name": "ശരണ്യ എസ് എസ്",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1420",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ജയശ്രീ",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "937"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ജയശ്രീ റ്റി ആര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "21"
+      },
+      {
+        "CanCode": "3",
+        "Name": "യമുന വൈ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "236"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ശരണൃ എൽ എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "67"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ശരണ്യ എസ് എസ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1420"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സൗമ്യ പി",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് മാര്‍ക്‌സിസ്റ്റ് പാർട്ടി സെൻട്രൽ കൗൺസിൽ(സി. പി. ജോൺ ഘടകം)",
+        "PartyGroup": "OTH",
+        "Vote": "1186"
+      },
+      {
+        "CanCode": "7",
+        "Name": "സൗമ്യ എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "16"
+      }
+    ]
+  },
+  {
+    "Ward": "KARAMANA",
+    "CanCode": "3",
+    "Name": "മഞ്ജു",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2298",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ഗീത എന്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1535"
+      },
+      {
+        "CanCode": "2",
+        "Name": "പത്മ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "385"
+      },
+      {
+        "CanCode": "3",
+        "Name": "മഞ്ജു",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2298"
+      },
+      {
+        "CanCode": "4",
+        "Name": "രാജി ആർ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "12"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ഹസ്സീന",
+        "Party": "സോഷ്യല്‍ ഡെമോക്രാറ്റിക് പാർട്ടി ഓഫ് ഇന്ത്യ (എസ്. ഡി. പി. ഐ.)",
+        "PartyGroup": "OTH",
+        "Vote": "26"
+      }
+    ]
+  },
+  {
+    "Ward": "KARIKKAKAM",
+    "CanCode": "2",
+    "Name": "കുമാരൻ നായർ",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2488",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അനില്‍കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "27"
+      },
+      {
+        "CanCode": "2",
+        "Name": "കുമാരൻ നായർ",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2488"
+      },
+      {
+        "CanCode": "3",
+        "Name": "മണിലാൽ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "63"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ശ്രീകുമാരൻ നായർ കെ",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2372"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സുരേഷ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "39"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സുരേഷ്കുമാർ",
+        "Party": "റവല്യൂഷനറി സോഷ്യലിസ്റ്റ് പാര്‍ട്ടി",
+        "PartyGroup": "UDF",
+        "Vote": "595"
+      }
+    ]
+  },
+  {
+    "Ward": "KATTAYIKONAM",
+    "CanCode": "5",
+    "Name": "ഡി. രമേശന്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "3276",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അന്‍സര്‍",
+        "Party": "ആം ആദ്മി പാര്‍ട്ടി (എ.എ.പി)",
+        "PartyGroup": "OTH",
+        "Vote": "15"
+      },
+      {
+        "CanCode": "2",
+        "Name": "നേശന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "59"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ബിജു കൊച്ചാമക്കുഴി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "19"
+      },
+      {
+        "CanCode": "4",
+        "Name": "മനീഷ്.ജി.ജെ",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1114"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ഡി. രമേശന്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "3276"
+      },
+      {
+        "CanCode": "6",
+        "Name": "രമേശ് കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "45"
+      },
+      {
+        "CanCode": "7",
+        "Name": "കെ.വിജയകുമാരന്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1490"
+      },
+      {
+        "CanCode": "8",
+        "Name": "വിജയന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "10"
+      },
+      {
+        "CanCode": "9",
+        "Name": "കെ.എസ്. സുരേഷ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "85"
+      }
+    ]
+  },
+  {
+    "Ward": "KAZHAKKUTTOM",
+    "CanCode": "4",
+    "Name": "കവിത എല്‍.എസ്",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2830",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അനു",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "29"
+      },
+      {
+        "CanCode": "2",
+        "Name": "അനു ജി പ്രഭ",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1670"
+      },
+      {
+        "CanCode": "3",
+        "Name": "കവിത ആര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "54"
+      },
+      {
+        "CanCode": "4",
+        "Name": "കവിത എല്‍.എസ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2830"
+      },
+      {
+        "CanCode": "5",
+        "Name": "യമുന",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "10"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സജിത എസ്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "2074"
+      },
+      {
+        "CanCode": "7",
+        "Name": "സജിദേവ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "20"
+      }
+    ]
+  },
+  {
+    "Ward": "KESAVADASAPURAM",
+    "CanCode": "1",
+    "Name": "അഡ്വ. അംശു വാമദേവന്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1812",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അഡ്വ. അംശു വാമദേവന്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1812"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ജോര്‍ജ് ലൂയിസ്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1451"
+      },
+      {
+        "CanCode": "3",
+        "Name": "വില്‍സണ്‍ ജോര്‍ജ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "357"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ഹരികുമാര്‍ ആര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "798"
+      }
+    ]
+  },
+  {
+    "Ward": "KINAVOOR",
+    "CanCode": "4",
+    "Name": "സുരകുമാരി ആര്‍",
+    "Party": "ജനാധിപത്യ സംരക്ഷണ സമിതി (ജെ. എസ്. എസ്.)",
+    "PartyGroup": "OTH",
+    "Vote": "1219",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ആശാകുമാരി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1091"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ത്രേസ്യാമ്മ ടീച്ചര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "992"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ഷീജാ വര്‍ഗ്ഗീസ് പി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "1026"
+      },
+      {
+        "CanCode": "4",
+        "Name": "സുരകുമാരി ആര്‍",
+        "Party": "ജനാധിപത്യ സംരക്ഷണ സമിതി (ജെ. എസ്. എസ്.)",
+        "PartyGroup": "OTH",
+        "Vote": "1219"
+      }
+    ]
+  },
+  {
+    "Ward": "KODUNGANOOR",
+    "CanCode": "2",
+    "Name": "പത്മ",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2216",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ആന്‍സി വര്‍ഗീസ്",
+        "Party": "ജനതാദള്‍ (സെക്കുലര്‍)",
+        "PartyGroup": "LDF",
+        "Vote": "1711"
+      },
+      {
+        "CanCode": "2",
+        "Name": "പത്മ",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2216"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ശ്രീലത",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1484"
+      },
+      {
+        "CanCode": "4",
+        "Name": "സിന്ധു സി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "24"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സിന്ധു എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "394"
+      }
+    ]
+  },
+  {
+    "Ward": "KOTTAPURAM",
+    "CanCode": "4",
+    "Name": "പനിയടിമ",
+    "Party": "സ്വതന്ത്രൻ",
+    "PartyGroup": "OTH",
+    "Vote": "2695",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "കൃഷ്ണന്‍കുട്ടി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "82"
+      },
+      {
+        "CanCode": "2",
+        "Name": "നെല്‍സണ്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "1757"
+      },
+      {
+        "CanCode": "3",
+        "Name": "നെല്‍സന്‍",
+        "Party": "ആം ആദ്മി പാര്‍ട്ടി (എ.എ.പി)",
+        "PartyGroup": "OTH",
+        "Vote": "76"
+      },
+      {
+        "CanCode": "4",
+        "Name": "പനിയടിമ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "2695"
+      },
+      {
+        "CanCode": "5",
+        "Name": "പുഷ്പരാജന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "544"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സേവ്യര്‍പയസ്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1270"
+      }
+    ]
+  },
+  {
+    "Ward": "KOWDIAR",
+    "CanCode": "4",
+    "Name": "സതികുമാരി",
+    "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+    "PartyGroup": "UDF",
+    "Vote": "1140",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ഗീതാകുമാരി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "33"
+      },
+      {
+        "CanCode": "2",
+        "Name": "വത്സലകുമാരി (മന്നി)",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1139"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ശ്രീലേഖ",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "836"
+      },
+      {
+        "CanCode": "4",
+        "Name": "സതികുമാരി",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1140"
+      }
+    ]
+  },
+  {
+    "Ward": "KUDAPPANAKUNNU",
+    "CanCode": "2",
+    "Name": "എസ് ജയചന്ദ്രന്‍ നായര്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1804",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അനില്‍കുമാര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1759"
+      },
+      {
+        "CanCode": "2",
+        "Name": "എസ് ജയചന്ദ്രന്‍ നായര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1804"
+      },
+      {
+        "CanCode": "3",
+        "Name": "എൻ മുരളി",
+        "Party": "ബഹുജന്‍ സമാജ് പാർട്ടി",
+        "PartyGroup": "OTH",
+        "Vote": "22"
+      },
+      {
+        "CanCode": "4",
+        "Name": "എസ് ശ്രീകുമാര്‍ (വഴയില ഉണ്ണി)",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1067"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ഷിബു ആര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "89"
+      },
+      {
+        "CanCode": "6",
+        "Name": "അഡ്വ. ഹരിഹരന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "241"
+      }
+    ]
+  },
+  {
+    "Ward": "KULATHOOR",
+    "CanCode": "3",
+    "Name": "നാജ",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1420",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ദീപ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "20"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ദീപാരാജ്",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "989"
+      },
+      {
+        "CanCode": "3",
+        "Name": "നാജ",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1420"
+      },
+      {
+        "CanCode": "4",
+        "Name": "സജികുമാരി എ",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "898"
+      }
+    ]
+  },
+  {
+    "Ward": "KUNNUKUZHY",
+    "CanCode": "4",
+    "Name": "മേരി പുഷ്പം.എ",
+    "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+    "PartyGroup": "UDF",
+    "Vote": "1659",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ഒലീന എ.ജി.",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1190"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ബിന്ദു",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "256"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ബിന്ദു",
+        "Party": "ബഹുജന്‍ സമാജ് പാർട്ടി",
+        "PartyGroup": "OTH",
+        "Vote": "23"
+      },
+      {
+        "CanCode": "4",
+        "Name": "മേരി പുഷ്പം.എ",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1659"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സുഷമ ബാലന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "58"
+      }
+    ]
+  },
+  {
+    "Ward": "KURAVANKONAM",
+    "CanCode": "4",
+    "Name": "ശ്യാം കുമാര്‍",
+    "Party": "റവല്യൂഷനറി സോഷ്യലിസ്റ്റ് പാര്‍ട്ടി",
+    "PartyGroup": "UDF",
+    "Vote": "1161",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അജിത്കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "348"
+      },
+      {
+        "CanCode": "2",
+        "Name": "മോഹനചന്ദ്രന്‍ നായര്‍ (ചാന്നാന്‍വിള മോഹനന്‍)",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "635"
+      },
+      {
+        "CanCode": "3",
+        "Name": "രാജേഷ് കുമാര്‍ ആര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "878"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ശ്യാം കുമാര്‍",
+        "Party": "റവല്യൂഷനറി സോഷ്യലിസ്റ്റ് പാര്‍ട്ടി",
+        "PartyGroup": "UDF",
+        "Vote": "1161"
+      }
+    ]
+  },
+  {
+    "Ward": "KURYATHI",
+    "CanCode": "5",
+    "Name": "മോഹനന്‍ നായര്‍",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2001",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അനിൽകുമാർ. എസ്സ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "17"
+      },
+      {
+        "CanCode": "2",
+        "Name": "അനൂപ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "4"
+      },
+      {
+        "CanCode": "3",
+        "Name": "അയ്യപ്പദാസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "1"
+      },
+      {
+        "CanCode": "4",
+        "Name": "മോഹനന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "53"
+      },
+      {
+        "CanCode": "5",
+        "Name": "മോഹനന്‍ നായര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2001"
+      },
+      {
+        "CanCode": "6",
+        "Name": "രാജേഷ്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1285"
+      },
+      {
+        "CanCode": "7",
+        "Name": "രാജേഷ്. എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "38"
+      },
+      {
+        "CanCode": "8",
+        "Name": "ശശിധരന്‍ നായര്‍",
+        "Party": "ലോക്താന്ത്രിക് ജനതാദൾ",
+        "PartyGroup": "LDF",
+        "Vote": "1074"
+      }
+    ]
+  },
+  {
+    "Ward": "MANACAUD",
+    "CanCode": "5",
+    "Name": "സുരേഷ്",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "1805",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "കമല്‍ റോയ്",
+        "Party": "നാഷണലിസ്റ്റ് കോൺഗ്രസ് പാർട്ടി",
+        "PartyGroup": "LDF",
+        "Vote": "1657"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ടി. പി. പ്രസാദ്​",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1089"
+      },
+      {
+        "CanCode": "3",
+        "Name": "മോഹനന്‍ ഡി",
+        "Party": "സോഷ്യല്‍ ഡെമോക്രാറ്റിക് പാർട്ടി ഓഫ് ഇന്ത്യ (എസ്. ഡി. പി. ഐ.)",
+        "PartyGroup": "OTH",
+        "Vote": "25"
+      },
+      {
+        "CanCode": "4",
+        "Name": "രജനി.സി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "12"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സുരേഷ്",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1805"
+      }
+    ]
+  },
+  {
+    "Ward": "MANIKYA VILAKAM",
+    "CanCode": "6",
+    "Name": "മുഹമ്മദ് ബഷീര്‍",
+    "Party": "ഇന്ത്യന്‍ നാഷണൽ ലീഗ് (ഐ. എന്‍. എല്‍.)",
+    "PartyGroup": "LDF",
+    "Vote": "1488",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ജെയ്സണ്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "9"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ജോണ്‍ മാത്യു",
+        "Party": "കേരളാ കോൺഗ്രസ്സ്",
+        "PartyGroup": "UDF",
+        "Vote": "1224"
+      },
+      {
+        "CanCode": "3",
+        "Name": "പീരുമുഹമ്മദ്",
+        "Party": "പീപ്പിള്‍സ് ഡെമോക്രാറ്റിക് പാർട്ടി (പി.ഡി.പി.)",
+        "PartyGroup": "OTH",
+        "Vote": "450"
+      },
+      {
+        "CanCode": "4",
+        "Name": "പീറ്റര്‍ സോളമന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "26"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ബാബു",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1160"
+      },
+      {
+        "CanCode": "6",
+        "Name": "മുഹമ്മദ് ബഷീര്‍",
+        "Party": "ഇന്ത്യന്‍ നാഷണൽ ലീഗ് (ഐ. എന്‍. എല്‍.)",
+        "PartyGroup": "LDF",
+        "Vote": "1488"
+      },
+      {
+        "CanCode": "7",
+        "Name": "എം. സതീഷ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "14"
+      },
+      {
+        "CanCode": "8",
+        "Name": "സനല്‍ കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "230"
+      },
+      {
+        "CanCode": "9",
+        "Name": "എ.എം. സുബൈര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "633"
+      }
+    ]
+  },
+  {
+    "Ward": "MANNANTHALA",
+    "CanCode": "4",
+    "Name": "വനജ രാജേന്ദ്രബാബു",
+    "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+    "PartyGroup": "UDF",
+    "Vote": "1750",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അശ്വതി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "47"
+      },
+      {
+        "CanCode": "2",
+        "Name": "അശ്വതി എസ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1305"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ദിവ്യ ശ്യാം ചന്ദ്രന്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1248"
+      },
+      {
+        "CanCode": "4",
+        "Name": "വനജ രാജേന്ദ്രബാബു",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1750"
+      }
+    ]
+  },
+  {
+    "Ward": "MEDICAL COLLEGE",
+    "CanCode": "1",
+    "Name": "ഡി ആര്‍ അനില്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2658",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ഡി ആര്‍ അനില്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2658"
+      },
+      {
+        "CanCode": "2",
+        "Name": "അരുണ്‍ രാജ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "13"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ജൂഡ് ജോസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "16"
+      },
+      {
+        "CanCode": "4",
+        "Name": "റ്റി ആര്‍ രാജേഷ്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1292"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ആര്‍ രാജേഷ് കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "22"
+      },
+      {
+        "CanCode": "6",
+        "Name": "ഷിജുലാല്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "917"
+      }
+    ]
+  },
+  {
+    "Ward": "MELAMCODE",
+    "CanCode": "3",
+    "Name": "ശ്രീദേവി. എസ്. കെ",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "3534",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അക്ഷയ വി. എസ്.",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2588"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ബിന്ദു. വി.എസ്സ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "88"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ശ്രീദേവി. എസ്. കെ",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "3534"
+      },
+      {
+        "CanCode": "4",
+        "Name": "സുമി. എസ്. എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "31"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സുമികൃഷ്ണ",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "891"
+      }
+    ]
+  },
+  {
+    "Ward": "MUDAVANMUGHAL",
+    "CanCode": "1",
+    "Name": "ആരൃ രാജേന്ദ്രൻ എസ്",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2872",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ആരൃ രാജേന്ദ്രൻ എസ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2872"
+      },
+      {
+        "CanCode": "2",
+        "Name": "രാജി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "41"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ശകുന്തളദേവി എ",
+        "Party": "കേരള കാമരാജ് കോൺഗ്രസ്സ്",
+        "PartyGroup": "NDA",
+        "Vote": "609"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ശ്രീകല",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "2323"
+      }
+    ]
+  },
+  {
+    "Ward": "MULLOOR",
+    "CanCode": "4",
+    "Name": "സി. ഓമന",
+    "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+    "PartyGroup": "UDF",
+    "Vote": "2206",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അജിത",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "1416"
+      },
+      {
+        "CanCode": "2",
+        "Name": "അജിത",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "13"
+      },
+      {
+        "CanCode": "3",
+        "Name": "അഞ്ജു. കെ",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1057"
+      },
+      {
+        "CanCode": "4",
+        "Name": "സി. ഓമന",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "2206"
+      },
+      {
+        "CanCode": "5",
+        "Name": "മിനിമോള്‍. ഡബ്ല്യു",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "580"
+      }
+    ]
+  },
+  {
+    "Ward": "MUTTADA",
+    "CanCode": "4",
+    "Name": "റിനോയ് റ്റി പി",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1275",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "രമ്യ രമേഷ് എസ് ആര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "704"
+      },
+      {
+        "CanCode": "2",
+        "Name": "പേരൂർക്കട രവി",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "505"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ലാലന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "231"
+      },
+      {
+        "CanCode": "4",
+        "Name": "റിനോയ് റ്റി പി",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1275"
+      }
+    ]
+  },
+  {
+    "Ward": "MUTTATHARA",
+    "CanCode": "5",
+    "Name": "രാജേന്ദ്രന്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2995",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അനില്‍ കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "26"
+      },
+      {
+        "CanCode": "2",
+        "Name": "അനില്‍ കുമാര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2118"
+      },
+      {
+        "CanCode": "3",
+        "Name": "അബ്ദുള്‍അസീസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "48"
+      },
+      {
+        "CanCode": "4",
+        "Name": "കുമാരന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "34"
+      },
+      {
+        "CanCode": "5",
+        "Name": "രാജേന്ദ്രന്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2995"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സോമന്‍ ബി",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് മാര്‍ക്‌സിസ്റ്റ് പാർട്ടി സെൻട്രൽ കൗൺസിൽ(സി. പി. ജോൺ ഘടകം)",
+        "PartyGroup": "OTH",
+        "Vote": "540"
+      }
+    ]
+  },
+  {
+    "Ward": "NALANCHIRA",
+    "CanCode": "1",
+    "Name": "ജോണ്‍സണ്‍ ജോസഫ്",
+    "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+    "PartyGroup": "UDF",
+    "Vote": "1973",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ജോണ്‍സണ്‍ ജോസഫ്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1973"
+      },
+      {
+        "CanCode": "2",
+        "Name": "തോമസ് ചെറിയാന്‍",
+        "Party": "കേരള കോൺഗ്രസ് (എം)",
+        "PartyGroup": "LDF",
+        "Vote": "1579"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ആര്‍ ശോഭനന്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "548"
+      },
+      {
+        "CanCode": "4",
+        "Name": "സന്തോഷ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "95"
+      }
+    ]
+  },
+  {
+    "Ward": "NANTHANCODE",
+    "CanCode": "4",
+    "Name": "ഡോ. റീന.കെ എസ്",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1273",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "പ്രിന്‍സി സി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "492"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ലീലാമ്മ ടീച്ചര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "414"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ഷീലാ രമണി",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "891"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ഡോ. റീന.കെ എസ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1273"
+      }
+    ]
+  },
+  {
+    "Ward": "NEDUNKADU",
+    "CanCode": "1",
+    "Name": "അജിത്ത് കുമാര്‍",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "3626",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അജിത്ത് കുമാര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "3626"
+      },
+      {
+        "CanCode": "2",
+        "Name": "പത്മകുമാര്‍",
+        "Party": "ആള്‍ ഇന്ത്യ ഫോര്‍വേഡ് ബ്ലോക്ക്",
+        "PartyGroup": "UDF",
+        "Vote": "74"
+      },
+      {
+        "CanCode": "3",
+        "Name": "പുഷ്പലത",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "3442"
+      },
+      {
+        "CanCode": "4",
+        "Name": "രജ്ജുറാണി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "42"
+      }
+    ]
+  },
+  {
+    "Ward": "NEMOM",
+    "CanCode": "2",
+    "Name": "ദീപിക യു.",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "1835",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അശ്വതി പ്രസാദ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "1819"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ദീപിക യു.",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1835"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ദീപ്തി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "23"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ഷീബ എസ്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1538"
+      }
+    ]
+  },
+  {
+    "Ward": "NETTAYAM",
+    "CanCode": "1",
+    "Name": "നന്ദ ഭാര്‍ഗ്ഗവ്",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2789",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "നന്ദ ഭാര്‍ഗ്ഗവ്",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2789"
+      },
+      {
+        "CanCode": "2",
+        "Name": "നല്ലപെരുമാള്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "770"
+      },
+      {
+        "CanCode": "3",
+        "Name": "രാജി.എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "58"
+      },
+      {
+        "CanCode": "4",
+        "Name": "രാജിമോള്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1755"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ലീല",
+        "Party": "ബഹുജന്‍ സമാജ് പാർട്ടി",
+        "PartyGroup": "OTH",
+        "Vote": "43"
+      },
+      {
+        "CanCode": "6",
+        "Name": "ഷിബുകുമാര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "731"
+      },
+      {
+        "CanCode": "7",
+        "Name": "ഷിബുകുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "30"
+      }
+    ]
+  },
+  {
+    "Ward": "NJANDDORKONAM",
+    "CanCode": "1",
+    "Name": "ആശാ ബാബു",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+    "PartyGroup": "LDF",
+    "Vote": "2396",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ആശാ ബാബു",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "2396"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ആശാ റാണി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "35"
+      },
+      {
+        "CanCode": "3",
+        "Name": "മഹിത മധു ജെ എം",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2367"
+      },
+      {
+        "CanCode": "4",
+        "Name": "സിന്ധു",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "998"
+      }
+    ]
+  },
+  {
+    "Ward": "P T P NAGAR",
+    "CanCode": "1",
+    "Name": "ഗിരികുമാര്‍",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "1896",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ഗിരികുമാര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1896"
+      },
+      {
+        "CanCode": "2",
+        "Name": "പ്രശസ്ത് എം ആര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "659"
+      },
+      {
+        "CanCode": "3",
+        "Name": "മഞ്ജുമോള്‍ എം എം",
+        "Party": "ബഹുജന്‍ സമാജ് പാർട്ടി",
+        "PartyGroup": "OTH",
+        "Vote": "38"
+      },
+      {
+        "CanCode": "4",
+        "Name": "മിഥുൻ പി ഹരൻ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "8"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ജി ഹാപ്പികുമാര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "1691"
+      }
+    ]
+  },
+  {
+    "Ward": "PALAYAM",
+    "CanCode": "5",
+    "Name": "രാജൻ പി",
+    "Party": "കോൺഗ്രസ്സ് (സെക്കുലര്‍)",
+    "PartyGroup": "LDF",
+    "Vote": "1385",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "കൃഷ്ണകുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "3"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ഗോപകുമാര്‍",
+        "Party": "ആള്‍ ഇന്ത്യ അണ്ണാ ഡി.എം.കെ.",
+        "PartyGroup": "OTH",
+        "Vote": "18"
+      },
+      {
+        "CanCode": "3",
+        "Name": "എസ് നിഷാന്ത്",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "257"
+      },
+      {
+        "CanCode": "4",
+        "Name": "രാജന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "25"
+      },
+      {
+        "CanCode": "5",
+        "Name": "രാജൻ പി",
+        "Party": "കോൺഗ്രസ്സ് (സെക്കുലര്‍)",
+        "PartyGroup": "LDF",
+        "Vote": "1385"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സുധീര്‍രാജ്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "900"
+      }
+    ]
+  },
+  {
+    "Ward": "PALKULANGARA",
+    "CanCode": "2",
+    "Name": "അശോക് കുമാര്‍",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "1985",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അശോക്കുമാർ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "39"
+      },
+      {
+        "CanCode": "2",
+        "Name": "അശോക് കുമാര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1985"
+      },
+      {
+        "CanCode": "3",
+        "Name": "കൃഷ്ണകുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "118"
+      },
+      {
+        "CanCode": "4",
+        "Name": "വിജയകുമാരി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "73"
+      },
+      {
+        "CanCode": "5",
+        "Name": "വിജയകുമാരി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "1189"
+      },
+      {
+        "CanCode": "6",
+        "Name": "വിവേക് എച്ച് നായര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "364"
+      }
+    ]
+  },
+  {
+    "Ward": "PALLITHURA",
+    "CanCode": "2",
+    "Name": "വിക്രമന്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2466",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ജോസഫ് പെരേര",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "487"
+      },
+      {
+        "CanCode": "2",
+        "Name": "വിക്രമന്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2466"
+      },
+      {
+        "CanCode": "3",
+        "Name": "വിനല്‍കുമാര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "719"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ഷാമോന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "21"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സന്തോഷ്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1898"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സന്തോഷ് കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "30"
+      }
+    ]
+  },
+  {
+    "Ward": "PANGODU",
+    "CanCode": "1",
+    "Name": "പത്മലേഖ",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "1550",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "പത്മലേഖ",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1550"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ശരണ്യ എസ് നായര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1323"
+      },
+      {
+        "CanCode": "3",
+        "Name": "സ്മിതാ രാജന്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "531"
+      }
+    ]
+  },
+  {
+    "Ward": "PAPPANAMCODE",
+    "CanCode": "2",
+    "Name": "ആശാ നാഥ്.ജി.എസ്",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "3310",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ആശ. എ.എസ്.",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "75"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ആശാ നാഥ്.ജി.എസ്",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "3310"
+      },
+      {
+        "CanCode": "3",
+        "Name": "മായ. സി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "73"
+      },
+      {
+        "CanCode": "4",
+        "Name": "മായ. എന്‍.എസ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2298"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സുജി വി",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "594"
+      }
+    ]
+  },
+  {
+    "Ward": "PATHIRAPALLI",
+    "CanCode": "1",
+    "Name": "എം. എസ് കസ്തൂരി",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2280",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "എം. എസ് കസ്തൂരി",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2280"
+      },
+      {
+        "CanCode": "2",
+        "Name": "കുമാരി കൃഷ്ണന്‍ കുട്ടി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2116"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ഷീജ",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1563"
+      }
+    ]
+  },
+  {
+    "Ward": "PATTOM",
+    "CanCode": "3",
+    "Name": "പി കെ രാജു",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+    "PartyGroup": "LDF",
+    "Vote": "2713",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "തനുജ",
+        "Party": "ബഹുജന്‍ സമാജ് പാർട്ടി",
+        "PartyGroup": "OTH",
+        "Vote": "36"
+      },
+      {
+        "CanCode": "2",
+        "Name": "അഡ്വ. രാജീവ് കെ എസ്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "894"
+      },
+      {
+        "CanCode": "3",
+        "Name": "പി കെ രാജു",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "2713"
+      },
+      {
+        "CanCode": "4",
+        "Name": "വിനോജ് വേലുക്കുട്ടി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "26"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സന്തോഷ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "23"
+      },
+      {
+        "CanCode": "6",
+        "Name": "കെ സന്തോഷ് കുമാര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1433"
+      },
+      {
+        "CanCode": "7",
+        "Name": "സന്തോഷ് കുമാര്‍ എം",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "17"
+      }
+    ]
+  },
+  {
+    "Ward": "PEROORKADA",
+    "CanCode": "2",
+    "Name": "പി. ജമീല",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1720",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ഗീത",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "24"
+      },
+      {
+        "CanCode": "2",
+        "Name": "പി. ജമീല",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1720"
+      },
+      {
+        "CanCode": "3",
+        "Name": "മഞ്ജു",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1457"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ലാലി ആർ",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1068"
+      }
+    ]
+  },
+  {
+    "Ward": "PERUNTHANNI",
+    "CanCode": "1",
+    "Name": "പത്മകുമാര്‍",
+    "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+    "PartyGroup": "UDF",
+    "Vote": "1900",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "പത്മകുമാര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1900"
+      },
+      {
+        "CanCode": "2",
+        "Name": "രതീഷ് കൃഷ്ണൻ",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1744"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ശ്രീകുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "25"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ശ്രീകുമാര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1448"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സുരേഷ്​​കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "20"
+      }
+    ]
+  },
+  {
+    "Ward": "PETTAH",
+    "CanCode": "6",
+    "Name": "സുജാദേവി",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1542",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ആര്യ പ്രവീണ്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1205"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ആര്യ എം",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "2"
+      },
+      {
+        "CanCode": "3",
+        "Name": "വിദ്യ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "1"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ശാലിനി എ എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "61"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സിന്ധു മോഹന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "162"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സുജാദേവി",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1542"
+      },
+      {
+        "CanCode": "7",
+        "Name": "റാണി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "47"
+      },
+      {
+        "CanCode": "8",
+        "Name": "റാണി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "741"
+      }
+    ]
+  },
+  {
+    "Ward": "PONNUMANGALAM",
+    "CanCode": "1",
+    "Name": "ഗോപകുമാർ",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2231",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ഗോപകുമാർ",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2231"
+      },
+      {
+        "CanCode": "2",
+        "Name": "വിവേക് കുമാർ വി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "12"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ഷജീര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1646"
+      },
+      {
+        "CanCode": "4",
+        "Name": "സഫീറാബീഗം എസ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1927"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സുനില്‍കുമാര്‍",
+        "Party": "ആള്‍ ഇന്ത്യ അണ്ണാ ഡി.എം.കെ.",
+        "PartyGroup": "OTH",
+        "Vote": "36"
+      }
+    ]
+  },
+  {
+    "Ward": "POOJAPURA",
+    "CanCode": "5",
+    "Name": "വി.വി .രാജേഷ്",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2539",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അഭിലാഷ് എസ് ആര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "33"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ഗിരിജാ കുമാരി",
+        "Party": "ആള്‍ ഇന്ത്യ അണ്ണാ ഡി.എം.കെ.",
+        "PartyGroup": "OTH",
+        "Vote": "22"
+      },
+      {
+        "CanCode": "3",
+        "Name": "പ്രസന്നകുമാര്‍ എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "38"
+      },
+      {
+        "CanCode": "4",
+        "Name": "രാജേഷ് വി എം",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "1408"
+      },
+      {
+        "CanCode": "5",
+        "Name": "വി.വി .രാജേഷ്",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2539"
+      },
+      {
+        "CanCode": "6",
+        "Name": "കെ. എസ്. വിനു",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1486"
+      },
+      {
+        "CanCode": "7",
+        "Name": "വിഷ്ണു എസ്.അമ്പാടി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "66"
+      },
+      {
+        "CanCode": "8",
+        "Name": "സിദ്ധാര്‍ത്ഥന്‍ നായര്‍",
+        "Party": "ഡെമോക്രാറ്റിക് സോഷ‍്യൽ ജസ്റ്റിസ് പാർട്ടി",
+        "PartyGroup": "OTH",
+        "Vote": "15"
+      }
+    ]
+  },
+  {
+    "Ward": "POUNDKADAVU",
+    "CanCode": "1",
+    "Name": "ജിഷ ജോണ്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2843",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ജിഷ ജോണ്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2843"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ഷെര്‍ലി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "37"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ഷെര്‍ളി പി",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1969"
+      },
+      {
+        "CanCode": "4",
+        "Name": "സുജ",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "820"
+      }
+    ]
+  },
+  {
+    "Ward": "POWDIKONAM",
+    "CanCode": "2",
+    "Name": "അര്‍ച്ചന മണികണ്ഠന്‍",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2437",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അര്‍ച്ചന എം എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "27"
+      },
+      {
+        "CanCode": "2",
+        "Name": "അര്‍ച്ചന മണികണ്ഠന്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2437"
+      },
+      {
+        "CanCode": "3",
+        "Name": "എം കല",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1030"
+      },
+      {
+        "CanCode": "4",
+        "Name": "രാജി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "61"
+      },
+      {
+        "CanCode": "5",
+        "Name": "രാജി എസ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2060"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സബിത",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "14"
+      }
+    ]
+  },
+  {
+    "Ward": "PUNCHAKARI",
+    "CanCode": "1",
+    "Name": "‍‍ഡി. ശിവന്‍ കുട്ടി",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "3223",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "‍‍ഡി. ശിവന്‍ കുട്ടി",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "3223"
+      },
+      {
+        "CanCode": "2",
+        "Name": "എല്‍. സത്യന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "45"
+      },
+      {
+        "CanCode": "3",
+        "Name": "സനില്‍കുമാര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2215"
+      },
+      {
+        "CanCode": "4",
+        "Name": "എന്‍.ഐ. സുധീഷ് കുമാര്‍",
+        "Party": "റവല്യൂഷനറി സോഷ്യലിസ്റ്റ് പാര്‍ട്ടി",
+        "PartyGroup": "UDF",
+        "Vote": "711"
+      }
+    ]
+  },
+  {
+    "Ward": "PUNKULAM",
+    "CanCode": "3",
+    "Name": "വി. പ്രമീള",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2523",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അശ്വിനി. എസ്",
+        "Party": "ബഹുജന്‍ സമാജ് പാർട്ടി",
+        "PartyGroup": "OTH",
+        "Vote": "169"
+      },
+      {
+        "CanCode": "2",
+        "Name": "എല്‍. തങ്കമണി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "922"
+      },
+      {
+        "CanCode": "3",
+        "Name": "വി. പ്രമീള",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2523"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ലീനാലാലി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "79"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സരളാദേവി. എസ്",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1325"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സാവിത്രി. എസ്സ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "6"
+      },
+      {
+        "CanCode": "7",
+        "Name": "സോന. എം",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "45"
+      }
+    ]
+  },
+  {
+    "Ward": "PUNNAKKA MUGHAL",
+    "CanCode": "2",
+    "Name": "മഞ്ജു. പി.വി",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2833",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ചന്ദ്രകുമാരി. അമ്മ. കെ.",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "54"
+      },
+      {
+        "CanCode": "2",
+        "Name": "മഞ്ജു. പി.വി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2833"
+      },
+      {
+        "CanCode": "3",
+        "Name": "രേണുകാകുമാരി. എസ്സ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2233"
+      },
+      {
+        "CanCode": "4",
+        "Name": "രേവതി. വി. കെ",
+        "Party": "ആം ആദ്മി പാര്‍ട്ടി (എ.എ.പി)",
+        "PartyGroup": "OTH",
+        "Vote": "153"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സ്മിത ജി. ചന്ദ്രന്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "815"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സൗമ്യ. വി. ആര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "37"
+      }
+    ]
+  },
+  {
+    "Ward": "PUNTHURA",
+    "CanCode": "5",
+    "Name": "മേരി ജിപ്സി",
+    "Party": "സ്വതന്ത്രൻ",
+    "PartyGroup": "OTH",
+    "Vote": "1168",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അമലോല്‍ഭവം. ജി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "4"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ജൂലി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "33"
+      },
+      {
+        "CanCode": "3",
+        "Name": "പൂര്‍‍ണ്ണിമ. വി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "48"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ബ്രിനു. ബി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "10"
+      },
+      {
+        "CanCode": "5",
+        "Name": "മേരി ജിപ്സി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "1168"
+      },
+      {
+        "CanCode": "6",
+        "Name": "മേരി വിനിത",
+        "Party": "പീപ്പിള്‍സ് ഡെമോക്രാറ്റിക് പാർട്ടി (പി.ഡി.പി.)",
+        "PartyGroup": "OTH",
+        "Vote": "41"
+      },
+      {
+        "CanCode": "7",
+        "Name": "ശ്രുതിമോള്‍ എക്സ്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1094"
+      },
+      {
+        "CanCode": "8",
+        "Name": "ഷീജ റ്റി",
+        "Party": "ലോക്താന്ത്രിക് ജനതാദൾ",
+        "PartyGroup": "LDF",
+        "Vote": "916"
+      },
+      {
+        "CanCode": "9",
+        "Name": "സഹായ അഡ്ബിൻ കുല.എ",
+        "Party": "കേരള കോൺഗ്രസ്സ് (എം) പി.ജെ.ജോസഫ് വിഭാഗം",
+        "PartyGroup": "UDF",
+        "Vote": "304"
+      },
+      {
+        "CanCode": "10",
+        "Name": "ഹെലന്‍",
+        "Party": "ആം ആദ്മി പാര്‍ട്ടി (എ.എ.പി)",
+        "PartyGroup": "OTH",
+        "Vote": "245"
+      }
+    ]
+  },
+  {
+    "Ward": "PUTHENPALLI",
+    "CanCode": "11",
+    "Name": "സലീം",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2094",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അജ്മല്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "9"
+      },
+      {
+        "CanCode": "2",
+        "Name": "അനസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "3"
+      },
+      {
+        "CanCode": "3",
+        "Name": "അനസ് ജെ. കെ",
+        "Party": "സോഷ്യല്‍ ഡെമോക്രാറ്റിക് പാർട്ടി ഓഫ് ഇന്ത്യ (എസ്. ഡി. പി. ഐ.)",
+        "PartyGroup": "OTH",
+        "Vote": "1463"
+      },
+      {
+        "CanCode": "4",
+        "Name": "അനസ് എന്‍.",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "13"
+      },
+      {
+        "CanCode": "5",
+        "Name": "അനസ്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1444"
+      },
+      {
+        "CanCode": "6",
+        "Name": "നദീറാ ബീവി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "4"
+      },
+      {
+        "CanCode": "7",
+        "Name": "ബഷീര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "3"
+      },
+      {
+        "CanCode": "8",
+        "Name": "ബാലു",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "68"
+      },
+      {
+        "CanCode": "9",
+        "Name": "ഷംനാദ്. എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "3"
+      },
+      {
+        "CanCode": "10",
+        "Name": "സലീം എ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "18"
+      },
+      {
+        "CanCode": "11",
+        "Name": "സലീം",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2094"
+      }
+    ]
+  },
+  {
+    "Ward": "SANGHUMUGHAM",
+    "CanCode": "6",
+    "Name": "സെറാഫിന്‍",
+    "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+    "PartyGroup": "UDF",
+    "Vote": "1951",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ജഗദം എ",
+        "Party": "കേരളാ കോൺഗ്രസ്സ്",
+        "PartyGroup": "UDF",
+        "Vote": "37"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ജെസ്പിന്‍ സെല്‍വദാസ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "1787"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ജെസ്ഫിന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "16"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ഷാനി ലീന്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "222"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സുരേഖ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "2"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സെറാഫിന്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1951"
+      }
+    ]
+  },
+  {
+    "Ward": "SASTHAMANGALAM",
+    "CanCode": "3",
+    "Name": "മധുസൂദനന്‍ നായര്‍",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "1509",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ഗോപകുമാര്‍ ജി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "105"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ബിന്ദു ശ്രീകുമാര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1061"
+      },
+      {
+        "CanCode": "3",
+        "Name": "മധുസൂദനന്‍ നായര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1509"
+      },
+      {
+        "CanCode": "4",
+        "Name": "സുരേഷ്​​കുമാര്‍ (ശാസ്തമംഗലം ഗോപന്‍)",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1188"
+      }
+    ]
+  },
+  {
+    "Ward": "SREEKANTESWARAM",
+    "CanCode": "2",
+    "Name": "രാജേന്ദ്രന്‍ നായര്‍",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "1885",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "രാജേന്ദ്രന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "22"
+      },
+      {
+        "CanCode": "2",
+        "Name": "രാജേന്ദ്രന്‍ നായര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1885"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ശിവകുമാർ",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1034"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ശിവകുമാര്‍ എസ് വി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "15"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ശ്രീലാൽ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "141"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സുധീര്‍കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "27"
+      },
+      {
+        "CanCode": "7",
+        "Name": "സോയാ",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "220"
+      }
+    ]
+  },
+  {
+    "Ward": "SREEKARIYAM",
+    "CanCode": "7",
+    "Name": "സ്റ്റാന്‍ലി ഡിക്രൂസ്",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2139",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അലത്തറ അനില്‍ കുമാര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1692"
+      },
+      {
+        "CanCode": "2",
+        "Name": "അനില്‍കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "29"
+      },
+      {
+        "CanCode": "3",
+        "Name": "പാങ്ങപ്പാറ അശോകന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "6"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ദീപു",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "51"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ഷാജു",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "5"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സുനില്‍ എസ്.എസ് (ചോട്ടു)",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1850"
+      },
+      {
+        "CanCode": "7",
+        "Name": "സ്റ്റാന്‍ലി ഡിക്രൂസ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2139"
+      }
+    ]
+  },
+  {
+    "Ward": "SREEVARAHAM",
+    "CanCode": "4",
+    "Name": "വിജയകുമാര്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+    "PartyGroup": "LDF",
+    "Vote": "1459",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "പ്രദീപ് എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "16"
+      },
+      {
+        "CanCode": "2",
+        "Name": "മിനി ആര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1257"
+      },
+      {
+        "CanCode": "3",
+        "Name": "വിജയകുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "53"
+      },
+      {
+        "CanCode": "4",
+        "Name": "വിജയകുമാര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "1459"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സുരേഷ് കുമാര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "408"
+      }
+    ]
+  },
+  {
+    "Ward": "THAMPANOOR",
+    "CanCode": "6",
+    "Name": "ഹരികുമാ൪ സി",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+    "PartyGroup": "LDF",
+    "Vote": "1728",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അനിത",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1395"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ബാബു",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "14"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ബിജു എം",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1122"
+      },
+      {
+        "CanCode": "4",
+        "Name": "രാജപ്പന്‍",
+        "Party": "ബഹുജന്‍ സമാജ് പാർട്ടി",
+        "PartyGroup": "OTH",
+        "Vote": "38"
+      },
+      {
+        "CanCode": "5",
+        "Name": "സുമ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "73"
+      },
+      {
+        "CanCode": "6",
+        "Name": "ഹരികുമാ൪ സി",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "1728"
+      }
+    ]
+  },
+  {
+    "Ward": "THIRUMALA",
+    "CanCode": "1",
+    "Name": "കെ. അനില്‍ കുമാര്‍",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2241",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "കെ. അനില്‍ കുമാര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2241"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ബി. ജയന്‍",
+        "Party": "ആള്‍ ഇന്ത്യ അണ്ണാ ഡി.എം.കെ.",
+        "PartyGroup": "OTH",
+        "Vote": "19"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ലൈലാമ്മ ഉമ്മന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "85"
+      },
+      {
+        "CanCode": "4",
+        "Name": "എസ് ശശികുമാരന്‍നായര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "594"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ശിവജി ആര്‍ പി",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1958"
+      }
+    ]
+  },
+  {
+    "Ward": "THRIKANNAPURAM",
+    "CanCode": "1",
+    "Name": "ജയലക്ഷ്മി പി എസ്",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2324",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ജയലക്ഷ്മി പി എസ്",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2324"
+      },
+      {
+        "CanCode": "2",
+        "Name": "പ്രിയമോള്‍ വി വി",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1893"
+      },
+      {
+        "CanCode": "3",
+        "Name": "സ്നേഹ",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1260"
+      }
+    ]
+  },
+  {
+    "Ward": "THRUVALLAM",
+    "CanCode": "3",
+    "Name": "സത്യവതി",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "2244",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "കൃഷ്ണവേണി",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1232"
+      },
+      {
+        "CanCode": "2",
+        "Name": "മീനു എം നായര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2164"
+      },
+      {
+        "CanCode": "3",
+        "Name": "സത്യവതി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2244"
+      }
+    ]
+  },
+  {
+    "Ward": "THURUTHUMMOOLA",
+    "CanCode": "3",
+    "Name": "രാജലക്ഷ്മി",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "1919",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അജന്ത വി എസ്",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "978"
+      },
+      {
+        "CanCode": "2",
+        "Name": "നന്ദ. ബി. എസ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "1547"
+      },
+      {
+        "CanCode": "3",
+        "Name": "രാജലക്ഷ്മി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1919"
+      }
+    ]
+  },
+  {
+    "Ward": "THYCAUD",
+    "CanCode": "1",
+    "Name": "മാധവദാസ്",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1272",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "മാധവദാസ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1272"
+      },
+      {
+        "CanCode": "2",
+        "Name": "രമേഷ്​​കുമാര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "669"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ലക്ഷ്മി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "528"
+      },
+      {
+        "CanCode": "4",
+        "Name": "സി .വി. വിദ്യാറാണി",
+        "Party": "ആള്‍ ഇന്ത്യ അണ്ണാ ഡി.എം.കെ.",
+        "PartyGroup": "OTH",
+        "Vote": "15"
+      }
+    ]
+  },
+  {
+    "Ward": "ULLOOR",
+    "CanCode": "1",
+    "Name": "ആതിര എൽ എസ്",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1549",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ആതിര എൽ എസ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1549"
+      },
+      {
+        "CanCode": "2",
+        "Name": "കവിത യു എസ്",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1007"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ബിന്ദു പി",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1116"
+      }
+    ]
+  },
+  {
+    "Ward": "VALIYASALA",
+    "CanCode": "1",
+    "Name": "കൃഷ്ണകുമാര്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1626",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "കൃഷ്ണകുമാര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1626"
+      },
+      {
+        "CanCode": "2",
+        "Name": "കൃഷ്ണകുമാർ കെ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "10"
+      },
+      {
+        "CanCode": "3",
+        "Name": "എസ് ഗിരീഷ്​​കുമാര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "532"
+      },
+      {
+        "CanCode": "4",
+        "Name": "മണികണ്ഠന്‍ നായര്‍ പി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "552"
+      },
+      {
+        "CanCode": "5",
+        "Name": "രമേഷ് കുമാര്‍ ജി റ്റി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "19"
+      },
+      {
+        "CanCode": "6",
+        "Name": "രാജന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "22"
+      },
+      {
+        "CanCode": "7",
+        "Name": "രാജന്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1569"
+      }
+    ]
+  },
+  {
+    "Ward": "VALIYATHURA",
+    "CanCode": "1",
+    "Name": "അയറിന്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+    "PartyGroup": "LDF",
+    "Vote": "2681",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അയറിന്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "2681"
+      },
+      {
+        "CanCode": "2",
+        "Name": "കെന്നഡി എല്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "2569"
+      },
+      {
+        "CanCode": "3",
+        "Name": "പ്രേംകുമാര്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "140"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ഫ്ളോറന്‍സ് ലോപ്പസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "10"
+      },
+      {
+        "CanCode": "5",
+        "Name": "മെറ്റി തോമസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "18"
+      },
+      {
+        "CanCode": "6",
+        "Name": "വിൻസൻറ് കുലായ്സ് എ",
+        "Party": "കേരളാ കോൺഗ്രസ്സ്",
+        "PartyGroup": "UDF",
+        "Vote": "86"
+      },
+      {
+        "CanCode": "7",
+        "Name": "സുമല്‍രാജ്",
+        "Party": "ആം ആദ്മി പാര്‍ട്ടി (എ.എ.പി)",
+        "PartyGroup": "OTH",
+        "Vote": "25"
+      },
+      {
+        "CanCode": "8",
+        "Name": "റസിയ",
+        "Party": "ഭാരതീയ നാഷണൽ ജനതാ ദൾ",
+        "PartyGroup": "UDF",
+        "Vote": "42"
+      }
+    ]
+  },
+  {
+    "Ward": "VALIYAVILA",
+    "CanCode": "2",
+    "Name": "ദേവിമ",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "1893",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "താര",
+        "Party": "കേരളാ കോൺഗ്രസ്സ് (ജേക്കബ്)",
+        "PartyGroup": "UDF",
+        "Vote": "229"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ദേവിമ",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1893"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ആര്‍. ബിന്ദു",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "112"
+      },
+      {
+        "CanCode": "4",
+        "Name": "എസ്. മഞ്ജു",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1782"
+      }
+    ]
+  },
+  {
+    "Ward": "VALLAKKADAVU",
+    "CanCode": "7",
+    "Name": "ഷാജിദ നാസര്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1856",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അക്ബര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "6"
+      },
+      {
+        "CanCode": "2",
+        "Name": "അന്‍വര്‍ നാസര്‍",
+        "Party": "ഇന്ത്യന്‍ യൂണിയൻ മുസ്ലീംലീഗ്",
+        "PartyGroup": "UDF",
+        "Vote": "678"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ജസ്റ്റിന്‍ ജയകുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "9"
+      },
+      {
+        "CanCode": "4",
+        "Name": "യാസിം",
+        "Party": "സോഷ്യല്‍ ഡെമോക്രാറ്റിക് പാർട്ടി ഓഫ് ഇന്ത്യ (എസ്. ഡി. പി. ഐ.)",
+        "PartyGroup": "OTH",
+        "Vote": "1378"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ലൂയിസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "4"
+      },
+      {
+        "CanCode": "6",
+        "Name": "ഷഫീഖ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "135"
+      },
+      {
+        "CanCode": "7",
+        "Name": "ഷാജിദ നാസര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1856"
+      }
+    ]
+  },
+  {
+    "Ward": "VANCHIYOOR",
+    "CanCode": "2",
+    "Name": "ഗായത്രി എസ് നായര്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1951",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "എം എസ് ഗായത്രി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "19"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ഗായത്രി എസ് നായര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1951"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ജയലക്ഷ്മി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "10"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ജയലക്ഷ്മി",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1725"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ജയലക്ഷ്മി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "9"
+      },
+      {
+        "CanCode": "6",
+        "Name": "സരോജം",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "11"
+      },
+      {
+        "CanCode": "7",
+        "Name": "സരോജം ആര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "32"
+      },
+      {
+        "CanCode": "8",
+        "Name": "സരോജം",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1092"
+      }
+    ]
+  },
+  {
+    "Ward": "VATTIYOORKAVU",
+    "CanCode": "4",
+    "Name": "പാര്‍വതി ഐ എം",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1881",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അഖില പി എസ്",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1715"
+      },
+      {
+        "CanCode": "2",
+        "Name": "അഖില എസ് പി",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "15"
+      },
+      {
+        "CanCode": "3",
+        "Name": "പാർവതി എ",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "91"
+      },
+      {
+        "CanCode": "4",
+        "Name": "പാര്‍വതി ഐ എം",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1881"
+      },
+      {
+        "CanCode": "5",
+        "Name": "ഹരിപ്രിയ ആര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "850"
+      }
+    ]
+  },
+  {
+    "Ward": "VAZHOTTUKONAM",
+    "CanCode": "4",
+    "Name": "ഹെലന്‍ ജി",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2469",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "ദേവിക എം ആര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "53"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ദേവി കാർത്തിക",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "2027"
+      },
+      {
+        "CanCode": "3",
+        "Name": "സിന്ധുഷ എ",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1117"
+      },
+      {
+        "CanCode": "4",
+        "Name": "ഹെലന്‍ ജി",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2469"
+      }
+    ]
+  },
+  {
+    "Ward": "VAZHUTHACAUD",
+    "CanCode": "1",
+    "Name": "രാഖി രവികുമാര്‍",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+    "PartyGroup": "LDF",
+    "Vote": "1505",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "രാഖി രവികുമാര്‍",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "1505"
+      },
+      {
+        "CanCode": "2",
+        "Name": "സുരേഷ്",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1141"
+      },
+      {
+        "CanCode": "3",
+        "Name": "സുരേഷ്​​കുമാര്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "894"
+      },
+      {
+        "CanCode": "4",
+        "Name": "സുരേഷ് ബാബു വി എസ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "135"
+      }
+    ]
+  },
+  {
+    "Ward": "VELLAR",
+    "CanCode": "4",
+    "Name": "മോഹനന്‍",
+    "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+    "PartyGroup": "NDA",
+    "Vote": "1629",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "പുരുഷോത്തമന്‍",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "703"
+      },
+      {
+        "CanCode": "2",
+        "Name": "പി ബൈജു",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ",
+        "PartyGroup": "LDF",
+        "Vote": "1062"
+      },
+      {
+        "CanCode": "3",
+        "Name": "മോഹനന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "52"
+      },
+      {
+        "CanCode": "4",
+        "Name": "മോഹനന്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1629"
+      },
+      {
+        "CanCode": "5",
+        "Name": "എല്‍. സന്തോഷ്​​കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "438"
+      },
+      {
+        "CanCode": "6",
+        "Name": "കെ. സുജാതന്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "256"
+      }
+    ]
+  },
+  {
+    "Ward": "VENGANOOR",
+    "CanCode": "3",
+    "Name": "സിന്ധു",
+    "Party": "ജനതാദള്‍ (സെക്കുലര്‍)",
+    "PartyGroup": "LDF",
+    "Vote": "2138",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അനിതാ കുമാരി",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1474"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ഇന്ദുലേഖ എന്‍",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "1782"
+      },
+      {
+        "CanCode": "3",
+        "Name": "സിന്ധു",
+        "Party": "ജനതാദള്‍ (സെക്കുലര്‍)",
+        "PartyGroup": "LDF",
+        "Vote": "2138"
+      }
+    ]
+  },
+  {
+    "Ward": "VETTUKADU",
+    "CanCode": "7",
+    "Name": "സാബു ജോസ്",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "2524",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "അനില്‍കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "670"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ജ്യോതി ആന്‍ഡ്രു",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1526"
+      },
+      {
+        "CanCode": "3",
+        "Name": "ജ്യോതി കുമാര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "14"
+      },
+      {
+        "CanCode": "4",
+        "Name": "പീറ്റര്‍ പോള്‍",
+        "Party": "കേരള ജനപക്ഷം(സെക്കുലർ)",
+        "PartyGroup": "OTH",
+        "Vote": "147"
+      },
+      {
+        "CanCode": "5",
+        "Name": "രാജീവ്",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "73"
+      },
+      {
+        "CanCode": "6",
+        "Name": "ലിനു പീറ്റര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "391"
+      },
+      {
+        "CanCode": "7",
+        "Name": "സാബു ജോസ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "2524"
+      }
+    ]
+  },
+  {
+    "Ward": "VIZHINJAM",
+    "CanCode": "4",
+    "Name": "സമീറ എസ് മിഹദാദ്",
+    "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+    "PartyGroup": "LDF",
+    "Vote": "1542",
+    "popup_table": [
+      {
+        "CanCode": "1",
+        "Name": "പ്രമീള ആര്‍",
+        "Party": "സ്വതന്ത്രൻ",
+        "PartyGroup": "OTH",
+        "Vote": "509"
+      },
+      {
+        "CanCode": "2",
+        "Name": "ബീമാകണ്ണ്",
+        "Party": "പീപ്പിള്‍സ് ഡെമോക്രാറ്റിക് പാർട്ടി (പി.ഡി.പി.)",
+        "PartyGroup": "OTH",
+        "Vote": "199"
+      },
+      {
+        "CanCode": "3",
+        "Name": "മഞ്ജു ആര്‍.എസ്",
+        "Party": "ഭാരതീയ ജനതാ പാര്‍ട്ടി",
+        "PartyGroup": "NDA",
+        "Vote": "316"
+      },
+      {
+        "CanCode": "4",
+        "Name": "സമീറ എസ് മിഹദാദ്",
+        "Party": "കമ്മ്യൂണിസ്റ്റ് പാര്‍ട്ടി ഓഫ് ഇന്ത്യ (മാര്‍ക്‌സിസ്റ്റ്)",
+        "PartyGroup": "LDF",
+        "Vote": "1542"
+      },
+      {
+        "CanCode": "5",
+        "Name": "റജീന ബീഗം",
+        "Party": "ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസ്",
+        "PartyGroup": "UDF",
+        "Vote": "1324"
+      }
+    ]
+  },
+  {
+    "Ward": "UDF - 10",
+    "CanCode": "LDF - 51",
+    "Name": "NDA - 34",
+    "Party": "OTH - 5",
+    "PartyGroup": "",
+    "Vote": "",
+    "popup_table": []
+  }
+]

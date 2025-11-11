@@ -1,0 +1,843 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Ward Search — Vote Lead Ranges</title>
+
+        <!-- Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Alpine.js -->
+        <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+        ></script>
+
+        <style>
+            html,
+            body {
+                height: 100%;
+            }
+            table {
+                border-collapse: collapse;
+            }
+            .no-inner-scroll {
+                overflow: hidden !important;
+            }
+        </style>
+    </head>
+    <body class="bg-gray-50 h-full">
+        <div
+            x-data="wardSearch()"
+            x-init="init()"
+            class="h-screen w-full flex items-stretch justify-center bg-gray-50"
+        >
+            <div
+                class="h-full w-full max-w-full flex flex-col bg-white border border-gray-200 shadow-sm rounded-none"
+            >
+                <!-- HEADER: left menu items, right search -->
+                <header class="w-full border-b border-gray-100 bg-white">
+                    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <div class="flex items-center justify-between h-16">
+                            <div class="flex items-center gap-2">
+                                <button
+                                    type="button"
+                                    @click="setActiveMenu('2025')"
+                                    :class="activeMenu === '2025' ? 'bg-blue-600 text-white' : 'text-gray-700 hover:bg-gray-100'"
+                                    class="px-3 py-2 rounded text-sm font-medium"
+                                >
+                                    2025
+                                </button>
+                                <button
+                                    type="button"
+                                    @click="setActiveMenu('overview')"
+                                    :class="activeMenu === 'overview' ? 'bg-blue-600 text-white' : 'text-gray-700 hover:bg-gray-100'"
+                                    class="px-3 py-2 rounded text-sm font-medium"
+                                >
+                                    Overview
+                                </button>
+                                <button
+                                    type="button"
+                                    @click="setActiveMenu('settings')"
+                                    :class="activeMenu === 'settings' ? 'bg-blue-600 text-white' : 'text-gray-700 hover:bg-gray-100'"
+                                    class="px-3 py-2 rounded text-sm font-medium"
+                                >
+                                    Settings
+                                </button>
+                            </div>
+
+                            <div class="relative w-1/2 max-w-2xl">
+                                <input
+                                    type="text"
+                                    x-model="searchTerm"
+                                    @input.debounce.250ms="liveSearchWards"
+                                    placeholder="Search ward name..."
+                                    aria-label="Search ward name"
+                                    class="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none text-sm"
+                                />
+                                <button
+                                    x-show="searchTerm.length > 0"
+                                    @click="clearSearch()"
+                                    class="absolute right-2 top-2 text-gray-500 hover:text-gray-800"
+                                    type="button"
+                                >
+                                    <svg
+                                        class="h-4 w-4"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M6 18L18 6M6 6l12 12"
+                                        />
+                                    </svg>
+                                </button>
+
+                                <!-- Live dropdown for search -->
+                                <div
+                                    x-show="searchTerm.length > 0 && filteredWards.length > 0"
+                                    x-cloak
+                                    class="absolute z-50 left-0 right-0 bg-white border border-gray-200 rounded-md mt-1 max-h-64 overflow-y-auto shadow"
+                                >
+                                    <ul>
+                                        <template
+                                            x-for="ward in filteredWards"
+                                            :key="ward.Ward"
+                                        >
+                                            <li
+                                                class="px-3 py-2 text-sm hover:bg-blue-50 cursor-pointer"
+                                                @click="selectWard(ward.Ward)"
+                                                x-text="ward.Ward"
+                                            ></li>
+                                        </template>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- BODY: left filters + wards list, right details -->
+                <div class="h-full w-full flex items-stretch min-h-0">
+                    <!-- LEFT: filters and wards list -->
+                    <aside
+                        class="p-6 border-r border-gray-100 flex flex-col gap-4 min-h-0 overflow-y-auto"
+                        style="flex: 0 0 40%"
+                    >
+                        <!-- Party filters -->
+                        <div class="flex flex-wrap gap-2">
+                            <button
+                                @click="setActiveWinningWardsFilter('All')"
+                                :class="activeWinningWardsFilter === 'All' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                class="rounded px-3 py-1 text-sm font-medium"
+                            >
+                                All
+                                <span
+                                    class="ml-2 text-xs text-gray-600"
+                                    x-text="filterCounts.All"
+                                ></span>
+                            </button>
+                            <button
+                                @click="setActiveWinningWardsFilter('LDF')"
+                                :class="activeWinningWardsFilter === 'LDF' ? 'bg-red-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                class="rounded px-3 py-1 text-sm font-medium"
+                            >
+                                LDF
+                                <span
+                                    class="ml-2 text-xs text-gray-600"
+                                    x-text="filterCounts.LDF"
+                                ></span>
+                            </button>
+                            <button
+                                @click="setActiveWinningWardsFilter('UDF')"
+                                :class="activeWinningWardsFilter === 'UDF' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                class="rounded px-3 py-1 text-sm font-medium"
+                            >
+                                UDF
+                                <span
+                                    class="ml-2 text-xs text-gray-600"
+                                    x-text="filterCounts.UDF"
+                                ></span>
+                            </button>
+                            <button
+                                @click="setActiveWinningWardsFilter('NDA')"
+                                :class="activeWinningWardsFilter === 'NDA' ? 'bg-orange-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                class="rounded px-3 py-1 text-sm font-medium"
+                            >
+                                NDA
+                                <span
+                                    class="ml-2 text-xs text-gray-600"
+                                    x-text="filterCounts.NDA"
+                                ></span>
+                            </button>
+                            <button
+                                @click="setActiveWinningWardsFilter('OTH')"
+                                :class="activeWinningWardsFilter === 'OTH' ? 'bg-gray-700 text-white' : 'bg-gray-100 text-gray-800'"
+                                class="rounded px-3 py-1 text-sm font-medium"
+                            >
+                                OTH
+                                <span
+                                    class="ml-2 text-xs text-gray-600"
+                                    x-text="filterCounts.OTH"
+                                ></span>
+                            </button>
+                        </div>
+
+                        <!-- Lead range multi-select placed immediately after group filters -->
+                        <div class="mt-2">
+                            <div class="text-sm font-semibold mb-2">
+                                Lead ranges
+                            </div>
+                            <div class="flex flex-wrap gap-2">
+                                <template x-for="r in leadRanges" :key="r.key">
+                                    <button
+                                        type="button"
+                                        @click="toggleLeadRange(r.key)"
+                                        :class="activeLeadRanges.includes(r.key) ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                        class="rounded px-3 py-1 text-sm"
+                                        x-text="r.label"
+                                    ></button>
+                                </template>
+                                <button
+                                    type="button"
+                                    @click="clearLeadRanges()"
+                                    class="rounded px-3 py-1 text-sm bg-gray-50 text-gray-600"
+                                >
+                                    Clear
+                                </button>
+                            </div>
+                            <div class="text-xs text-gray-500 mt-1">
+                                Multi-select ranges. Leave none selected to show
+                                all leads.
+                            </div>
+                        </div>
+
+                        <!-- Alert messages -->
+                        <div>
+                            <template x-if="message"
+                                ><div
+                                    class="text-sm text-blue-700 bg-blue-50 px-3 py-2 rounded-md"
+                                    x-text="message"
+                                ></div
+                            ></template>
+                            <template x-if="error"
+                                ><div
+                                    class="text-sm text-red-700 bg-red-50 px-3 py-2 rounded-md"
+                                    x-text="error"
+                                ></div
+                            ></template>
+                        </div>
+
+                        <!-- Wards list -->
+                        <div class="flex-1 mt-2 min-h-0">
+                            <div class="text-sm font-semibold mb-2">
+                                Wards —
+                                <span
+                                    class="font-normal"
+                                    x-text="activeWinningWardsFilter"
+                                ></span>
+                                <span class="ml-2 text-xs text-gray-500"
+                                    >(lead:
+                                    <span x-text="leadRangesLabel()"></span
+                                    >)</span
+                                >
+                            </div>
+
+                            <div class="border border-gray-100 rounded-md">
+                                <table class="min-w-full text-sm">
+                                    <thead class="bg-gray-50">
+                                        <tr>
+                                            <th class="text-left px-3 py-2">
+                                                Ward
+                                            </th>
+                                            <th class="text-left px-3 py-2">
+                                                Winner
+                                            </th>
+                                            <th class="text-center px-3 py-2">
+                                                Group
+                                            </th>
+                                            <th class="text-right px-3 py-2">
+                                                Votes
+                                            </th>
+                                            <th class="text-right px-3 py-2">
+                                                Lead
+                                            </th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <template
+                                            x-for="ward in winningWards"
+                                            :key="ward.Ward"
+                                        >
+                                            <tr
+                                                class="border-t hover:bg-gray-50 cursor-pointer"
+                                                @click="selectWard(ward.Ward)"
+                                            >
+                                                <td
+                                                    class="px-3 py-1"
+                                                    x-text="ward.Ward"
+                                                ></td>
+                                                <td
+                                                    class="px-3 py-1"
+                                                    x-text="ward.Name"
+                                                ></td>
+                                                <td
+                                                    class="px-3 py-1 text-center"
+                                                >
+                                                    <span
+                                                        class="px-2 py-0.5 rounded-full text-xs"
+                                                        :class="{
+                                'bg-red-200 text-red-800': ward.PartyGroup === 'LDF',
+                                'bg-blue-200 text-blue-800': ward.PartyGroup === 'UDF',
+                                'bg-orange-200 text-orange-800': ward.PartyGroup === 'NDA',
+                                'bg-gray-200 text-gray-800': ward.PartyGroup === 'OTH'
+                              }"
+                                                        x-text="ward.PartyGroup"
+                                                    ></span>
+                                                </td>
+                                                <td
+                                                    class="px-3 py-1 text-right font-semibold"
+                                                    x-text="ward.Vote"
+                                                ></td>
+                                                <td
+                                                    class="px-3 py-1 text-right text-xs text-gray-600"
+                                                    x-text="formatLead(leadForWard(ward))"
+                                                ></td>
+                                            </tr>
+                                        </template>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <!-- RIGHT: Results / details -->
+                    <main
+                        class="p-6 flex flex-col gap-4 min-h-0"
+                        style="flex: 1 1 60%"
+                    >
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <h1 class="text-lg font-semibold">
+                                    Results for
+                                    <span
+                                        class="text-blue-600"
+                                        x-text="searchedTerm || '—'"
+                                    ></span>
+                                </h1>
+                                <div class="text-sm text-gray-500 mt-1">
+                                    Current window:
+                                    <span
+                                        class="font-medium text-gray-700"
+                                        x-text="activeMenu"
+                                    ></span>
+                                </div>
+                            </div>
+                            <div class="flex gap-2">
+                                <button
+                                    class="text-sm text-gray-600 hover:text-gray-900"
+                                    @click="clearSearch()"
+                                >
+                                    Clear
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="flex-1 min-h-0 overflow-y-auto">
+                            <!-- Selected ward summary -->
+                            <section
+                                class="border border-gray-100 rounded-md p-3 mb-4"
+                            >
+                                <table class="min-w-full text-sm">
+                                    <tbody>
+                                        <template
+                                            x-for="item in displayResults"
+                                            :key="item[0]"
+                                        >
+                                            <tr class="border-t">
+                                                <td
+                                                    class="bg-gray-50 px-3 py-1 text-xs font-medium capitalize w-1/3"
+                                                    x-text="item[0].replace(/_/g, ' ')"
+                                                ></td>
+                                                <td
+                                                    class="px-3 py-1 text-sm"
+                                                    x-text="item[1]"
+                                                ></td>
+                                            </tr>
+                                        </template>
+                                    </tbody>
+                                </table>
+                            </section>
+
+                            <!-- Candidate filters -->
+                            <div class="flex flex-wrap gap-2 mb-2">
+                                <button
+                                    @click="setActiveCandidatesPartyFilter('All')"
+                                    :class="activeCandidatesPartyFilter === 'All' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                    class="rounded px-3 py-1 text-sm"
+                                >
+                                    All
+                                </button>
+                                <button
+                                    @click="setActiveCandidatesPartyFilter('LDF')"
+                                    :class="activeCandidatesPartyFilter === 'LDF' ? 'bg-red-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                    class="rounded px-3 py-1 text-sm"
+                                >
+                                    LDF
+                                </button>
+                                <button
+                                    @click="setActiveCandidatesPartyFilter('UDF')"
+                                    :class="activeCandidatesPartyFilter === 'UDF' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                    class="rounded px-3 py-1 text-sm"
+                                >
+                                    UDF
+                                </button>
+                                <button
+                                    @click="setActiveCandidatesPartyFilter('NDA')"
+                                    :class="activeCandidatesPartyFilter === 'NDA' ? 'bg-orange-600 text-white' : 'bg-gray-100 text-gray-800'"
+                                    class="rounded px-3 py-1 text-sm"
+                                >
+                                    NDA
+                                </button>
+                                <button
+                                    @click="setActiveCandidatesPartyFilter('OTH')"
+                                    :class="activeCandidatesPartyFilter === 'OTH' ? 'bg-gray-700 text-white' : 'bg-gray-100 text-gray-800'"
+                                    class="rounded px-3 py-1 text-sm"
+                                >
+                                    OTH
+                                </button>
+                            </div>
+
+                            <!-- Candidates table -->
+                            <section
+                                class="border border-gray-100 rounded-md p-3"
+                            >
+                                <table class="min-w-full text-sm">
+                                    <thead class="bg-gray-50">
+                                        <tr>
+                                            <th class="px-3 py-1 text-left">
+                                                Name
+                                            </th>
+                                            <th class="px-3 py-1 text-center">
+                                                Group
+                                            </th>
+                                            <th class="px-3 py-1 text-center">
+                                                Votes
+                                            </th>
+                                            <th class="px-3 py-1 text-center">
+                                                %
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <template
+                                            x-for="(candidate, index) in filteredCandidates"
+                                            :key="index"
+                                        >
+                                            <tr
+                                                :class="(parseInt(candidate.Vote || 0) === maxCandidateVote) ? 'bg-green-50 border-l-4 border-green-500' : ''"
+                                                class="border-t hover:bg-gray-50"
+                                            >
+                                                <td
+                                                    class="px-3 py-1"
+                                                    x-text="candidate.Name"
+                                                ></td>
+                                                <td
+                                                    class="px-3 py-1 text-center"
+                                                >
+                                                    <span
+                                                        class="px-2 py-0.5 rounded-full text-xs"
+                                                        :class="{
+                                'bg-red-200 text-red-800': candidate.PartyGroup === 'LDF',
+                                'bg-blue-200 text-blue-800': candidate.PartyGroup === 'UDF',
+                                'bg-orange-200 text-orange-800': candidate.PartyGroup === 'NDA',
+                                'bg-gray-200 text-gray-800': candidate.PartyGroup === 'OTH'
+                              }"
+                                                        x-text="candidate.PartyGroup"
+                                                    ></span>
+                                                </td>
+                                                <td
+                                                    class="px-3 py-1 text-center font-semibold"
+                                                    x-text="candidate.Vote"
+                                                ></td>
+                                                <td
+                                                    class="px-3 py-1 text-center"
+                                                    x-text="candidate.percentage ? candidate.percentage.toFixed(1) + '%' : 'N/A'"
+                                                ></td>
+                                            </tr>
+                                        </template>
+                                    </tbody>
+                                </table>
+                            </section>
+
+                            <div
+                                x-show="!results"
+                                class="text-sm text-gray-600 mt-4"
+                            >
+                                Tip: Use the search in the header to find wards,
+                                or use the party & lead ranges on the left to
+                                browse winning wards.
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function wardSearch() {
+                return {
+                    // menu state
+                    activeMenu: "2025",
+
+                    // search / results
+                    searchTerm: "",
+                    searchedTerm: "",
+                    results: null,
+                    filteredWards: [],
+                    message: "",
+                    error: "",
+                    keralaData: [],
+                    alertTimeout: null,
+
+                    // filters
+                    activeCandidatesPartyFilter: "All",
+                    activeWinningWardsFilter: "All",
+
+                    // multi-select lead ranges
+                    activeLeadRanges: [],
+
+                    // lead ranges definition
+                    leadRanges: [
+                        { key: "0-100", label: "0–100", min: 0, max: 100 },
+                        {
+                            key: "101-250",
+                            label: "101–250",
+                            min: 101,
+                            max: 250,
+                        },
+                        {
+                            key: "251-500",
+                            label: "251–500",
+                            min: 251,
+                            max: 500,
+                        },
+                        {
+                            key: "501-1000",
+                            label: "501–1000",
+                            min: 501,
+                            max: 1000,
+                        },
+                    ],
+
+                    init() {
+                        this.fetchKeralaData();
+                    },
+
+                    setActiveMenu(menu) {
+                        this.activeMenu = menu;
+                        this.clearSearch();
+                    },
+
+                    toggleLeadRange(key) {
+                        const i = this.activeLeadRanges.indexOf(key);
+                        if (i === -1) this.activeLeadRanges.push(key);
+                        else this.activeLeadRanges.splice(i, 1);
+                        // Refresh list view
+                        this.results = null;
+                        this.searchedTerm = "";
+                        this.filteredWards = [];
+                        this.clearAlert();
+                    },
+
+                    clearLeadRanges() {
+                        this.activeLeadRanges = [];
+                        this.results = null;
+                        this.searchedTerm = "";
+                        this.filteredWards = [];
+                        this.clearAlert();
+                    },
+
+                    leadRangesLabel() {
+                        if (
+                            !this.activeLeadRanges ||
+                            this.activeLeadRanges.length === 0
+                        )
+                            return "All";
+                        return this.activeLeadRanges
+                            .map((k) => {
+                                const r = this.leadRanges.find(
+                                    (x) => x.key === k,
+                                );
+                                return r ? r.label : k;
+                            })
+                            .join(", ");
+                    },
+
+                    // compute lead (top - second) for a ward
+                    leadForWard(ward) {
+                        if (
+                            !ward ||
+                            !Array.isArray(ward.popup_table) ||
+                            ward.popup_table.length === 0
+                        )
+                            return null;
+                        const votes = ward.popup_table
+                            .map((c) => parseInt(c.Vote || 0) || 0)
+                            .sort((a, b) => b - a);
+                        if (votes.length === 0) return null;
+                        if (votes.length === 1) return votes[0];
+                        return votes[0] - votes[1];
+                    },
+
+                    formatLead(n) {
+                        if (n === null || n === undefined) return "N/A";
+                        return String(n);
+                    },
+
+                    leadMatchesSelectedRanges(lead) {
+                        if (
+                            !this.activeLeadRanges ||
+                            this.activeLeadRanges.length === 0
+                        )
+                            return true;
+                        if (lead === null) return false;
+                        for (const key of this.activeLeadRanges) {
+                            const r = this.leadRanges.find(
+                                (x) => x.key === key,
+                            );
+                            if (!r) continue;
+                            if (lead >= r.min && lead <= r.max) return true;
+                        }
+                        return false;
+                    },
+
+                    get filterCounts() {
+                        const counts = {
+                            All: 0,
+                            LDF: 0,
+                            UDF: 0,
+                            NDA: 0,
+                            OTH: 0,
+                        };
+                        if (!this.keralaData || !Array.isArray(this.keralaData))
+                            return counts;
+                        this.keralaData.forEach((ward) => {
+                            if (!ward || !ward.Ward) return;
+                            counts.All++;
+                            const g = ward.PartyGroup;
+                            if (g === "LDF") counts.LDF++;
+                            else if (g === "UDF") counts.UDF++;
+                            else if (g === "NDA") counts.NDA++;
+                            else counts.OTH++;
+                        });
+                        return counts;
+                    },
+
+                    // winning wards list: apply party + multi-range lead filters
+                    get winningWards() {
+                        if (!this.keralaData) return [];
+                        let list = this.keralaData.filter(
+                            (ward) =>
+                                ward.Ward &&
+                                ward.Name &&
+                                ward.PartyGroup !== undefined,
+                        );
+
+                        if (this.activeWinningWardsFilter !== "All") {
+                            list = list.filter(
+                                (w) =>
+                                    w.PartyGroup ===
+                                    this.activeWinningWardsFilter,
+                            );
+                        }
+
+                        if (
+                            this.activeLeadRanges &&
+                            this.activeLeadRanges.length > 0
+                        ) {
+                            list = list.filter((w) => {
+                                const lead = this.leadForWard(w);
+                                return this.leadMatchesSelectedRanges(lead);
+                            });
+                        }
+
+                        return list;
+                    },
+
+                    // candidates for selected ward
+                    get filteredCandidates() {
+                        if (!this.results || !this.results.popup_table)
+                            return [];
+                        let list = this.results.popup_table.map((c) => ({
+                            ...c,
+                        }));
+                        if (
+                            this.activeCandidatesPartyFilter &&
+                            this.activeCandidatesPartyFilter !== "All"
+                        ) {
+                            list = list.filter(
+                                (c) =>
+                                    c.PartyGroup ===
+                                    this.activeCandidatesPartyFilter,
+                            );
+                        }
+                        list.sort(
+                            (a, b) =>
+                                (parseInt(b.Vote || 0) || 0) -
+                                (parseInt(a.Vote || 0) || 0),
+                        );
+                        return list;
+                    },
+
+                    get displayResults() {
+                        if (!this.results) return [];
+                        return Object.entries(this.results).filter(
+                            ([k]) => k !== "popup_table",
+                        );
+                    },
+
+                    get maxCandidateVote() {
+                        if (!this.results || !this.results.popup_table)
+                            return 0;
+                        return this.results.popup_table.reduce((max, c) => {
+                            const v = parseInt(c.Vote || 0) || 0;
+                            return v > max ? v : max;
+                        }, 0);
+                    },
+
+                    async fetchKeralaData() {
+                        try {
+                            const res = await fetch("kerala_results.json");
+                            if (!res.ok) throw new Error("HTTP " + res.status);
+                            this.keralaData = await res.json();
+                        } catch (e) {
+                            this.displayTemporaryAlert(
+                                "error",
+                                "Failed to load data: " + (e.message || e),
+                                5000,
+                            );
+                            console.error("fetch error", e);
+                        }
+                    },
+
+                    liveSearchWards() {
+                        this.results = null;
+                        this.clearAlert();
+                        this.searchedTerm = "";
+                        this.activeCandidatesPartyFilter = "All";
+                        // do not clear activeLeadRanges or activeWinningWardsFilter
+                        const q = this.searchTerm.trim();
+                        if (q.length > 0) {
+                            this.filteredWards = this.keralaData.filter(
+                                (ward) =>
+                                    ward.Ward &&
+                                    ward.Ward.toLowerCase().includes(
+                                        q.toLowerCase(),
+                                    ),
+                            );
+                            if (this.filteredWards.length === 0)
+                                this.displayTemporaryAlert(
+                                    "message",
+                                    'No matches for "' + q + '"',
+                                    2500,
+                                );
+                        } else {
+                            this.filteredWards = [];
+                            this.clearAlert();
+                        }
+                    },
+
+                    selectWard(wardName) {
+                        this.searchTerm = "";
+                        this.searchedTerm = wardName;
+                        this.filteredWards = [];
+                        this.clearAlert();
+                        this.activeCandidatesPartyFilter = "All";
+
+                        const found = JSON.parse(
+                            JSON.stringify(
+                                this.keralaData.find(
+                                    (ward) =>
+                                        ward.Ward &&
+                                        ward.Ward.toLowerCase() ===
+                                            wardName.toLowerCase(),
+                                ),
+                            ),
+                        );
+                        if (found) {
+                            if (
+                                found.popup_table &&
+                                found.popup_table.length > 0
+                            ) {
+                                const total = found.popup_table.reduce(
+                                    (s, c) => s + parseInt(c.Vote || 0),
+                                    0,
+                                );
+                                found.popup_table.forEach((c) => {
+                                    const v = parseInt(c.Vote || 0);
+                                    c.percentage =
+                                        total > 0 ? (v / total) * 100 : 0;
+                                });
+                            }
+                            this.results = found;
+                        } else {
+                            this.displayTemporaryAlert(
+                                "error",
+                                "Details not found for " + wardName,
+                                4000,
+                            );
+                            this.results = null;
+                        }
+                    },
+
+                    setActiveCandidatesPartyFilter(group) {
+                        this.activeCandidatesPartyFilter = group;
+                    },
+
+                    setActiveWinningWardsFilter(group) {
+                        this.activeWinningWardsFilter = group;
+                        this.searchTerm = "";
+                        this.filteredWards = [];
+                        this.results = null;
+                        this.clearAlert();
+                    },
+
+                    clearSearch() {
+                        this.searchTerm = "";
+                        this.searchedTerm = "";
+                        this.filteredWards = [];
+                        this.results = null;
+                        this.clearAlert();
+                        this.activeCandidatesPartyFilter = "All";
+                        this.activeWinningWardsFilter = "All";
+                        // note: do not reset activeLeadRanges here so user selection persists
+                    },
+
+                    clearAlert() {
+                        this.message = "";
+                        this.error = "";
+                        if (this.alertTimeout) {
+                            clearTimeout(this.alertTimeout);
+                            this.alertTimeout = null;
+                        }
+                    },
+
+                    displayTemporaryAlert(type, text, duration = 3000) {
+                        this.clearAlert();
+                        if (type === "message") this.message = text;
+                        else if (type === "error") this.error = text;
+                        this.alertTimeout = setTimeout(
+                            () => this.clearAlert(),
+                            duration,
+                        );
+                    },
+                };
+            }
+        </script>
+    </body>
+</html>
