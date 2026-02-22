@@ -460,132 +460,142 @@ function getPartyFillClass(party) {
                     </div>
                 )}
             </main>
-        </div>
+                    </div>
+                )}
+            </main>
 
-        {activeWard && (
-            <script is:inline define:vars={{ ward: activeWard }}>
-                window.getPartyPercentage = function(result, partyPrefix) {
-                    if (!result || !result.candidates) return null;
-                    const c = result.candidates.find(cand => cand.party.toUpperCase().includes(partyPrefix));
-                    return c ? parseFloat(c.percent) : 0;
-                };
+            {activeWard && (
+                <script is:inline define:vars={{ ward: activeWard }}>
+                    window.getPartyPercentage = function(result, partyPrefix) {
+                        if (!result || !result.candidates) return null;
+                        const c = result.candidates.find(cand => cand.party.toUpperCase().includes(partyPrefix));
+                        return c ? parseFloat(c.percent) : 0;
+                    };
 
-                window.initTrendChart = function() {
-                    const ctx = document.getElementById('trendChart');
-                    if (!ctx) return;
-                    
-                    // Destroy old chart instance if it exists to avoid overlaps
-                    if (window.currentChart) {
-                        window.currentChart.destroy();
-                    }
+                    window.initTrendChart = function() {
+                        const ctx = document.getElementById('trendChart');
+                        if (!ctx) return;
+                        
+                        // Destroy old chart instance if it exists to avoid overlaps
+                        if (window.currentChart) {
+                            window.currentChart.destroy();
+                        }
 
-                    const dataLDF = [
-                        window.getPartyPercentage(ward.result2015, 'LDF') || window.getPartyPercentage(ward.result2015, 'CPI'),
-                        window.getPartyPercentage(ward.result2020, 'LDF') || window.getPartyPercentage(ward.result2020, 'CPI'),
-                        window.getPartyPercentage(ward.result2025, 'LDF') || window.getPartyPercentage(ward.result2025, 'CPI')
-                    ];
+                        const dataLDF = [
+                            window.getPartyPercentage(ward.result2015, 'LDF') || window.getPartyPercentage(ward.result2015, 'CPI'),
+                            window.getPartyPercentage(ward.result2020, 'LDF') || window.getPartyPercentage(ward.result2020, 'CPI'),
+                            window.getPartyPercentage(ward.result2025, 'LDF') || window.getPartyPercentage(ward.result2025, 'CPI')
+                        ];
 
-                    const dataUDF = [
-                        window.getPartyPercentage(ward.result2015, 'UDF') || window.getPartyPercentage(ward.result2015, 'INC'),
-                        window.getPartyPercentage(ward.result2020, 'UDF') || window.getPartyPercentage(ward.result2020, 'INC'),
-                        window.getPartyPercentage(ward.result2025, 'UDF') || window.getPartyPercentage(ward.result2025, 'INC')
-                    ];
+                        const dataUDF = [
+                            window.getPartyPercentage(ward.result2015, 'UDF') || window.getPartyPercentage(ward.result2015, 'INC'),
+                            window.getPartyPercentage(ward.result2020, 'UDF') || window.getPartyPercentage(ward.result2020, 'INC'),
+                            window.getPartyPercentage(ward.result2025, 'UDF') || window.getPartyPercentage(ward.result2025, 'INC')
+                        ];
 
-                    const dataNDA = [
-                        window.getPartyPercentage(ward.result2015, 'NDA') || window.getPartyPercentage(ward.result2015, 'BJP'),
-                        window.getPartyPercentage(ward.result2020, 'NDA') || window.getPartyPercentage(ward.result2020, 'BJP'),
-                        window.getPartyPercentage(ward.result2025, 'NDA') || window.getPartyPercentage(ward.result2025, 'BJP')
-                    ];
+                        const dataNDA = [
+                            window.getPartyPercentage(ward.result2015, 'NDA') || window.getPartyPercentage(ward.result2015, 'BJP'),
+                            window.getPartyPercentage(ward.result2020, 'NDA') || window.getPartyPercentage(ward.result2020, 'BJP'),
+                            window.getPartyPercentage(ward.result2025, 'NDA') || window.getPartyPercentage(ward.result2025, 'BJP')
+                        ];
 
-                    const dataOther = [
-                        Math.max(0, 100 - (dataLDF[0] + dataUDF[0] + dataNDA[0])),
-                        Math.max(0, 100 - (dataLDF[1] + dataUDF[1] + dataNDA[1])),
-                        Math.max(0, 100 - (dataLDF[2] + dataUDF[2] + dataNDA[2]))
-                    ];
+                        const dataOther = [
+                            Math.max(0, 100 - (dataLDF[0] + dataUDF[0] + dataNDA[0])),
+                            Math.max(0, 100 - (dataLDF[1] + dataUDF[1] + dataNDA[1])),
+                            Math.max(0, 100 - (dataLDF[2] + dataUDF[2] + dataNDA[2]))
+                        ];
 
-                    window.currentChart = new Chart(ctx, {
-                        type: 'bar',
-                        plugins: [ChartDataLabels],
-                        data: {
-                            labels: ['2015', '2020', '2025'],
-                            datasets: [
-                                {
-                                    label: 'LDF',
-                                    data: dataLDF,
-                                    backgroundColor: '#ef4444',
-                                    borderWidth: 1,
-                                    borderColor: '#ffffff'
-                                },
-                                {
-                                    label: 'UDF',
-                                    data: dataUDF,
-                                    backgroundColor: '#3b82f6',
-                                    borderWidth: 1,
-                                    borderColor: '#ffffff'
-                                },
-                                {
-                                    label: 'NDA',
-                                    data: dataNDA,
-                                    backgroundColor: '#f97316',
-                                    borderWidth: 1,
-                                    borderColor: '#ffffff'
-                                },
-                                {
-                                    label: 'Other',
-                                    data: dataOther,
-                                    backgroundColor: '#a1a1aa',
-                                    borderWidth: 1,
-                                    borderColor: '#ffffff'
-                                }
-                            ]
-                        },
-                        options: {
-                            responsive: true,
-                            maintainAspectRatio: false,
-                            indexAxis: 'y', // Horizontal bars are often better for stacked time series
-                            plugins: {
-                                legend: { position: 'top' },
-                                tooltip: {
-                                    callbacks: {
-                                        label: function(context) {
-                                            return context.dataset.label + ': ' + (context.raw || 0).toFixed(1) + '%';
+                        window.currentChart = new Chart(ctx, {
+                            type: 'bar',
+                            plugins: [ChartDataLabels],
+                            data: {
+                                labels: ['2015', '2020', '2025'],
+                                datasets: [
+                                    {
+                                        label: 'LDF',
+                                        data: dataLDF,
+                                        backgroundColor: '#ef4444',
+                                        borderWidth: 1,
+                                        borderColor: '#ffffff'
+                                    },
+                                    {
+                                        label: 'UDF',
+                                        data: dataUDF,
+                                        backgroundColor: '#3b82f6',
+                                        borderWidth: 1,
+                                        borderColor: '#ffffff'
+                                    },
+                                    {
+                                        label: 'NDA',
+                                        data: dataNDA,
+                                        backgroundColor: '#f97316',
+                                        borderWidth: 1,
+                                        borderColor: '#ffffff'
+                                    },
+                                    {
+                                        label: 'Other',
+                                        data: dataOther,
+                                        backgroundColor: '#a1a1aa',
+                                        borderWidth: 1,
+                                        borderColor: '#ffffff'
+                                    }
+                                ]
+                            },
+                            options: {
+                                responsive: true,
+                                maintainAspectRatio: false,
+                                indexAxis: 'y', // Horizontal bars are often better for stacked time series
+                                plugins: {
+                                    legend: { position: 'top' },
+                                    tooltip: {
+                                        callbacks: {
+                                            label: function(context) {
+                                                return context.dataset.label + ': ' + (context.raw || 0).toFixed(1) + '%';
+                                            }
+                                        }
+                                    },
+                                    datalabels: {
+                                        color: 'white',
+                                        font: {
+                                            weight: 'bold',
+                                            size: 12
+                                        },
+                                        formatter: function(value, context) {
+                                            if (value < 5) return ''; // Hide labels if the segment is too small (e.g. < 5%)
+                                            return Math.round(value) + '%';
                                         }
                                     }
                                 },
-                                datalabels: {
-                                    color: 'white',
-                                    font: {
-                                        weight: 'bold',
-                                        size: 12
+                                scales: {
+                                    x: {
+                                        stacked: true,
+                                        max: 100, // Force the total visual to 100%
+                                        ticks: { callback: (value) => value + '%' }
                                     },
-                                    formatter: function(value, context) {
-                                        if (value < 5) return ''; // Hide labels if the segment is too small (e.g. < 5%)
-                                        return Math.round(value) + '%';
+                                    y: {
+                                        stacked: true
                                     }
                                 }
-                            },
-                            scales: {
-                                x: {
-                                    stacked: true,
-                                    max: 100, // Force the total visual to 100%
-                                    ticks: { callback: (value) => value + '%' }
-                                },
-                                y: {
-                                    stacked: true
-                                }
                             }
+                        });
+                    };
+                    
+                    // Fire on initial load
+                    if (document.readyState === 'loading') {
+                        document.addEventListener('DOMContentLoaded', window.initTrendChart);
+                    } else {
+                        window.initTrendChart();
+                    }
+
+                    // Fire on HTMX swaps
+                    document.body.addEventListener('htmx:afterSwap', function(event) {
+                        if (document.getElementById('trendChart')) {
+                            window.initTrendChart();
                         }
                     });
-                };
-                
-                // Fire on initial load
-                if (document.readyState === 'loading') {
-                    document.addEventListener('DOMContentLoaded', window.initTrendChart);
-                } else {
-                    window.initTrendChart();
-                }
-            </script>
-        )}
+                </script>
+            )}
+        </div>
 
         <script is:inline>
             // Global event delegation for tabs so it survives HTMX swaps without double-binding
