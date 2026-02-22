@@ -167,3 +167,80 @@ export async function getUnifiedData() {
 
     return unifiedResult;
 }
+
+export function getCorporationStats(unifiedData) {
+    const years = ['2015', '2020', '2025'];
+
+    // Structure to hold macro stats
+    const stats = {
+        seats: { '2015': { LDF: 0, UDF: 0, NDA: 0, OTHER: 0 }, '2020': { LDF: 0, UDF: 0, NDA: 0, OTHER: 0 }, '2025': { LDF: 0, UDF: 0, NDA: 0, OTHER: 0 } },
+        votes: { '2015': { LDF: 0, UDF: 0, NDA: 0, OTHER: 0, TOTAL: 0 }, '2020': { LDF: 0, UDF: 0, NDA: 0, OTHER: 0, TOTAL: 0 }, '2025': { LDF: 0, UDF: 0, NDA: 0, OTHER: 0, TOTAL: 0 } },
+        closestFights2025: [],
+        flippedWards: []
+    };
+
+    function identifyParty(partyStr) {
+        if (!partyStr) return 'OTHER';
+        const p = partyStr.toUpperCase();
+        if (p.includes('LDF') || p === 'CPI(M)' || p === 'CPI') return 'LDF';
+        if (p.includes('UDF') || p === 'INC') return 'UDF';
+        if (p.includes('NDA') || p === 'BJP') return 'NDA';
+        return 'OTHER';
+    }
+
+    unifiedData.forEach(ward => {
+        // Aggregate votes & seats per year
+        years.forEach(year => {
+            const result = ward['result' + year];
+            if (!result) return;
+
+            // SEATS
+            const winningParty = identifyParty(result.party);
+            stats.seats[year][winningParty]++;
+
+            // VOTES
+            result.candidates.forEach(cand => {
+                const party = identifyParty(cand.party);
+                stats.votes[year][party] += cand.votes;
+                stats.votes[year].TOTAL += cand.votes;
+            });
+        });
+
+        // Collect 2025 closest fights
+        if (ward.result2025 && ward.result2025.lead !== null) {
+            stats.closestFights2025.push({
+                ward: ward.wardName,
+                winner: ward.result2025.winnerName,
+                party: ward.result2025.party,
+                lead: ward.result2025.lead,
+                runnerUp: ward.result2025.candidates?.[1]?.name || 'N/A',
+                runnerUpParty: ward.result2025.candidates?.[1]?.party || 'N/A'
+            });
+        }
+
+        // Flipped Wards (2020 -> 2025)
+        if (ward.result2020 && ward.result2025) {
+            const p2020 = identifyParty(ward.result2020.party);
+            const p2025 = identifyParty(ward.result2025.party);
+            if (p2020 !== p2025) {
+                stats.flippedWards.push({
+                    ward: ward.wardName,
+                    from: p2020,
+                    to: p2025,
+                    originalParty: ward.result2020.party,
+                    newParty: ward.result2025.party,
+                    margin2025: ward.result2025.lead
+                });
+            }
+        }
+    });
+
+    // Sort closest fights
+    stats.closestFights2025.sort((a, b) => a.lead - b.lead);
+    stats.closestFights2025 = stats.closestFights2025.slice(0, 10); // Top 10 closest
+
+    // Sort flipped wards by highest margin in 2025
+    stats.flippedWards.sort((a, b) => b.margin2025 - a.margin2025);
+
+    return stats;
+}

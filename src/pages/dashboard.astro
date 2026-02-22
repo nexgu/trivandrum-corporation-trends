@@ -1,0 +1,220 @@
+---
+import { getUnifiedData, getCorporationStats } from '../lib/data.js';
+import '../styles/global.css';
+
+const allWards = await getUnifiedData();
+const stats = getCorporationStats(allWards);
+
+function getPartyBadgeClasses(partyStr) {
+    if (!partyStr) return "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-zinc-100 text-zinc-900";
+    const p = partyStr.toUpperCase();
+    if (p.includes('LDF') || p === 'CPI(M)' || p === 'CPI') return "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-red-100 text-red-700";
+    if (p.includes('UDF') || p === 'INC') return "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-blue-100 text-blue-700";
+    if (p.includes('NDA') || p === 'BJP') return "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-orange-100 text-orange-700";
+    return "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-zinc-100 text-zinc-900";
+}
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Trivandrum Corp Dashboard</title>
+        <script src="https://unpkg.com/htmx.org@2.0.0" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0" defer></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body class="min-h-screen bg-zinc-50 font-['Inter'] text-zinc-950 antialiased selection:bg-zinc-200">
+        
+        <div id="app-root" class="flex flex-col min-h-screen">
+            <!-- Header section -->
+            <header class="w-full border-b border-zinc-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
+                <div class="container mx-auto w-full px-4 flex items-center justify-between py-6">
+                    <a href="/" hx-get="/" hx-target="#app-root" hx-select="#app-root" hx-swap="outerHTML" hx-push-url="true" class="group flex items-center gap-2">
+                        <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-zinc-950 text-white shadow-sm transition-transform group-hover:scale-105">
+                            <span class="font-bold tracking-tight">TVM</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <h1 class="text-xl font-bold tracking-tight text-zinc-950">Corp Trends</h1>
+                            <span class="text-xs font-medium text-zinc-500">Analytics Dashboard</span>
+                        </div>
+                    </a>
+                    
+                    <a href="/" hx-get="/" hx-target="#app-root" hx-select="#app-root" hx-swap="outerHTML" hx-push-url="true" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-zinc-200 bg-white hover:bg-zinc-100 hover:text-zinc-900 h-9 px-4 py-2">
+                        ← Back to Ward Search
+                    </a>
+                </div>
+            </header>
+
+            <main class="flex-1 container mx-auto w-full px-4 sm:px-8 py-8 space-y-8">
+                
+                <div class="flex flex-col md:flex-row gap-6">
+                    {/* Seats Control Chart */}
+                    <div class="flex-1 rounded-xl border border-zinc-200 bg-white p-6 shadow-sm">
+                        <h3 class="font-semibold leading-none tracking-tight mb-2">Corporation Control (Seats Won)</h3>
+                        <p class="text-xs text-zinc-500 mb-6">Total wards won by each primary alliance per election year.</p>
+                        <div class="h-[300px] w-full relative">
+                            <canvas id="seatsChart"></canvas>
+                        </div>
+                    </div>
+
+                    {/* Vote Share Chart */}
+                    <div class="flex-1 rounded-xl border border-zinc-200 bg-white p-6 shadow-sm">
+                        <h3 class="font-semibold leading-none tracking-tight mb-2">City-Wide Vote Share</h3>
+                        <p class="text-xs text-zinc-500 mb-6">Percentage proportion of total votes cast across all 100 wards.</p>
+                        <div class="h-[300px] w-full relative">
+                            <canvas id="votesChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+                    {/* Top 10 Closest Fights Table */}
+                    <div class="rounded-xl border border-zinc-200 bg-white shadow-sm overflow-hidden">
+                        <div class="p-6 pb-4 border-b border-zinc-100">
+                            <h3 class="font-semibold leading-none tracking-tight">Top 10 Closest Fights (2025)</h3>
+                            <p class="text-xs text-zinc-500 mt-2">Wards with the narrowest lead margins in the current term.</p>
+                        </div>
+                        <div class="w-full overflow-auto">
+                            <table class="w-full caption-bottom text-sm">
+                                <thead class="[&_tr]:border-b bg-zinc-50">
+                                    <tr class="border-b border-zinc-200 transition-colors">
+                                        <th class="h-10 px-4 text-left align-middle font-medium text-zinc-500">Ward</th>
+                                        <th class="h-10 px-4 text-left align-middle font-medium text-zinc-500">Winner</th>
+                                        <th class="h-10 px-4 text-right align-middle font-medium text-zinc-500">Margin</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="[&_tr:last-child]:border-0 text-zinc-900">
+                                    {stats.closestFights2025.map(fight => (
+                                        <tr class="border-b border-zinc-200 transition-colors hover:bg-zinc-50">
+                                            <td class="p-4 align-middle font-medium">
+                                                <a href={`/?w=${fight.ward.toLowerCase()}`} hx-get={`/?w=${fight.ward.toLowerCase()}`} hx-target="#app-root" hx-select="#app-root" hx-swap="outerHTML" hx-push-url="true" class="hover:underline">{fight.ward}</a>
+                                            </td>
+                                            <td class="p-4 align-middle">
+                                                <div class="flex items-center gap-2">
+                                                    <span class="line-clamp-1">{fight.winner}</span>
+                                                    <span class={getPartyBadgeClasses(fight.party)}>{fight.party}</span>
+                                                </div>
+                                            </td>
+                                            <td class="p-4 align-middle text-right font-mono font-bold text-red-600">
+                                                {fight.lead}
+                                            </td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    {/* Flipped Wards Table */}
+                    <div class="rounded-xl border border-zinc-200 bg-white shadow-sm overflow-hidden">
+                        <div class="p-6 pb-4 border-b border-zinc-100">
+                            <h3 class="font-semibold leading-none tracking-tight">Flipped Wards (2020 to 2025)</h3>
+                            <p class="text-xs text-zinc-500 mt-2">Wards that changed allegiances in the most recent election.</p>
+                        </div>
+                        <div class="w-full overflow-auto max-h-[500px]">
+                            <table class="w-full caption-bottom text-sm">
+                                <thead class="[&_tr]:border-b bg-zinc-50 sticky top-0">
+                                    <tr class="border-b border-zinc-200 transition-colors">
+                                        <th class="h-10 px-4 text-left align-middle font-medium text-zinc-500">Ward</th>
+                                        <th class="h-10 px-4 text-left align-middle font-medium text-zinc-500">2020 Party</th>
+                                        <th class="h-10 px-4 text-left align-middle font-medium text-zinc-500">2025 Party</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="[&_tr:last-child]:border-0 text-zinc-900">
+                                    {stats.flippedWards.map(flip => (
+                                        <tr class="border-b border-zinc-200 transition-colors hover:bg-zinc-50">
+                                            <td class="p-4 align-middle font-medium">
+                                                <a href={`/?w=${flip.ward.toLowerCase()}`} hx-get={`/?w=${flip.ward.toLowerCase()}`} hx-target="#app-root" hx-select="#app-root" hx-swap="outerHTML" hx-push-url="true" class="hover:underline">{flip.ward}</a>
+                                            </td>
+                                            <td class="p-4 align-middle">
+                                                <span class={getPartyBadgeClasses(flip.originalParty)}>{flip.from}</span>
+                                            </td>
+                                            <td class="p-4 align-middle">
+                                                <span class={getPartyBadgeClasses(flip.newParty)}>{flip.to}</span>
+                                            </td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+
+        <script is:inline define:vars={{ stats }}>
+            function initDashboardCharts() {
+                const colors = { LDF: '#ef4444', UDF: '#3b82f6', NDA: '#f97316', OTHER: '#a1a1aa' };
+                
+                // --- SEATS CHART ---
+                const ctxSeats = document.getElementById('seatsChart');
+                if (ctxSeats) {
+                    new Chart(ctxSeats, {
+                        type: 'bar',
+                        plugins: [ChartDataLabels],
+                        data: {
+                            labels: ['2015', '2020', '2025'],
+                            datasets: [
+                                { label: 'LDF', data: [stats.seats['2015'].LDF, stats.seats['2020'].LDF, stats.seats['2025'].LDF], backgroundColor: colors.LDF, borderRadius: 4 },
+                                { label: 'UDF', data: [stats.seats['2015'].UDF, stats.seats['2020'].UDF, stats.seats['2025'].UDF], backgroundColor: colors.UDF, borderRadius: 4 },
+                                { label: 'NDA', data: [stats.seats['2015'].NDA, stats.seats['2020'].NDA, stats.seats['2025'].NDA], backgroundColor: colors.NDA, borderRadius: 4 },
+                                { label: 'Other', data: [stats.seats['2015'].OTHER, stats.seats['2020'].OTHER, stats.seats['2025'].OTHER], backgroundColor: colors.OTHER, borderRadius: 4 }
+                            ]
+                        },
+                        options: {
+                            responsive: true, maintainAspectRatio: false,
+                            plugins: {
+                                legend: { position: 'bottom' },
+                                datalabels: {
+                                    color: 'white', font: { weight: 'bold' },
+                                    formatter: (val) => val > 0 ? val : ''
+                                }
+                            }
+                        }
+                    });
+                }
+
+                // --- VOTES CHART (100% Stacked) ---
+                const ctxVotes = document.getElementById('votesChart');
+                if (ctxVotes) {
+                    const getPct = (year, party) => (stats.votes[year][party] / stats.votes[year].TOTAL) * 100;
+
+                    new Chart(ctxVotes, {
+                        type: 'bar',
+                        plugins: [ChartDataLabels],
+                        data: {
+                            labels: ['2015', '2020', '2025'],
+                            datasets: [
+                                { label: 'LDF', data: [getPct('2015', 'LDF'), getPct('2020', 'LDF'), getPct('2025', 'LDF')], backgroundColor: colors.LDF, borderWidth: 1, borderColor: '#fff' },
+                                { label: 'UDF', data: [getPct('2015', 'UDF'), getPct('2020', 'UDF'), getPct('2025', 'UDF')], backgroundColor: colors.UDF, borderWidth: 1, borderColor: '#fff' },
+                                { label: 'NDA', data: [getPct('2015', 'NDA'), getPct('2020', 'NDA'), getPct('2025', 'NDA')], backgroundColor: colors.NDA, borderWidth: 1, borderColor: '#fff' },
+                                { label: 'Other', data: [getPct('2015', 'OTHER'), getPct('2020', 'OTHER'), getPct('2025', 'OTHER')], backgroundColor: colors.OTHER, borderWidth: 1, borderColor: '#fff' }
+                            ]
+                        },
+                        options: {
+                            responsive: true, maintainAspectRatio: false, indexAxis: 'y',
+                            plugins: {
+                                legend: { position: 'top' },
+                                tooltip: { callbacks: { label: (c) => c.dataset.label + ': ' + (c.raw || 0).toFixed(1) + '%' } },
+                                datalabels: { color: 'white', font: { weight: 'bold' }, formatter: (val) => val > 3 ? Math.round(val) + '%' : '' }
+                            },
+                            scales: {
+                                x: { stacked: true, max: 100, ticks: { callback: (v) => v + '%' } },
+                                y: { stacked: true }
+                            }
+                        }
+                    });
+                }
+            }
+
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', initDashboardCharts);
+            } else {
+                initDashboardCharts();
+            }
+        </script>
+    </body>
+</html>
