@@ -3,66 +3,22 @@ import { getUnifiedData } from '../lib/data.js';
 import '../styles/global.css';
 
 const allWards = await getUnifiedData();
-
-const params = Astro.url.searchParams;
-const q = params.get('q') || '';
-const w = params.get('w') || '';
-
-const queryLower = q.trim().toLowerCase();
-const wardLower = w.trim().toLowerCase();
-
-let matchedDropdownWards = [];
-let activeWard = null;
-
-if (wardLower.length > 0) {
-    activeWard = allWards.find(ward => ward.wardNameLower === wardLower) || null;
-}
-
-if (queryLower.length > 0 && !activeWard) {
-    matchedDropdownWards = allWards.filter(ward => ward.wardNameLower.includes(queryLower));
-    if (matchedDropdownWards.length > 10) {
-        matchedDropdownWards = matchedDropdownWards.slice(0, 10);
-    }
-}
+const base = import.meta.env.BASE_URL;
 
 // Shadcn Badge Variants
 function getPartyBadgeClasses(party) {
-    const base = "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-zinc-950 focus:ring-offset-2";
-    if (!party) return `${base} bg-zinc-100 text-zinc-900 border-zinc-200`;
+    const baseClass = "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-zinc-950 focus:ring-offset-2";
+    if (!party) return `${baseClass} bg-zinc-100 text-zinc-900 border-zinc-200`;
     const p = party.toUpperCase();
     
-    // Destructive style (Red)
     if (p.includes('LDF') || p === 'CPI(M)' || p === 'CPI') 
-        return `${base} border-transparent bg-red-500 text-white hover:bg-red-500/80 shadow-sm`;
-    
-    // Primary style (Blue-ish / Zinc)
+        return `${baseClass} border-transparent bg-red-500 text-white hover:bg-red-500/80 shadow-sm`;
     if (p.includes('UDF') || p === 'INC') 
-        return `${base} border-transparent bg-blue-600 text-white hover:bg-blue-600/80 shadow-sm`;
-    
-    // Accent style (Orange)
+        return `${baseClass} border-transparent bg-blue-600 text-white hover:bg-blue-600/80 shadow-sm`;
     if (p.includes('NDA') || p === 'BJP') 
-        return `${base} border-transparent bg-orange-500 text-white hover:bg-orange-500/80 shadow-sm`;
+        return `${baseClass} border-transparent bg-orange-500 text-white hover:bg-orange-500/80 shadow-sm`;
     
-    // Secondary style (Gray)
-    return `${base} bg-zinc-100 text-zinc-900 border-zinc-200 hover:bg-zinc-100/80`;
-}
-
-function getCardHighlightClass(party) {
-    if (!party) return "border-zinc-200";
-    const p = party.toUpperCase();
-    if (p.includes('LDF') || p === 'CPI(M)' || p === 'CPI') return "border-red-200 bg-red-50/30";
-    if (p.includes('UDF') || p === 'INC') return "border-blue-200 bg-blue-50/30";
-    if (p.includes('NDA') || p === 'BJP') return "border-orange-200 bg-orange-50/30";
-    return "border-zinc-200 bg-zinc-50/50";
-}
-
-function getPartyFillClass(party) {
-    if (!party) return "bg-zinc-400";
-    const p = party.toUpperCase();
-    if (p.includes('LDF') || p === 'CPI(M)' || p === 'CPI') return "bg-red-500";
-    if (p.includes('UDF') || p === 'INC') return "bg-blue-500";
-    if (p.includes('NDA') || p === 'BJP') return "bg-orange-500";
-    return "bg-zinc-400";
+    return `${baseClass} bg-zinc-100 text-zinc-900 border-zinc-200 hover:bg-zinc-100/80`;
 }
 ---
 
@@ -72,15 +28,9 @@ function getPartyFillClass(party) {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Trivandrum Corp Trends</title>
-        <script src="https://unpkg.com/htmx.org@2.0.0" defer></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
         <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0" defer></script>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-        <style>
-            .htmx-indicator { display: none; }
-            .htmx-request .htmx-indicator { display: inline-block; }
-            .htmx-request.htmx-indicator { display: inline-block; }
-        </style>
     </head>
     <body class="bg-[#fafafa] text-zinc-950 font-sans antialiased min-h-screen">
         
@@ -90,7 +40,7 @@ function getPartyFillClass(party) {
                 <div class="container mx-auto w-full px-4 flex flex-col items-center justify-center py-8">
                     <div class="w-full flex flex-col md:flex-row items-center justify-between mb-8 gap-4">
                         <div class="flex flex-col text-center md:text-left">
-                            <a href="/" hx-get="/" hx-target="#app-root" hx-select="#app-root" hx-swap="outerHTML" hx-push-url="true" class="group">
+                            <a href={base} onclick="clearWard(); return false;" class="group cursor-pointer">
                                 <h1 class="text-3xl font-bold tracking-tight group-hover:opacity-80 transition-opacity">
                                     Trivandrum Election Trends
                                 </h1>
@@ -100,505 +50,169 @@ function getPartyFillClass(party) {
                             </p>
                         </div>
                         
-                        <a href="/dashboard" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-zinc-200 bg-white hover:bg-zinc-100 hover:text-zinc-900 h-10 px-4 py-2 shadow-sm shrink-0">
+                        <a href={`${base}dashboard`} class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-zinc-200 bg-white hover:bg-zinc-100 hover:text-zinc-900 h-10 px-4 py-2 shadow-sm shrink-0">
                             Corporation Analytics →
                         </a>
                     </div>
 
-                    <div class="w-full max-w-2xl relative w-full mb-2">
-                        <form id="search-form" 
-                              hx-get="/" 
-                              hx-target="#search-dropdown-container" 
-                              hx-select="#search-dropdown-container" 
-                              hx-swap="outerHTML" 
-                              hx-push-url="false"
-                              class="relative">
-                            
+                    <div class="w-full max-w-2xl relative mb-2">
+                        <form id="search-form" onsubmit="event.preventDefault();" class="relative">
                             <!-- Search Icon -->
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="absolute left-3 top-2.5 h-4 w-4 text-zinc-500">
                                 <circle cx="11" cy="11" r="8"></circle>
                                 <path d="m21 21-4.3-4.3"></path>
                             </svg>
-
                             <!-- Shadcn Input -->
-                            <input type="search" 
-                                   name="q" 
-                                   value={q} 
-                                   placeholder="Search ward by name..."
-                                   autocomplete="off"
-                                   hx-get="/"
-                                   hx-trigger="input changed delay:250ms, search"
-                                   hx-target="#search-dropdown-container"
-                                   hx-select="#search-dropdown-container"
-                                   hx-push-url="false"
-                                   class="flex h-10 w-full rounded-md border border-zinc-200 bg-white px-3 py-2 pl-9 text-sm ring-offset-white file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-zinc-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" />
-                                   
-                            <!-- Spinner -->
-                            <div class="absolute right-3 top-2.5 htmx-indicator text-zinc-500">
-                                <svg class="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                  <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                                  <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                                </svg>
-                            </div>
+                            <input type="search" id="search-input" placeholder="Search ward by name..." autocomplete="off" class="flex h-10 w-full rounded-md border border-zinc-200 bg-white px-3 py-2 pl-9 text-sm ring-offset-white placeholder:text-zinc-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2" />
                         </form>
 
-                        <!-- Dropdown Results Fragment (Shadcn Popover style) -->
-                        <div id="search-dropdown-container" class="absolute top-full left-0 right-0 mt-2 z-50">
-                            {queryLower.length > 0 && !activeWard && (
-                                <div class="rounded-md border border-zinc-200 bg-white text-zinc-950 shadow-md outline-none animate-in fade-in-80 zoom-in-95 max-h-80 overflow-y-auto w-full">
-                                    {matchedDropdownWards.length > 0 ? (
-                                        <div class="overflow-hidden p-1">
-                                            {matchedDropdownWards.map(ward => (
-                                                <button type="button" 
-                                                        hx-get={`/?w=${encodeURIComponent(ward.wardName)}`}
-                                                        hx-target="#app-root"
-                                                        hx-select="#app-root"
-                                                        hx-swap="outerHTML"
-                                                        hx-push-url="true"
-                                                        class="relative flex w-full cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none hover:bg-zinc-100 hover:text-zinc-900 focus:bg-zinc-100 focus:text-zinc-900 data-[disabled]:pointer-events-none data-[disabled]:opacity-50 group transition-colors">
-                                                    <span class="flex-1 text-left font-medium">{ward.wardName}</span>
-                                                    <span class="text-xs text-zinc-400 group-hover:text-zinc-700">View</span>
-                                                </button>
-                                            ))}
-                                        </div>
-                                    ) : (
-                                        <div class="py-6 text-center text-sm text-zinc-500">
-                                            No wards found matching "{q}".
-                                        </div>
-                                    )}
-                                </div>
-                            )}
-                        </div>
+                        <!-- Dropdown Results Container -->
+                        <div id="search-dropdown-container" class="absolute top-full left-0 right-0 mt-2 z-50 hidden"></div>
                     </div>
                 </div>
             </header>
 
             <main id="results-container" class="flex-1 container mx-auto w-full px-4 sm:px-8 py-8">
-                {!activeWard && (
-                    <div class="tabs-container w-full space-y-6">
-                        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
-                            <div>
-                                <h2 class="text-2xl font-bold tracking-tight">Full Election Results</h2>
-                                <p class="text-sm text-zinc-500">Comprehensive list of all wards and winners per term.</p>
-                            </div>
-                            
-                            <div class="inline-flex h-10 items-center justify-center rounded-md bg-zinc-100 p-1 text-zinc-500">
-                                <button class="tab-btn inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium ring-offset-white transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-white text-zinc-950 shadow-sm" data-tab="tab-2025" data-state="active">2025 Election</button>
-                                <button class="tab-btn inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium ring-offset-white transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-zinc-500 hover:text-zinc-900" data-tab="tab-2020">2020 Election</button>
-                                <button class="tab-btn inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium ring-offset-white transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-zinc-500 hover:text-zinc-900" data-tab="tab-2015">2015 Election</button>
-                            </div>
+                
+                <!-- FULL TABLE VIEW -->
+                <div id="full-table-view" class="tabs-container w-full space-y-6">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                        <div>
+                            <h2 class="text-2xl font-bold tracking-tight">Full Election Results</h2>
+                            <p class="text-sm text-zinc-500">Comprehensive list of all wards and winners per term.</p>
                         </div>
+                        <div class="inline-flex h-10 items-center justify-center rounded-md bg-zinc-100 p-1 text-zinc-500">
+                            <button class="tab-btn inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium transition-all bg-white text-zinc-950 shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2" data-tab="tab-2025" data-state="active">2025 Election</button>
+                            <button class="tab-btn inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium transition-all text-zinc-500 hover:text-zinc-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2" data-tab="tab-2020">2020 Election</button>
+                            <button class="tab-btn inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium transition-all text-zinc-500 hover:text-zinc-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2" data-tab="tab-2015">2015 Election</button>
+                        </div>
+                    </div>
 
-                        {['2025', '2020', '2015'].map(year => {
-                            const resultKey = 'result' + year;
-                            // Filter wards that actually have a result for this year
-                            const activeWards = allWards.filter(w => w[resultKey]);
-                            return (
-                                <div id={`tab-${year}`} class={`tab-pane ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 ${year === '2025' ? '' : 'hidden'}`}>
-                                    <div class="rounded-md border border-zinc-200 bg-white">
-                                        <div class="w-full overflow-auto max-h-[70vh]">
-                                            <table class="w-full caption-bottom text-sm">
-                                                <thead class="[&_tr]:border-b bg-zinc-50 sticky top-0 z-10">
-                                                    <tr class="border-b border-zinc-200 transition-colors">
-                                                        <th class="h-10 px-4 text-left align-middle font-medium text-zinc-500 w-[200px]">Ward</th>
-                                                        <th class="h-10 px-4 text-left align-middle font-medium text-zinc-500">Winner</th>
-                                                        <th class="h-10 px-4 text-left align-middle font-medium text-zinc-500">Party</th>
-                                                        <th class="h-10 px-4 text-right align-middle font-medium text-zinc-500">Votes</th>
-                                                        <th class="h-10 px-4 text-right align-middle font-medium text-zinc-500">Lead Margin</th>
+                    {['2025', '2020', '2015'].map(year => {
+                        const resultKey = 'result' + year;
+                        const activeWards = allWards.filter(w => w[resultKey]);
+                        return (
+                            <div id={`tab-${year}`} class={`tab-pane ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 ${year === '2025' ? '' : 'hidden'}`}>
+                                <div class="rounded-md border border-zinc-200 bg-white">
+                                    <div class="w-full overflow-auto max-h-[70vh]">
+                                        <table class="w-full caption-bottom text-sm">
+                                            <thead class="bg-zinc-50 sticky top-0 z-10 border-b border-zinc-200 transition-colors">
+                                                <tr>
+                                                    <th class="h-10 px-4 text-left align-middle font-medium text-zinc-500 w-[200px]">Ward</th>
+                                                    <th class="h-10 px-4 text-left align-middle font-medium text-zinc-500">Winner</th>
+                                                    <th class="h-10 px-4 text-left align-middle font-medium text-zinc-500">Party</th>
+                                                    <th class="h-10 px-4 text-right align-middle font-medium text-zinc-500">Votes</th>
+                                                    <th class="h-10 px-4 text-right align-middle font-medium text-zinc-500">Lead Margin</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="text-zinc-900">
+                                                {activeWards.map(ward => (
+                                                    <tr class="border-b border-zinc-200 hover:bg-zinc-100/50 cursor-pointer transition-colors" onclick={`selectWard('${ward.wardNameLower}')`}>
+                                                        <td class="p-4 align-middle font-medium">{ward.wardName}</td>
+                                                        <td class="p-4 align-middle">{ward[resultKey].winnerName}</td>
+                                                        <td class="p-4 align-middle"><span class={getPartyBadgeClasses(ward[resultKey].party)}>{ward[resultKey].party}</span></td>
+                                                        <td class="p-4 align-middle text-right font-mono font-bold text-zinc-700">{ward[resultKey].votes.toLocaleString()}</td>
+                                                        <td class="p-4 align-middle text-right font-mono">{ward[resultKey].lead ? ward[resultKey].lead.toLocaleString() : 'N/A'}</td>
                                                     </tr>
-                                                </thead>
-                                                <tbody class="[&_tr:last-child]:border-0 text-zinc-900">
-                                                    {activeWards.map(ward => (
-                                                        <tr class="border-b border-zinc-200 transition-colors hover:bg-zinc-100/50 cursor-pointer" hx-get={`/?w=${ward.wardNameLower}`} hx-target="#app-root" hx-select="#app-root" hx-swap="outerHTML" hx-push-url="true">
-                                                            <td class="p-4 align-middle font-medium">{ward.wardName}</td>
-                                                            <td class="p-4 align-middle">{ward[resultKey].winnerName}</td>
-                                                            <td class="p-4 align-middle">
-                                                                <span class={getPartyBadgeClasses(ward[resultKey].party)}>
-                                                                    {ward[resultKey].party}
-                                                                </span>
-                                                            </td>
-                                                            <td class="p-4 align-middle text-right font-mono font-bold text-zinc-700">{ward[resultKey].votes.toLocaleString()}</td>
-                                                            <td class="p-4 align-middle text-right font-mono">{ward[resultKey].lead ? ward[resultKey].lead.toLocaleString() : 'N/A'}</td>
-                                                        </tr>
-                                                    ))}
-                                                </tbody>
-                                            </table>
-                                        </div>
+                                                ))}
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
-                            )
-                        })}
-                    </div>
-                )}
-
-                {activeWard && (
-                    <div class="space-y-6">
-                        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
-                            <div>
-                                <h2 class="text-2xl font-bold tracking-tight">{activeWard.wardName}</h2>
-                                <p class="text-sm text-zinc-500">Full analysis of the last 3 local body elections.</p>
                             </div>
-                            <button type="button"
-                                    hx-get="/"
-                                    hx-target="#app-root"
-                                    hx-select="#app-root"
-                                    hx-swap="outerHTML"
-                                    hx-push-url="true"
-                                    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-zinc-200 bg-white hover:bg-zinc-100 hover:text-zinc-900 h-9 px-4 py-2">
-                                Clear Results
-                            </button>
-                        </div>
+                        )
+                    })}
+                </div>
 
-                        {/* Chart Area */}
-                        <div class="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm">
-                            <h3 class="font-semibold leading-none tracking-tight mb-6">Vote Share Trends</h3>
-                            <div class="h-[300px] w-full relative">
-                                <canvas id="trendChart"></canvas>
-                            </div>
-                        </div>
-
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
-                            
-                            {/* --- 2015 Card --- */}
-                            <div class={`flex flex-col h-full rounded-xl border bg-card text-card-foreground shadow-sm ${activeWard.result2015 ? getCardHighlightClass(activeWard.result2015?.party) : ''}`}>
-                                <div class="flex flex-col space-y-1.5 p-6 pb-3">
-                                    <div class="flex items-center justify-between">
-                                        <h3 class="font-semibold leading-none tracking-tight">2015 Election</h3>
-                                        {activeWard.result2015 && (
-                                            <span class={getPartyBadgeClasses(activeWard.result2015.party)}>
-                                                {activeWard.result2015.party}
-                                            </span>
-                                        )}
-                                    </div>
-                                </div>
-                                <div class="p-6 pt-0 flex-1 flex flex-col">
-                                    {activeWard.result2015 ? (
-                                        <div class="space-y-4 pt-2">
-                                            <div class="grid grid-cols-2 gap-4 mb-4">
-                                                <div>
-                                                    <p class="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-1">Total Votes</p>
-                                                    <p class="text-xl font-bold font-mono">{activeWard.result2015.totalVotes}</p>
-                                                </div>
-                                                <div>
-                                                    <p class="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-1">Lead Margin</p>
-                                                    <p class="text-xl font-bold text-zinc-700 font-mono">{activeWard.result2015.lead ?? 'N/A'}</p>
-                                                </div>
-                                            </div>
-                                            
-                                            <div>
-                                                <p class="text-sm font-medium leading-none text-zinc-500 mb-3">Detailed Results</p>
-                                                <div class="space-y-2">
-                                                    {activeWard.result2015.candidates.map((candidate, idx) => (
-                                                        <div class="relative overflow-hidden rounded-md border border-zinc-200 bg-white">
-                                                            <div class={`absolute inset-y-0 left-0 ${getPartyFillClass(candidate.party)} opacity-15`} style={`width: ${candidate.percent}%`}></div>
-                                                            <div class="relative flex justify-between items-center p-2.5 text-sm">
-                                                                <div class="flex flex-col">
-                                                                    <div class="flex items-center gap-2">
-                                                                        <span class="font-medium text-zinc-900 line-clamp-1">{candidate.name}</span>
-                                                                        {idx === 0 && <span class="bg-zinc-900 text-white text-[10px] px-1.5 py-0.5 rounded uppercase font-bold tracking-wider">Winner</span>}
-                                                                    </div>
-                                                                    <span class="text-xs text-zinc-500 font-semibold mt-0.5">{candidate.party}</span>
-                                                                </div>
-                                                                <div class="flex flex-col items-end shrink-0 pl-2">
-                                                                    <span class="font-bold font-mono text-zinc-900">{candidate.votes.toLocaleString()}</span>
-                                                                    <span class="text-xs font-mono text-zinc-500">{candidate.percent}%</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    ))}
-                                                </div>
-                                            </div>
-                                        </div>
-                                    ) : (
-                                        <div class="flex-1 flex flex-col items-center justify-center py-8 text-center min-h-[140px]">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8 text-zinc-300 mb-2">
-                                                <circle cx="12" cy="12" r="10"></circle>
-                                                <line x1="12" y1="8" x2="12" y2="12"></line>
-                                                <line x1="12" y1="16" x2="12.01" y2="16"></line>
-                                            </svg>
-                                            <p class="text-sm font-medium text-zinc-500">No Data Available</p>
-                                            <p class="text-xs text-zinc-400 mt-1">Ward details not found</p>
-                                        </div>
-                                    )}
-                                </div>
-                            </div>
-
-                            {/* --- 2020 Card --- */}
-                            <div class={`flex flex-col h-full rounded-xl border bg-card text-card-foreground shadow-sm ${activeWard.result2020 ? getCardHighlightClass(activeWard.result2020?.party) : ''}`}>
-                                <div class="flex flex-col space-y-1.5 p-6 pb-3">
-                                    <div class="flex items-center justify-between">
-                                        <h3 class="font-semibold leading-none tracking-tight">2020 Election</h3>
-                                        {activeWard.result2020 && (
-                                            <span class={getPartyBadgeClasses(activeWard.result2020.party)}>
-                                                {activeWard.result2020.party}
-                                            </span>
-                                        )}
-                                    </div>
-                                </div>
-                                <div class="p-6 pt-0 flex-1 flex flex-col">
-                                    {activeWard.result2020 ? (
-                                        <div class="space-y-4 pt-2">
-                                            <div class="grid grid-cols-2 gap-4 mb-4">
-                                                <div>
-                                                    <p class="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-1">Total Votes</p>
-                                                    <p class="text-xl font-bold font-mono">{activeWard.result2020.totalVotes}</p>
-                                                </div>
-                                                <div>
-                                                    <p class="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-1">Lead Margin</p>
-                                                    <p class="text-xl font-bold text-zinc-700 font-mono">{activeWard.result2020.lead ?? 'N/A'}</p>
-                                                </div>
-                                            </div>
-                                            
-                                            <div>
-                                                <p class="text-sm font-medium leading-none text-zinc-500 mb-3">Detailed Results</p>
-                                                <div class="space-y-2">
-                                                    {activeWard.result2020.candidates.map((candidate, idx) => (
-                                                        <div class="relative overflow-hidden rounded-md border border-zinc-200 bg-white">
-                                                            <div class={`absolute inset-y-0 left-0 ${getPartyFillClass(candidate.party)} opacity-15`} style={`width: ${candidate.percent}%`}></div>
-                                                            <div class="relative flex justify-between items-center p-2.5 text-sm">
-                                                                <div class="flex flex-col">
-                                                                    <div class="flex items-center gap-2">
-                                                                        <span class="font-medium text-zinc-900 line-clamp-1">{candidate.name}</span>
-                                                                        {idx === 0 && <span class="bg-zinc-900 text-white text-[10px] px-1.5 py-0.5 rounded uppercase font-bold tracking-wider">Winner</span>}
-                                                                    </div>
-                                                                    <span class="text-xs text-zinc-500 font-semibold mt-0.5">{candidate.party}</span>
-                                                                </div>
-                                                                <div class="flex flex-col items-end shrink-0 pl-2">
-                                                                    <span class="font-bold font-mono text-zinc-900">{candidate.votes.toLocaleString()}</span>
-                                                                    <span class="text-xs font-mono text-zinc-500">{candidate.percent}%</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    ))}
-                                                </div>
-                                            </div>
-                                        </div>
-                                    ) : (
-                                        <div class="flex-1 flex flex-col items-center justify-center py-8 text-center min-h-[140px]">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8 text-zinc-300 mb-2">
-                                                <circle cx="12" cy="12" r="10"></circle>
-                                                <line x1="12" y1="8" x2="12" y2="12"></line>
-                                                <line x1="12" y1="16" x2="12.01" y2="16"></line>
-                                            </svg>
-                                            <p class="text-sm font-medium text-zinc-500">No Data Available</p>
-                                            <p class="text-xs text-zinc-400 mt-1">Ward details not found</p>
-                                        </div>
-                                    )}
-                                </div>
-                            </div>
-
-                            {/* --- 2025 Card --- */}
-                            <div class={`flex flex-col h-full rounded-xl border bg-card text-card-foreground shadow-sm relative overflow-hidden ${activeWard.result2025 ? getCardHighlightClass(activeWard.result2025?.party) : ''}`}>
-                                <div class="absolute inset-x-0 top-0 h-1 bg-zinc-900/10"></div>
-                                <div class="flex flex-col space-y-1.5 p-6 pb-3">
-                                    <div class="flex items-center justify-between">
-                                        <div class="flex items-center gap-2">
-                                            <h3 class="font-semibold leading-none tracking-tight">2025 Election</h3>
-                                            <span class="inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-zinc-900 text-zinc-50 shadow hover:bg-zinc-900/80">LATEST</span>
-                                        </div>
-                                        {activeWard.result2025 && (
-                                            <span class={getPartyBadgeClasses(activeWard.result2025.party)}>
-                                                {activeWard.result2025.party}
-                                            </span>
-                                        )}
-                                    </div>
-                                </div>
-                                <div class="p-6 pt-0 flex-1 flex flex-col">
-                                    {activeWard.result2025 ? (
-                                        <div class="space-y-4 pt-2">
-                                            <div class="grid grid-cols-2 gap-4 mb-4">
-                                                <div>
-                                                    <p class="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-1">Total Votes</p>
-                                                    <p class="text-xl font-bold font-mono">{activeWard.result2025.totalVotes}</p>
-                                                </div>
-                                                <div>
-                                                    <p class="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-1">Lead Margin</p>
-                                                    <p class="text-xl font-bold text-zinc-700 font-mono">{activeWard.result2025.lead ?? 'N/A'}</p>
-                                                </div>
-                                            </div>
-                                            
-                                            <div>
-                                                <p class="text-sm font-medium leading-none text-zinc-500 mb-3">Detailed Results</p>
-                                                <div class="space-y-2">
-                                                    {activeWard.result2025.candidates.map((candidate, idx) => (
-                                                        <div class="relative overflow-hidden rounded-md border border-zinc-200 bg-white">
-                                                            <div class={`absolute inset-y-0 left-0 ${getPartyFillClass(candidate.party)} opacity-15`} style={`width: ${candidate.percent}%`}></div>
-                                                            <div class="relative flex justify-between items-center p-2.5 text-sm">
-                                                                <div class="flex flex-col">
-                                                                    <div class="flex items-center gap-2">
-                                                                        <span class="font-medium text-zinc-900 line-clamp-1">{candidate.name}</span>
-                                                                        {candidate.status === 'Won' && <span class="bg-zinc-900 text-white text-[10px] px-1.5 py-0.5 rounded uppercase font-bold tracking-wider">Winner</span>}
-                                                                        {candidate.status !== 'Won' && idx === 0 && !activeWard.result2025.candidates.find(c => c.status === 'Won') && <span class="bg-zinc-900 text-white text-[10px] px-1.5 py-0.5 rounded uppercase font-bold tracking-wider">Winner</span>}
-                                                                    </div>
-                                                                    <span class="text-xs text-zinc-500 font-semibold mt-0.5">{candidate.party}</span>
-                                                                </div>
-                                                                <div class="flex flex-col items-end shrink-0 pl-2">
-                                                                    <span class="font-bold font-mono text-zinc-900">{candidate.votes.toLocaleString()}</span>
-                                                                    <span class="text-xs font-mono text-zinc-500">{candidate.percent}%</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    ))}
-                                                </div>
-                                            </div>
-                                        </div>
-                                    ) : (
-                                        <div class="flex-1 flex flex-col items-center justify-center py-8 text-center min-h-[140px]">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8 text-zinc-300 mb-2">
-                                                <circle cx="12" cy="12" r="10"></circle>
-                                                <line x1="12" y1="8" x2="12" y2="12"></line>
-                                                <line x1="12" y1="16" x2="12.01" y2="16"></line>
-                                            </svg>
-                                            <p class="text-sm font-medium text-zinc-500">No Data Available</p>
-                                            <p class="text-xs text-zinc-400 mt-1">Ward details not found</p>
-                                        </div>
-                                    )}
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                )}
+                <!-- ACTIVE WARD VIEW (Hidden by default, populated by JS) -->
+                <div id="active-ward-view" class="space-y-6 hidden"></div>
             </main>
-                    </div>
-                )}
-            </main>
-
-            {activeWard && (
-                <script is:inline define:vars={{ ward: activeWard }}>
-                    window.getPartyPercentage = function(result, partyPrefix) {
-                        if (!result || !result.candidates) return null;
-                        const c = result.candidates.find(cand => cand.party.toUpperCase().includes(partyPrefix));
-                        return c ? parseFloat(c.percent) : 0;
-                    };
-
-                    window.initTrendChart = function() {
-                        const ctx = document.getElementById('trendChart');
-                        if (!ctx) return;
-                        
-                        // Destroy old chart instance if it exists to avoid overlaps
-                        if (window.currentChart) {
-                            window.currentChart.destroy();
-                        }
-
-                        const dataLDF = [
-                            window.getPartyPercentage(ward.result2015, 'LDF') || window.getPartyPercentage(ward.result2015, 'CPI'),
-                            window.getPartyPercentage(ward.result2020, 'LDF') || window.getPartyPercentage(ward.result2020, 'CPI'),
-                            window.getPartyPercentage(ward.result2025, 'LDF') || window.getPartyPercentage(ward.result2025, 'CPI')
-                        ];
-
-                        const dataUDF = [
-                            window.getPartyPercentage(ward.result2015, 'UDF') || window.getPartyPercentage(ward.result2015, 'INC'),
-                            window.getPartyPercentage(ward.result2020, 'UDF') || window.getPartyPercentage(ward.result2020, 'INC'),
-                            window.getPartyPercentage(ward.result2025, 'UDF') || window.getPartyPercentage(ward.result2025, 'INC')
-                        ];
-
-                        const dataNDA = [
-                            window.getPartyPercentage(ward.result2015, 'NDA') || window.getPartyPercentage(ward.result2015, 'BJP'),
-                            window.getPartyPercentage(ward.result2020, 'NDA') || window.getPartyPercentage(ward.result2020, 'BJP'),
-                            window.getPartyPercentage(ward.result2025, 'NDA') || window.getPartyPercentage(ward.result2025, 'BJP')
-                        ];
-
-                        const dataOther = [
-                            Math.max(0, 100 - (dataLDF[0] + dataUDF[0] + dataNDA[0])),
-                            Math.max(0, 100 - (dataLDF[1] + dataUDF[1] + dataNDA[1])),
-                            Math.max(0, 100 - (dataLDF[2] + dataUDF[2] + dataNDA[2]))
-                        ];
-
-                        window.currentChart = new Chart(ctx, {
-                            type: 'bar',
-                            plugins: [ChartDataLabels],
-                            data: {
-                                labels: ['2015', '2020', '2025'],
-                                datasets: [
-                                    {
-                                        label: 'LDF',
-                                        data: dataLDF,
-                                        backgroundColor: '#ef4444',
-                                        borderWidth: 1,
-                                        borderColor: '#ffffff'
-                                    },
-                                    {
-                                        label: 'UDF',
-                                        data: dataUDF,
-                                        backgroundColor: '#3b82f6',
-                                        borderWidth: 1,
-                                        borderColor: '#ffffff'
-                                    },
-                                    {
-                                        label: 'NDA',
-                                        data: dataNDA,
-                                        backgroundColor: '#f97316',
-                                        borderWidth: 1,
-                                        borderColor: '#ffffff'
-                                    },
-                                    {
-                                        label: 'Other',
-                                        data: dataOther,
-                                        backgroundColor: '#a1a1aa',
-                                        borderWidth: 1,
-                                        borderColor: '#ffffff'
-                                    }
-                                ]
-                            },
-                            options: {
-                                responsive: true,
-                                maintainAspectRatio: false,
-                                indexAxis: 'y', // Horizontal bars are often better for stacked time series
-                                plugins: {
-                                    legend: { position: 'top' },
-                                    tooltip: {
-                                        callbacks: {
-                                            label: function(context) {
-                                                return context.dataset.label + ': ' + (context.raw || 0).toFixed(1) + '%';
-                                            }
-                                        }
-                                    },
-                                    datalabels: {
-                                        color: 'white',
-                                        font: {
-                                            weight: 'bold',
-                                            size: 12
-                                        },
-                                        formatter: function(value, context) {
-                                            if (value < 5) return ''; // Hide labels if the segment is too small (e.g. < 5%)
-                                            return Math.round(value) + '%';
-                                        }
-                                    }
-                                },
-                                scales: {
-                                    x: {
-                                        stacked: true,
-                                        max: 100, // Force the total visual to 100%
-                                        ticks: { callback: (value) => value + '%' }
-                                    },
-                                    y: {
-                                        stacked: true
-                                    }
-                                }
-                            }
-                        });
-                    };
-                    
-                    // Fire on initial load
-                    if (document.readyState === 'loading') {
-                        document.addEventListener('DOMContentLoaded', window.initTrendChart);
-                    } else {
-                        window.initTrendChart();
-                    }
-
-                    // Fire on HTMX swaps
-                    document.body.addEventListener('htmx:afterSwap', function(event) {
-                        if (document.getElementById('trendChart')) {
-                            window.initTrendChart();
-                        }
-                    });
-                </script>
-            )}
         </div>
 
-        <script is:inline>
-            // Global event delegation for tabs so it survives HTMX swaps without double-binding
+        <script is:inline define:vars={{ allWards }}>
+            // Make data available globally
+            window.allWards = allWards;
+            
+            // Re-implement styling functions for client side
+            function getPartyBadgeClasses(party) {
+                const base = "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-zinc-950 focus:ring-offset-2";
+                if (!party) return `${base} bg-zinc-100 text-zinc-900 border-zinc-200`;
+                const p = party.toUpperCase();
+                if (p.includes('LDF') || p === 'CPI(M)' || p === 'CPI') return `${base} border-transparent bg-red-500 text-white hover:bg-red-500/80 shadow-sm`;
+                if (p.includes('UDF') || p === 'INC') return `${base} border-transparent bg-blue-600 text-white hover:bg-blue-600/80 shadow-sm`;
+                if (p.includes('NDA') || p === 'BJP') return `${base} border-transparent bg-orange-500 text-white hover:bg-orange-500/80 shadow-sm`;
+                return `${base} bg-zinc-100 text-zinc-900 border-zinc-200 hover:bg-zinc-100/80`;
+            }
+
+            function getCardHighlightClass(party) {
+                if (!party) return "border-zinc-200";
+                const p = party.toUpperCase();
+                if (p.includes('LDF') || p === 'CPI(M)' || p === 'CPI') return "border-red-200 bg-red-50/30";
+                if (p.includes('UDF') || p === 'INC') return "border-blue-200 bg-blue-50/30";
+                if (p.includes('NDA') || p === 'BJP') return "border-orange-200 bg-orange-50/30";
+                return "border-zinc-200 bg-zinc-50/50";
+            }
+
+            function getPartyFillClass(party) {
+                if (!party) return "bg-zinc-400";
+                const p = party.toUpperCase();
+                if (p.includes('LDF') || p === 'CPI(M)' || p === 'CPI') return "bg-red-500";
+                if (p.includes('UDF') || p === 'INC') return "bg-blue-500";
+                if (p.includes('NDA') || p === 'BJP') return "bg-orange-500";
+                return "bg-zinc-400";
+            }
+
+            // Client Logic Initializers
+            const searchInput = document.getElementById('search-input');
+            const dropdown = document.getElementById('search-dropdown-container');
+            const fullTableView = document.getElementById('full-table-view');
+            const activeWardView = document.getElementById('active-ward-view');
+
+            // Search filtering mechanism
+            function updateDropdown(query) {
+                const q = query.trim().toLowerCase();
+                if (!q) {
+                    dropdown.classList.add('hidden');
+                    return;
+                }
+                const matched = window.allWards.filter(w => w.wardNameLower.includes(q)).slice(0, 10);
+                
+                if (matched.length > 0) {
+                    dropdown.innerHTML = `
+                        <div class="rounded-md border border-zinc-200 bg-white text-zinc-950 shadow-md outline-none animate-in fade-in-80 zoom-in-95 max-h-80 overflow-y-auto w-full">
+                            <div class="overflow-hidden p-1">
+                                ${matched.map(ward => `
+                                    <button type="button" 
+                                            onclick="selectWard('${ward.wardNameLower}')"
+                                            class="relative flex w-full cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none hover:bg-zinc-100 hover:text-zinc-900 focus:bg-zinc-100 focus:text-zinc-900 data-[disabled]:pointer-events-none data-[disabled]:opacity-50 group transition-colors">
+                                        <span class="flex-1 text-left font-medium">${ward.wardName}</span>
+                                        <span class="text-xs text-zinc-400 group-hover:text-zinc-700">View</span>
+                                    </button>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    dropdown.innerHTML = `
+                        <div class="rounded-md border border-zinc-200 bg-white text-zinc-950 shadow-md outline-none animate-in fade-in-80 zoom-in-95 w-full py-6 text-center text-sm text-zinc-500">
+                            No wards found matching "${query}".
+                        </div>
+                    `;
+                }
+                dropdown.classList.remove('hidden');
+            }
+
+            searchInput.addEventListener('input', (e) => updateDropdown(e.target.value));
+            searchInput.addEventListener('focus', (e) => updateDropdown(e.target.value));
+
+            // Hide dropdown when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!e.target.closest('#search-form') && !e.target.closest('#search-dropdown-container')) {
+                    dropdown.classList.add('hidden');
+                }
+            });
+
+            // Tab Switching Logic (Full Table)
             document.addEventListener('click', (e) => {
                 const btn = e.target.closest('.tab-btn');
                 if (!btn) return;
@@ -629,6 +243,265 @@ function getPartyFillClass(party) {
                 // Show the target pane
                 const targetPane = container.querySelector('#' + target);
                 if (targetPane) targetPane.classList.remove('hidden');
+            });
+
+            // Chart Extraction Logic
+            window.getPartyPercentage = function(result, partyPrefix) {
+                if (!result || !result.candidates) return null;
+                const c = result.candidates.find(cand => cand.party.toUpperCase().includes(partyPrefix));
+                return c ? parseFloat(c.percent) : 0;
+            };
+
+            window.initTrendChart = function(ward) {
+                const ctx = document.getElementById('trendChart');
+                if (!ctx) return;
+                
+                if (window.currentChart) {
+                    window.currentChart.destroy();
+                }
+
+                const dataLDF = [
+                    window.getPartyPercentage(ward.result2015, 'LDF') || window.getPartyPercentage(ward.result2015, 'CPI'),
+                    window.getPartyPercentage(ward.result2020, 'LDF') || window.getPartyPercentage(ward.result2020, 'CPI'),
+                    window.getPartyPercentage(ward.result2025, 'LDF') || window.getPartyPercentage(ward.result2025, 'CPI')
+                ];
+
+                const dataUDF = [
+                    window.getPartyPercentage(ward.result2015, 'UDF') || window.getPartyPercentage(ward.result2015, 'INC'),
+                    window.getPartyPercentage(ward.result2020, 'UDF') || window.getPartyPercentage(ward.result2020, 'INC'),
+                    window.getPartyPercentage(ward.result2025, 'UDF') || window.getPartyPercentage(ward.result2025, 'INC')
+                ];
+
+                const dataNDA = [
+                    window.getPartyPercentage(ward.result2015, 'NDA') || window.getPartyPercentage(ward.result2015, 'BJP'),
+                    window.getPartyPercentage(ward.result2020, 'NDA') || window.getPartyPercentage(ward.result2020, 'BJP'),
+                    window.getPartyPercentage(ward.result2025, 'NDA') || window.getPartyPercentage(ward.result2025, 'BJP')
+                ];
+
+                // Remainder logic so bars hit ~100% total
+                const dataOther = [
+                    Math.max(0, 100 - (dataLDF[0] + dataUDF[0] + dataNDA[0])),
+                    Math.max(0, 100 - (dataLDF[1] + dataUDF[1] + dataNDA[1])),
+                    Math.max(0, 100 - (dataLDF[2] + dataUDF[2] + dataNDA[2]))
+                ];
+
+                window.currentChart = new Chart(ctx, {
+                    type: 'bar',
+                    plugins: [ChartDataLabels],
+                    data: {
+                        labels: ['2015', '2020', '2025'],
+                        datasets: [
+                            { label: 'LDF', data: dataLDF, backgroundColor: '#ef4444', borderWidth: 1, borderColor: '#ffffff' },
+                            { label: 'UDF', data: dataUDF, backgroundColor: '#3b82f6', borderWidth: 1, borderColor: '#ffffff' },
+                            { label: 'NDA', data: dataNDA, backgroundColor: '#f97316', borderWidth: 1, borderColor: '#ffffff' },
+                            { label: 'Other', data: dataOther, backgroundColor: '#a1a1aa', borderWidth: 1, borderColor: '#ffffff' }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        indexAxis: 'y',
+                        plugins: {
+                            legend: { position: 'top' },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) { return context.dataset.label + ': ' + (context.raw || 0).toFixed(1) + '%'; }
+                                }
+                            },
+                            datalabels: {
+                                color: 'white',
+                                font: { weight: 'bold', size: 12 },
+                                formatter: function(value) {
+                                    if (value < 5) return ''; 
+                                    return Math.round(value) + '%';
+                                }
+                            }
+                        },
+                        scales: {
+                            x: { stacked: true, max: 100, ticks: { callback: (value) => value + '%' } },
+                            y: { stacked: true }
+                        }
+                    }
+                });
+            };
+
+            // HTML Template Interpolation
+            function renderElectionCard(ward, yearKey, yearLabel) {
+                const result = ward[yearKey];
+                
+                // If ward doesn't exist for this year
+                if (!result) {
+                    return `
+                    <div class="flex flex-col h-full rounded-xl border bg-card text-card-foreground shadow-sm">
+                        <div class="flex flex-col space-y-1.5 p-6 pb-3">
+                            <h3 class="font-semibold leading-none tracking-tight">${yearLabel} Election</h3>
+                        </div>
+                        <div class="flex-1 flex flex-col items-center justify-center py-8 text-center min-h-[140px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8 text-zinc-300 mb-2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="8" x2="12" y2="12"></line>
+                                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                            </svg>
+                            <p class="text-sm font-medium text-zinc-500">No Data Available</p>
+                            <p class="text-xs text-zinc-400 mt-1">Ward details not found</p>
+                        </div>
+                    </div>`;
+                }
+
+                const isLatest = yearKey === 'result2025' ? 
+                    '<span class="inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-zinc-900 text-zinc-50 shadow hover:bg-zinc-900/80">LATEST</span>' 
+                    : '';
+
+                return `
+                <div class="flex flex-col h-full rounded-xl border bg-card text-card-foreground shadow-sm relative overflow-hidden ${getCardHighlightClass(result.party)}">
+                    ${yearKey === 'result2025' ? '<div class="absolute inset-x-0 top-0 h-1 bg-zinc-900/10"></div>' : ''}
+                    <div class="flex flex-col space-y-1.5 p-6 pb-3">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-2">
+                                <h3 class="font-semibold leading-none tracking-tight">${yearLabel} Election</h3>
+                                ${isLatest}
+                            </div>
+                            <span class="${getPartyBadgeClasses(result.party)}">${result.party}</span>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 flex-1 flex flex-col">
+                        <div class="space-y-4 pt-2">
+                            <div class="grid grid-cols-2 gap-4 mb-4">
+                                <div>
+                                    <p class="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-1">Total Votes</p>
+                                    <p class="text-xl font-bold font-mono">${(result.totalVotes || 0).toLocaleString()}</p>
+                                </div>
+                                <div>
+                                    <p class="text-xs font-medium text-zinc-500 uppercase tracking-wider mb-1">Lead Margin</p>
+                                    <p class="text-xl font-bold text-zinc-700 font-mono">${result.lead ? result.lead.toLocaleString() : 'N/A'}</p>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <p class="text-sm font-medium leading-none text-zinc-500 mb-3">Detailed Results</p>
+                                <div class="space-y-2">
+                                    ${(result.candidates || []).map((candidate, idx) => {
+                                        let winnerBadge = '';
+                                        // Complex winner logic
+                                        if (yearKey === 'result2025') {
+                                            if (candidate.status === 'Won') winnerBadge = '<span class="bg-zinc-900 text-white text-[10px] px-1.5 py-0.5 rounded uppercase font-bold tracking-wider">Winner</span>';
+                                            else if (idx === 0 && !result.candidates.find(c=>c.status==='Won')) winnerBadge = '<span class="bg-zinc-900 text-white text-[10px] px-1.5 py-0.5 rounded uppercase font-bold tracking-wider">Winner</span>';
+                                        } else {
+                                            if (idx === 0) winnerBadge = '<span class="bg-zinc-900 text-white text-[10px] px-1.5 py-0.5 rounded uppercase font-bold tracking-wider">Winner</span>';
+                                        }
+                                        
+                                        return `
+                                        <div class="relative overflow-hidden rounded-md border border-zinc-200 bg-white">
+                                            <div class="absolute inset-y-0 left-0 ${getPartyFillClass(candidate.party)} opacity-15" style="width: ${candidate.percent}%"></div>
+                                            <div class="relative flex justify-between items-center p-2.5 text-sm">
+                                                <div class="flex flex-col">
+                                                    <div class="flex items-center gap-2">
+                                                        <span class="font-medium text-zinc-900 line-clamp-1">${candidate.name}</span>
+                                                        ${winnerBadge}
+                                                    </div>
+                                                    <span class="text-xs text-zinc-500 font-semibold mt-0.5">${candidate.party}</span>
+                                                </div>
+                                                <div class="flex flex-col items-end shrink-0 pl-2">
+                                                    <span class="font-bold font-mono text-zinc-900">${(candidate.votes || 0).toLocaleString()}</span>
+                                                    <span class="text-xs font-mono text-zinc-500">${candidate.percent}%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        `;
+                                    }).join('')}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
+            }
+
+            // Navigate to an Active Ward using SPA techniques
+            window.selectWard = function(wardNameLower) {
+                dropdown.classList.add('hidden');
+                searchInput.value = ''; // clear search field
+                
+                // Get the complete data object
+                const ward = window.allWards.find(w => w.wardNameLower === wardNameLower);
+                if (!ward) return;
+
+                // Push URL State so it's refreshable
+                const params = new URLSearchParams(window.location.search);
+                params.set('w', wardNameLower);
+                window.history.pushState(null, '', '?' + params.toString());
+
+                // Perform DOM layout updates using vanilla JS string templating
+                activeWardView.innerHTML = `
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                    <div>
+                        <h2 class="text-2xl font-bold tracking-tight">${ward.wardName}</h2>
+                        <p class="text-sm text-zinc-500">Full analysis of the last 3 local body elections.</p>
+                    </div>
+                    <button type="button"
+                            onclick="clearWard()"
+                            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 border border-zinc-200 bg-white hover:bg-zinc-100 hover:text-zinc-900 h-9 px-4 py-2">
+                        Clear Results
+                    </button>
+                </div>
+
+                <div class="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm">
+                    <h3 class="font-semibold leading-none tracking-tight mb-6">Vote Share Trends</h3>
+                    <div class="h-[300px] w-full relative">
+                        <canvas id="trendChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+                    ${renderElectionCard(ward, 'result2015', '2015')}
+                    ${renderElectionCard(ward, 'result2020', '2020')}
+                    ${renderElectionCard(ward, 'result2025', '2025')}
+                </div>
+                `;
+
+                // Toggle visibility
+                fullTableView.classList.add('hidden');
+                activeWardView.classList.remove('hidden');
+                
+                // Small scroll to top contextually
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                
+                // Inject the updated Chart.js canvas
+                setTimeout(() => {
+                    window.initTrendChart(ward);
+                }, 0);
+            };
+
+            // Exit back to the main Full Table view
+            window.clearWard = function() {
+                // Remove parameter from URL
+                const url = new URL(window.location);
+                url.searchParams.delete('w');
+                window.history.pushState(null, '', url.pathname);
+                
+                // Toggle view
+                activeWardView.classList.add('hidden');
+                fullTableView.classList.remove('hidden');
+                activeWardView.innerHTML = ''; // free memory
+            };
+
+            // Process URL parameters immediately on Page Load (SPA deep linking)
+            window.addEventListener('DOMContentLoaded', () => {
+                const params = new URLSearchParams(window.location.search);
+                const w = params.get('w');
+                if (w) {
+                    window.selectWard(w);
+                }
+            });
+
+            // Handle native browser back/forward buttons (History API)
+            window.addEventListener('popstate', () => {
+                const params = new URLSearchParams(window.location.search);
+                const w = params.get('w');
+                if (w) {
+                    window.selectWard(w);
+                } else {
+                    window.clearWard();
+                }
             });
         </script>
     </body>
