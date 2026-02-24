@@ -36,7 +36,7 @@ function getPartyBadgeClasses(party) {
         
         <div id="app-root" class="flex flex-col min-h-screen">
             <!-- Header section -->
-            <header class="w-full border-b border-zinc-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
+            <header class="relative z-50 w-full border-b border-zinc-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
                 <div class="container mx-auto w-full px-4 flex flex-col items-center justify-center py-8">
                     <div class="w-full flex flex-col md:flex-row items-center justify-between mb-8 gap-4">
                         <div class="flex flex-col text-center md:text-left">
@@ -67,7 +67,7 @@ function getPartyBadgeClasses(party) {
                         </form>
 
                         <!-- Dropdown Results Container -->
-                        <div id="search-dropdown-container" class="absolute top-full left-0 right-0 mt-2 z-50 hidden"></div>
+                        <div id="search-dropdown-container" class="absolute top-full left-0 right-0 mt-2 z-[60] hidden"></div>
                     </div>
                 </div>
             </header>
